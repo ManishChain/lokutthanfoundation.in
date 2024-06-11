@@ -27,7 +27,22 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+<style>
+.get-started .php-email-form input[type=text], .get-started .php-email-form input[type=email], .get-started .php-email-form textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: var(--default-color);
+    background-color: 
+color-mix(in srgb, var(--background-color), transparent 20%);
+    border-color: 
+color-mix(in srgb, var(--default-color), transparent 80%);
+    border-radius: 10px;
+}
 
+
+</style>
 
 </head>
 
@@ -136,30 +151,57 @@
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <div class="content">
-              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
+              <h1>Become A Volunteer</h1>
+              <p style="word-break: break-all;">A volunteer is someone who helps a common cause and who does not expect to get paid for it. There are many cases, such as cleaning up after a disaster, where anyone can help. There are many cases, though, where the volunteers are trained specialists. Examples for these are the volunteer fire departments or a doctor or nurse working for organisations such as the Red Cross. Another example are the people guiding police dogs, which may be trained for emergency rescue.Volunteering is when someone spends unpaid time doing something to benefit others. Helping your close friends or relatives isn't volunteering. But doing something to benefit the environment (and through that, other people) is. Volunteering can be formal and organised by organisations, or informal within communities.Volunteering is a voluntary act of an individual or group freely giving time and labor, often for community service. Many volunteers are specifically trained in the areas they work, such as medicine, education, or emergency rescue. Others serve on an as-needed basis, such as in response to a natural disaster.Volunteerism is the act of contributing free labor to conduct community service or support a nonprofit organization. It is the principle of donating time and energy towards a greater cause. Volunteers help change the lives of those in their community as a social responsibility rather than receiving a financial reward.It strengthens your ties to the community and exposes you to people with similar interests. Volunteering also gives you the opportunity to practise and develop your social skills. Because volunteering keeps you in regular contact with others, it can also help you develop a solid support base.Volunteers provide service or support to a community group, nonprofit organization, charity, or other entity which generally offers some sort of value to the community or general public. They typically do not receive financial compensation for this work.Volunteering covers an enormous range of activities so whatever your age, background or experience we will find an opportunity to suit you. Some organisations need people who can fill a regular morning or afternoon shift each week, others are happy with a few hours a month. Even if you are working, there is scope to fit in some evening or occasional volunteering.
+                
               </p>
-              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+             <!-- <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>-->
             </div>
           </div>
 
           <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
             <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Get a quote</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
+              <h3>Volunteer Application Form</h3>
+              <!--<p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>-->
               <div class="row gy-3">
 
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required="">
+                <div class="col-md-6" style="border-radius: 2px;">
+                  <input type="text" name="name" class="form-control" placeholder="first-name" required="">
                 </div>
 
-                <div class="col-md-12 ">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Last-name" required="">
+                </div>
+
+                <div class="col-md-6">
                   <input type="email" class="form-control" name="email" placeholder="Email" required="">
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-6">
                   <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
                 </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="age" placeholder="age" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="Gender" placeholder="Gander" required="">
+                </div>
+            
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="education Qualification" placeholder="education Qualification" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="Address" placeholder="Address" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="city" placeholder="city" required="">
+                </div>
+            
+               
 
                 <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
@@ -170,7 +212,7 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
 
-                  <button type="submit">Get a quote</button>
+                  <button type="submit">submit</button>
                 </div>
 
               </div>
@@ -188,8 +230,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Constructions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Constructions Events</h2>
+      <!--  <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -200,12 +242,12 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-1.jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/img/FreeImageKit.com_800x600_image (1).jpg" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+                    <h4 class="card-title">Women-worker</h4>
+                    <p>Gender equality remains a burning issue even when women play equally important roles in driving the rural economy in India. </p>
                   </div>
                 </div>
               </div>
@@ -216,12 +258,12 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-2.jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/img/FreeImageKit.com_800x600_image.jpg" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Possimus ut sed velit assumenda</h4>
-                    <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.</p>
+                    <h4 class="card-title">Non-Skilled</h4>
+                    <p>An unskilled worker is an employee who does not use reasoning or intellectual abilities in their line of work. </p>
                   </div>
                 </div>
               </div>
@@ -232,12 +274,12 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-3.jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/img/constructions-1.jpg" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.</p>
+                    <h4 class="card-title">It-Intern</h4>
+                    <p>An internship is a professional learning experience that offers meaningful, practical work related to a student's field of study or career interest. </p>
                   </div>
                 </div>
               </div>
@@ -248,12 +290,12 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-4.jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/img/FreeImageKit.com_800x600_image (8).jpg" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.</p>
+                    <h4 class="card-title">IT-Expert</h4>
+                    <p>IT experts from the earlier generation of automation system for trade argue that there are many critical enabling conditions for SMEs to effectively utilize IT for TF and these have little to do with trade (Schware and Kimberley 1995)</p>
                   </div>
                 </div>
               </div>
@@ -271,8 +313,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Achievement</h2>
+     <!--   <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -282,22 +324,24 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item  position-relative">
               <div class="icon">
-                <i class="fa-solid fa-mountain-city"></i>
+                 <i class='fas fa-graduation-cap'></i>
+             <!--   <i class="fa-solid fa-mountain-city"></i>-->
               </div>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              <h3>Educated 50,000 Students: </h3>
+              <p> Our educational programs have reached out to over 50,000 students, raising awareness about environmental issues and inspiring the next generation of conservationists.</p>
+            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+               <i class=" gdlr-core-icon-item-icon fa fa-cogs"></i>
+            <!--  <i class="fa-solid fa-arrow-up-from-ground-water"></i>-->
               </div>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              <h3>Provided 500 Jobs for Non-Skilled Workers</h3>
+              <p>Through our vocational training and employment programs, we've created job opportunities for 500 non-skilled individuals, enabling them to gain valuable experience and secure stable livelihoods.</p>
+            <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
             </div>
           </div><!-- End Service Item -->
 
@@ -306,12 +350,12 @@
               <div class="icon">
                 <i class="fa-solid fa-compass-drafting"></i>
               </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              <h3>Trained and Employed 300 Women Workers</h3>
+              <p> Through our vocational training and employment initiatives, we've trained and employed 300 women, providing them with economic independence and opportunities for professional growth.</p>
+             <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
             </div>
           </div><!-- End Service Item -->
-
+<!--
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
@@ -319,11 +363,12 @@
               </div>
               <h3>Asperiores Commodit</h3>
               <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-
             </div>
-          </div><!-- End Service Item -->
+          </div> -->
+    <!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+       <!--   <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="fa-solid fa-helmet-safety"></i>
@@ -333,7 +378,7 @@
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
-
+<!--
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon">
@@ -352,7 +397,7 @@
     </section><!-- /Services Section -->
 
     <!-- Alt Services Section -->
-    <section id="alt-services" class="alt-services section">
+   <!-- <section id="alt-services" class="alt-services section">
 
       <div class="container">
 
@@ -369,33 +414,33 @@
                 <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
                 <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               </div>
-            </div><!-- End Icon Box -->
-
+            </div>--><!-- End Icon Box -->
+<!--
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
               </div>
-            </div><!-- End Icon Box -->
-
+            </div>--><!-- End Icon Box -->
+<!--
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Dine Pad</a></h4>
                 <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
               </div>
-            </div><!-- End Icon Box -->
-
+            </div>--><!-- End Icon Box -->
+<!--
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Tride clov</a></h4>
                 <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>--><!-- End Icon Box -->
 
-          </div>
+         <!-- </div>
         </div>
 
       </div>
@@ -403,7 +448,7 @@
     </section><!-- /Alt Services Section -->
 
     <!-- Features Section -->
-    <section id="features" class="features section">
+  <!--  <section id="features" class="features section">
 
       <div class="container">
 
@@ -413,26 +458,26 @@
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
               <h4>Modisit</h4>
             </a>
-          </li><!-- End tab nav item -->
-
+          </li>--><!-- End tab nav item -->
+<!--
           <li class="nav-item col-3" role="presentation">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" tabindex="-1" role="tab">
               <h4>Praesenti</h4>
-            </a><!-- End tab nav item -->
-
+            </a>--><!-- End tab nav item -->
+        <!--
           </li>
           <li class="nav-item col-3" role="presentation">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" tabindex="-1" role="tab">
               <h4>Explica</h4>
             </a>
           </li><!-- End tab nav item -->
-
+<!--
           <li class="nav-item col-3" role="presentation">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" tabindex="-1" role="tab">
               <h4>Nostrum</h4>
             </a>
           </li><!-- End tab nav item -->
-
+<!--
         </ul>
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
@@ -455,8 +500,8 @@
                 <img src="assets/img/features-1.jpg" alt="" class="img-fluid">
               </div>
             </div>
-          </div><!-- End tab content item -->
-
+          </div>--><!-- End tab content item -->
+<!--
           <div class="tab-pane fade" id="features-tab-2" role="tabpanel">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
@@ -476,8 +521,8 @@
                 <img src="assets/img/features-2.jpg" alt="" class="img-fluid">
               </div>
             </div>
-          </div><!-- End tab content item -->
-
+          </div>--><!-- End tab content item -->
+<!--
           <div class="tab-pane fade" id="features-tab-3" role="tabpanel">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
@@ -496,9 +541,9 @@
                 <img src="assets/img/features-3.jpg" alt="" class="img-fluid">
               </div>
             </div>
-          </div><!-- End tab content item -->
+          </div>--><!-- End tab content item -->
 
-          <div class="tab-pane fade" id="features-tab-4" role="tabpanel">
+        <!--  <div class="tab-pane fade" id="features-tab-4" role="tabpanel">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                 <h3>Omnis fugiat ea explicabo sunt</h3>
@@ -530,7 +575,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Projects</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+       <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -538,22 +583,22 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
+        <!-- <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-remodeling">Remodeling</li>
             <li data-filter=".filter-construction">Construction</li>
             <li data-filter=".filter-repairs">Repairs</li>
-            <li data-filter=".filter-design">Design</li>
+            <li data-filter=".filter-design">Design</li> -->
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+             <a href="assets/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -565,7 +610,7 @@
                 <div class="portfolio-info">
                   <h4>Product 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/construction-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/projects/construction-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -578,24 +623,24 @@
                   <h4>Branding 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/repairs-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                 <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+           <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+           <div class="portfolio-content h-100">
+               <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Books 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/design-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="assets/img/projects/design-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>--><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+          <!--  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -605,9 +650,9 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>--><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+            <!--<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -617,9 +662,9 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>--><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+        <!--    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -629,9 +674,9 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>--><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+        <!--  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -641,9 +686,9 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>--><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+         <!--   <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -653,9 +698,9 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>--><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+          <!--  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -665,8 +710,8 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
-
+             </div>--><!-- End Portfolio Item -->
+<!--
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="">
@@ -677,8 +722,8 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
-
+            </div>--><!-- End Portfolio Item -->
+<!--
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="">
@@ -689,7 +734,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>--><!-- End Portfolio Item -->
 
           </div><!-- End Portfolio Container -->
 
@@ -705,7 +750,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -741,7 +786,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <img src="assets/img/imresizer-1718099493996.jpg" class="testimonial-img" alt="">
                   <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4>
                   <div class="stars">
@@ -759,9 +804,9 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <img src="assets/img/imresizer-1718099493996.jpg" class="testimonial-img" alt="">
+                  <h3>Manish Sharma(CTO)</h3>
+                  <h4>Chief Technology Officer</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
@@ -777,15 +822,17 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <img src="assets/img/imresizer-1718099493996.jpg" class="testimonial-img" alt="">
+                  <h3>Manish Sharma(CTO)</h3>
+                  <h4>Chief Technology Officer </h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                    <span>From sweets outlets to FMCG products
+                      the leap was tough but thanks to mSELL and their SFA solution to bring
+                      out the full potential of our sales force.</span>
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -795,9 +842,9 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <img src="assets/img/imresizer-1718099493996.jpg" class="testimonial-img" alt="">
+                  <h3>Manish Sharma(CTO)</h3>
+                  <h4>Chief Technology Officer</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
@@ -813,9 +860,9 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
+                  <img src="assets/img/imresizer-1718099493996.jpg" class="testimonial-img" alt="">
+                  <h3>Manish Sharma(CTO)</h3>
+                  <h4>Chief Technology Officer</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
@@ -842,7 +889,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Recent Blog Posts</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+     <!--   <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -859,11 +906,11 @@
 
               <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+                <h3 class="post-title">The Future of Civil Engineering: Innovations and Trends in 2024</h3>
 
                 <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                    <i class="bi bi-person"></i> <span class="ps-2">kiran</span>
                   </div>
                   <span class="px-3 text-black-50">/</span>
                   <div class="d-flex align-items-center">
