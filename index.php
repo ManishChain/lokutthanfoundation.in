@@ -7,95 +7,17 @@
   <title>Index - लोक उत्थान पहल फाउंडेशन</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-<style>
-.get-started .php-email-form input[type=text], .get-started .php-email-form input[type=email], .get-started .php-email-form textarea {
-    font-size: 14px;
-    padding: 10px 15px;
-    box-shadow: none;
-    border-radius: 0;
-    color: var(--default-color);
-    background-color: 
-color-mix(in srgb, var(--background-color), transparent 20%);
-    border-color: 
-color-mix(in srgb, var(--default-color), transparent 80%);
-    border-radius: 10px;
-
-}
-
-.scrolled .header {
-    --background-color: rgb(255 255 255);
-    --heading-color: #3c3c3c;
-    --nav-color: #3c3c3c;
-    --nav-hover-color: #3c3c3c;
-}
-
-
-
-
-</style>
-
+  <?php
+  include"css_links.php";
+  ?>
+ 
 </head>
 
 <body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">लोक उत्थान पहल फाउंडेशन</h1> <span>.</span>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="team.html"><span>Team</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Management</a></li>
-              <li><a href="#">Advisory</a></li>
-              <li><a href="#">Collaborators</a></li>
-              <li><a href="#">Associated NGOs</a></li>
-              <li class="dropdown"><a href="#"><span>Volunteers</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Platinum</a></li>
-                  <li><a href="#">Gold</a></li>
-                  <li><a href="#">Executive</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
+  <?php
+  include"header.php";
+  ?>
+ 
 
   <main class="main">
 
@@ -1039,107 +961,11 @@ color-mix(in srgb, var(--default-color), transparent 80%);
 
   </main>
 
-  <footer id="footer" class="footer">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">लोक उत्थान पहल फाउंडेशन</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>Adress:1662/2, Gali No.17, Govind</p>
-            <p>Puri, Kalkaji, New Delhi-110019</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+91 0 11 1747 9993</span></p>
-            <p><strong>Email:</strong> <span>lokutthanfoundation.in</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/lokutthanfoundation/"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/#">Home</a></li>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/about.html">About us</a></li>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/services.html">Services</a></li>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/projects.html">project</a></li>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/blog.html">Blog</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">लोक उत्थान पहल फाउंडेशन</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://msell.in/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://msell.in/">Manacle Technologies</a>
-      </div>
-    </div>
-
-  </footer>
-
+  <?php
+  include"footer.php";
+  ?>
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+ 
 </body>
 
 </html>
