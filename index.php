@@ -11,6 +11,349 @@
   include"css_links.php";
   ?>
  
+ <style>
+   .custom-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content label {
+        display: block;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
+
+    .dropdown-content label:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Hide the default radio buttons */
+    .dropdown-content input[type="radio"] {
+        display: none;
+    }
+
+    /* Style the custom radio buttons */
+    .dropdown-content .radio-button {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        margin-right: 8px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    /* Style the selected custom radio button */
+    .dropdown-content input[type="radio"]:checked + .radio-button::after {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: #333;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Show dropdown content on hover */
+    .custom-dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.7);
+            padding-top: 60px;
+            background-color:
+
+        }
+       
+        .modal-content {
+            background-color: #efe8d4;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            border-radius: 50%;
+            padding: 0 10px;
+        }
+
+      
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .form-container h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+            text-align: left;
+        }
+
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        
+
+        .form-container input[type="submit"] {
+            background-color: transparent;
+            color: #feb900;
+            border: 2px solid #feb900;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #feb900;
+            color: white;
+        }
+
+        /* Style for the button to open the modal */
+        #openModalBtn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: white; /* White text color */
+            border: 2px solid #feb900;
+            border-radius: px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+            text-decoration: none; /* Remove default underline */
+        }
+
+        #openModalBtn:hover {
+            background-color: #feb900;
+            color: white;
+            text-decoration: underline; /* Underline text on hover */
+        }
+        .form-container {
+            text-align: center;
+        }
+
+        .form-container h5 {
+            text-align: center;
+            margin: 20px 0;
+            color: black;
+        }
+        .form-container h3 {
+            text-align: center;
+            margin: 20px 0;
+            color: black;
+        }
+
+        .close {
+    float: left;
+    margin-left: 470px;
+    font-size: 28px;
+    font-weight: bold;
+        }
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .form-container {
+      background-color: #efe8d4;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-container label {
+        margin-top: 10px;
+    }
+    .form-container input,
+    .form-container textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .form-container input:hover,
+    .form-container textarea:hover {
+        border-color: #feb900;
+    }
+    .btn-get-started {
+        cursor: pointer;
+    }
+
+
+      .form-container input,
+    .form-container textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        transition: border-color 0.3s;
+    }
+    .form-container input:hover,
+    .form-container textarea:hover,
+    .form-container input:focus,
+    .form-container textarea:focus {
+        border-color: #feb900;
+        outline: none; /* To remove the default outline on focus */
+    }
+    .custom-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content label {
+        display: block;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
+
+    .dropdown-content label:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Hide the default radio buttons */
+    .dropdown-content input[type="radio"] {
+        display: none;
+    }
+
+    /* Style the custom radio buttons */
+    .dropdown-content .radio-button {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        margin-right: 8px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    /* Style the selected custom radio button */
+    .dropdown-content input[type="radio"]:checked + .radio-button::after {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: #333;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Show dropdown content on hover */
+    .custom-dropdown:hover .dropdown-content {
+        display: block;
+    }
+    #gender-button {
+        width: 390px; /* Adjust width as needed */
+        text-align: left; /* Align text to the left */
+        white-space: nowrap; /* Prevent wrapping of text */
+        overflow: hidden; /* Hide overflow text */
+        text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+    }
+    #status-button {
+        width: 390px; /* Adjust width as needed */
+        text-align: left; /* Align text to the left */
+        white-space: nowrap; /* Prevent wrapping of text */
+        overflow: hidden; /* Hide overflow text */
+        text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+    }
+     
+    .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #21252959;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #ffffffad;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.custom-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    #age {
+        outline: none; /* Remove the default outline */
+        border-radius: 4px; /* Rounded corners */
+        padding: 6px 12px; /* Padding for the dropdown */
+        transition: border-color 0.3s; /* Smooth transition for border color */
+    }
+
+    #age:focus {
+        border-color: #feb900; /* Yellow border on focus */
+        box-shadow: 0 0 1px rgba(255, 255, 0, 0.5); /* Optional yellow shadow */
+       
+    }
+   
+  
+    </style>
 </head>
 
 <body class="index-page">
@@ -30,12 +373,78 @@
             <div class="col-lg-6 text-center">
               <h2>लोक उत्थान पहल फाउंडेशन </h2>
               <h4>"लोक उत्थान पहल" में आपका स्वागत है </h4>
-              <p>Also known as LUP is a registered Non-Governmental Organization, which started in the year 2014. 
+              <p style="word-break: break-all;">Also known as LUP is a registered Non-Governmental Organization, which started in the year 2014. 
                 LUP is a selffunded NGO and work towards the welfare of women and children and the ones who are differently abled.
                 At LUP, we believe in creating a world where everyone has the opportunity to thrive. Our initiatives focus on education, healthcare, and community development, ensuring that even the most marginalized individuals can build a better future. Together, we can make a significant difference in the lives of those who need it most.</p>
               <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>
               <a href="#donate" class="btn-get-started">DONATE दान करें</a>
-              <a href="./forms/first_prize.html" class="btn-get-started">Register for NGO Prize</a>
+             <!-- <a href="#entryform" class="btn-get-started"id="openModalBtn">DONATE दान करें</a>-->
+
+        <!-- <a href="./forms/first_prize.html" class="btn-get-started" >Register for NGO Prize</a>-->
+             
+
+           
+           <!--model box-->
+      <button id="openModalBtn" class="btn-get-started">Register for NGO Prize</button>
+
+      <div id="myModal" class="modal" style="display:none;">
+    <div class="modal-content" style="position: relative; width: 50%; max-width: 800px; padding: 20px;">
+        <span class="close" style="position: absolute; top: 10px; right: 10px; font-size: 24px; cursor: pointer;">&times;</span>
+        <div class="form-container" style="padding-top: 40px;">
+            <h3 style="margin-top: 0;  font-weight: 600;">Entry Form</h3>
+            <h5 style="margin: 0px;">Please provide details for the FIRST LUP PRIZE Ceremony</h5>
+            <hr style="border: 1px solid black; width: 100%;">
+
+          <form action="Register.php" method="post">
+                <label for="orgName">Organization Name/संगठन का नाम*</label>
+                <input type="text" id="orgName" name="organization_name" required>
+
+                <label for="organization_registration_details">Organization Registration Details/संगठन पंजीकरण विवरण*</label>
+                <input type="text" id="orgRegDetails" name="organization_registration_details" required>
+
+                <label for="first_name">Organizational Head/संगठन प्रमुख:<br> <hr style="border: 1px solid black; width: 45%;"> First Name/पहला नाम:</label>
+                <input type="text" id="firstName" name="first_name">
+
+                <label for="last_name">Last Name/उपनाम:</label>
+                <input type="text" id="lastName" name="last_name">
+
+                <label for="email">Email/ईमेल:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone_number">Phone Number/फ़ोन नंबर:</label>
+                <input type="tel" id="phoneNumber" name="phone_number">
+
+                <label for="streetAddress"> Address/पता:</label>
+                <input type="text" id="Address" name="address">
+
+                <label for="streetAddress">Street Address/गली का पता:</label>
+                <input type="text" id="streetAddress" name="street_address">
+
+                <label for="streetAddress">Street Address line2/सड़क पता पंक्ति 2:</label>
+                <input type="text" id="streetAddressline2" name="street_address_line2">
+
+                <label for="state">State / Province/राज्य/प्रान्त:</label>
+                <input type="text" id="state" name="state">
+
+                <label for="postalCode">Postal / Zip Code/डाक का / ज़िप कोड:</label>
+                <input type="text" id="postalCode" name="postal_code">
+
+                <label for="work2023_2024">Please specify Work done in 2023-2024/कृपया 2023-2024 में किए गए कार्य निर्दिष्ट करें:</label>
+                <textarea id="work2023_2024" name="work_done_2023_2024"></textarea>
+
+                <label for="prizeDetails">Please provide details of any other prize received by your organization/कृपया आपके संगठन द्वारा प्राप्त किसी अन्य पुरस्कार का विवरण प्रदान करें:</label>
+                <textarea id="prizeDetails" name="prize_details"></textarea>
+
+                <input type="submit" style="margin:0px; padding:10px 30px; " value="Submit" name="submit">
+            </form>
+          
+        </div>
+    </div>
+</div>
+
+           <!--modelboxend-->
+           
+           
             </div> <!-- कृपया प्रवेश करें  -->
           </div>
         </div>
@@ -85,7 +494,7 @@
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <div class="content">
               <h1>Become A Volunteer</h1>
-              <p style="word-break: break-all;">
+              <p>
                 <br>
                 A volunteer is someone who helps a common cause and who does not expect to get paid for it. 
                 <br><br>
@@ -116,9 +525,9 @@
           </div>
 
           <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-            <form action="forms/quote.php" method="post" class="php-email-form">
+         <!--<form action="forms/quote.php" method="post" class="php-email-form">
+          <form action="volunteerinsert.php" method="post" class="php-email-form">
               <h3>Volunteer Application Form</h3>
-              <!--<p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>-->
               <div class="row gy-3">
 
                 <div class="col-md-6" style="border-radius: 5px;">
@@ -138,13 +547,34 @@
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="age" placeholder="age" required="">
-                </div>
+    <select class="form-control" id="age" name="age" required>
+    </select>
+</div>
 
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="Gender" placeholder="Gander" required="">
+              <div class="col-md-12">
+                  <input type="text" class="form-control" name="Bio" placeholder="Bio" required="">
                 </div>
-            
+                <div class="col-lg-12">
+    <div class="custom-dropdown">
+        <button class="form-control" id="gender-button"> Gender</button>
+        <div class="dropdown-content" id="gender-dropdown">
+            <label>
+                <input type="radio" name="gender" value="Male">
+                <span class="radio-button"></span> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Female">
+                <span class="radio-button"></span> Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Other">
+                <span class="radio-button"></span> Other
+            </label>
+        </div>
+    </div>
+</div>
+
+
                 <div class="col-md-12">
                   <input type="text" class="form-control" name="education Qualification" placeholder="education Qualification" required="">
                 </div>
@@ -157,8 +587,6 @@
                   <input type="text" class="form-control" name="city" placeholder="city" required="">
                 </div>
             
-               
-
                 <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
                 </div>
@@ -172,7 +600,65 @@
                 </div>
 
               </div>
-            </form>
+            </form>-->
+            <form action="volunteerinsert.php" method="post" class="php-email-form">
+    <h3>Volunteer Application Form</h3>
+    <div class="row gy-3">
+        <div class="col-md-6" style="border-radius: 5px;">
+            <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+        </div>
+        <div class="col-md-6">
+            <input type="email" class="form-control" name="email" placeholder="Email" required>
+        </div>
+        <div class="col-md-6">
+            <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+        </div>
+        <div class="col-md-12">
+            <select class="form-control" id="age" name="age" required>
+                <option value="">Select Age</option>
+                <!-- Add age options here -->
+            </select>
+        </div>
+        <div class="col-md-12">
+            <input type="text" class="form-control" name="bio" placeholder="Bio" required>
+        </div>
+        <div class="col-md-12">
+            <select class="form-control" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="col-md-12">
+            <input type="text" class="form-control" name="education_qualification" placeholder="Education Qualification" required>
+        </div>
+        <div class="col-md-12">
+            <input type="text" class="form-control" name="address" placeholder="Address" required>
+        </div>
+        <div class="col-md-12">
+            <input type="text" class="form-control" name="city" placeholder="City" required>
+        </div>
+        <div class="col-md-12">
+            <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+        </div>
+        <div class="col-md-12 text-center">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+           <!-- <input type="submit" name="submit" value="Submit">-->
+           <input type="submit" name="submit" value="Submit" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
+
+  <!-- <input type="submit" value="Submit" name="submit">-->
+
+        </div>
+    </div>
+</form>
+
+         
           </div><!-- End Quote Form -->
 
         </div>
@@ -186,7 +672,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Events</h2>
+        <h2> Events</h2>
       <!--  <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
@@ -251,7 +737,7 @@
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
                     <h4 class="card-title">IT - Trainings for Organization</h4>
-                    <p>IT experts from the earlier generation of automation system for trade argue that there are many critical enabling conditions for SMEs to effectively utilize IT for TF and these have little to do with trade (Schware and Kimberley 1995)</p>
+                    <p style="word-break:break-all;">IT experts from the earlier generation of automation system for trade argue that there are many critical enabling conditions for SMEs to effectively utilize IT for TF and these have little to do with trade (Schware and Kimberley 1995)</p>
                   </div>
                 </div>
               </div>
@@ -284,7 +770,7 @@
              <!--   <i class="fa-solid fa-mountain-city"></i>-->
               </div>
               <h3>Educated 50,000 Students: </h3>
-              <p> Our educational programs have reached out to over 50,000 students, raising awareness about environmental issues and inspiring the next generation of conservationists.</p>
+              <p style="word-break:break-all;"> Our educational programs have reached out to over 50,000 students, raising awareness about environmental issues and inspiring the next generation of conservationist.</p>
             <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
             </div>
           </div><!-- End Service Item -->
@@ -296,10 +782,11 @@
             <!--  <i class="fa-solid fa-arrow-up-from-ground-water"></i>-->
               </div>
               <h3>Provided 500 Jobs for Non-Skilled Workers</h3>
-              <p>Through our vocational training and employment programs, we've created job opportunities for 500 non-skilled individuals, enabling them to gain valuable experience and secure stable livelihoods.</p>
+              <p style="word-break:break-all;">Through our vocational training and employment programs, we've created job opportunities for 500 non-skilled individuals, enabling them to gain valuable experience and secure stable livelihoods.</p>
             <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
             </div>
-          </div><!-- End Service Item -->
+          </div>
+          <!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
@@ -307,10 +794,11 @@
                 <i class="fa-solid fa-compass-drafting"></i>
               </div>
               <h3>Trained and Employed 300 Women Workers</h3>
-              <p> Through our vocational training and employment initiatives, we've trained and employed 300 women, providing them with economic independence and opportunities for professional growth.</p>
+              <p style="word-break:break-all;"> Through our vocational training and employment initiatives, we've trained and employed 300 women, providing them with economic independence and opportunities for professional growth.</p>
              <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
             </div>
-          </div><!-- End Service Item -->
+          </div>
+          <!-- End Service Item -->
 <!--
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
@@ -350,7 +838,8 @@
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section>
+    <!-- /Services Section -->
 
     <!-- Alt Services Section -->
    <!-- <section id="alt-services" class="alt-services section">
@@ -964,6 +1453,132 @@
   <?php
   include"footer.php";
   ?>
+<!--
+<script>
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("openModalBtn");
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>-->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const ageSelect = document.getElementById('age');
+        
+        // Add options for ages above 18 and below 60
+        for (let i = 18; i <= 60; i++) {
+            let option = document.createElement('option');
+            option.value = i;
+            option.textContent = i;
+            ageSelect.appendChild(option);
+        }
+        
+        // Set default placeholder option
+        let placeholderOption = document.createElement('option');
+        placeholderOption.disabled = true;
+        placeholderOption.selected = true;
+        placeholderOption.textContent = 'Age';
+        ageSelect.insertBefore(placeholderOption, ageSelect.firstChild);
+    });
+</script>
+
+<script>
+    // JavaScript to handle dropdown functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const dropdown = document.getElementById('status-dropdown');
+        const statusButton = document.getElementById('status-button');
+
+        dropdown.addEventListener('change', function(e) {
+            if (e.target && e.target.type === 'radio') {
+                const selectedValue = e.target.value;
+                statusButton.textContent = selectedValue;
+            }
+        });
+    });
+</script>
+<script>
+    // JavaScript to handle dropdown functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const dropdown = document.getElementById('gender-dropdown');
+        const genderButton = document.getElementById('gender-button');
+
+        dropdown.addEventListener('change', function(e) {
+            if (e.target && e.target.type === 'radio') {
+                const selectedValue = e.target.value;
+                genderButton.textContent = selectedValue;
+            }
+        });
+    });
+</script>
+<script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+
+  // Get the button that opens the modal
+  var btn = document.getElementById('openModalBtn');
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName('close')[0];
+
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = 'block';
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = 'none';
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = 'none';
+    }
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Create a new FormData object from the form
+    var form = event.target;
+    var formData = new FormData(form);
+
+    // Send the form data using Fetch API
+    fetch(form.action, {
+      method: 'POST',
+      body: formData
+    }).then(function(response) {
+      if (response.ok) {
+        // Show success alert
+        alert('Data successfully submitted');
+        // Optionally, reset the form and close the modal
+        form.reset();
+        modal.style.display = 'none';
+      } else {
+        // Handle errors here
+        alert('Error submitting data');
+      }
+    }).catch(function(error) {
+      // Handle errors here
+      console.error('Error:', error);
+      alert('Error submitting data');
+    });
+  }
+</script>
+
   <!-- Scroll Top -->
  
 </body>

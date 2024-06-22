@@ -23,13 +23,13 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);" id="advisor">
+    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
       <div class="container position-relative">
-        <h1>Team</h1>
+        <h1>Volunteer</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Team</li>
+            <li class="current">Volunteer</li>
           </ol>
         </nav>
       </div>
@@ -40,16 +40,17 @@
     <section id="team" class="team section">              
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up"  >
-        <h2> Advisory </h2>
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Volunteer  </h2>
         <p>We have team of professional, dedictaed and hard-working leaders who had made a strong impact on community in their respective areas</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-5">
+        <?php include 'fetch_volunteer_data.php'; ?>
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100" style="margin-left:150px;">
             <div class="member-img">
               <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="">
               <div class="social">
@@ -60,25 +61,25 @@
               </div>
             </div>
             <div class="member-info text-center">
-              <h4>Dr. Rishi M Bhatnagar</h4>
-              <span>Vice President</span>
-              <p>Enterepnaur, Technology expert, Politician & Mentor</p>
+              <h4><?php echo htmlspecialchars($name); ?></h4>
+              <span><?php echo htmlspecialchars($education); ?></span>
+              <p><?php echo htmlspecialchars($bio); ?></p>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300" style="margin-left:20px;">
             <div class="member-img">
-              <img src="assets/img/team/bhoopendra.jpeg" class="img-fluid" alt=""> 
+              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""> 
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
                 <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/bhoopendranath/"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
-              <h4>Bhoopendra N Pandey</h4>
-              <span>Vice President</span>
+              <h4>Kiranjot kaur</h4>
+              <span>Volunteer</span>
               <p>Motivator, Communicator & Excellent Managerial Person</p>
             </div>
            <!-- <div class="member-info text-center">
@@ -88,9 +89,9 @@
             </div>-->
           </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+         <!-- <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/team/bhoopendra.jpeg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -103,7 +104,7 @@
               <span>Vice President</span>
               <p>Motivator, Communicator & Excellent Managerial Person</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>--><!-- End Team Member -->
 
 <!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
@@ -139,8 +140,7 @@
               <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
             </div>
           </div>--><!-- End Team Member -->
-          <!--
-
+<!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
             <div class="member-img">
               <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
@@ -164,19 +164,17 @@
 
     </section><!-- /Team Section -->
 
-    <br>
-    <hr>
-    <br>
+   
 
-    
-    <section id="team2" class="team section">
+    <!--
+    <section id="team2" class="team section">-->
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up" id="team2">
+    <!--  <div class="container section-title" data-aos="fade-up">
         <h2>Management</h2>
         <p>We have team of professional, dedictaed and hard-working leaders who had made a strong impact on community in their respective areas</p>
-      </div><!-- End Section Title -->
-
+      </div>--><!-- End Section Title -->
+<!--
       <div class="container">
 
         <div class="row gy-5">
@@ -192,12 +190,12 @@
               </div>
             </div>
             <div class="member-info text-center">
-              <h4>Dr. kamlesh kumar Raghuwanshi</h4>
+              <h4>Dr Kamlesh K Raghuvanshi</h4>
               <span>President</span>
               <p>Professor, Scholar, Mentor, Social reformer, Politician & Visionary leader</p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>--><!-- End Team Member -->
+<!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
               <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="">
@@ -214,11 +212,11 @@
               <span>Secretary</span>
               <p>Enterepnaur, Technology expert, Politician & Mentor</p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>--><!-- End Team Member -->
+<!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
-              <img src="assets/img/ravi nasa.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/team/bhoopendra.jpeg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -227,13 +225,13 @@
               </div>
             </div>
             <div class="member-info text-center">
-              <h4>Ravi Nasa</h4>
+              <h4>Ravi Nasha</h4>
               <span>C.A</span>
               <p>Motivator, Communicator & Excellent Managerial Person</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>--><!-- End Team Member -->
 
-
+<!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
             <div class="member-img">
               <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
@@ -251,7 +249,7 @@
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+       <!--  <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
               <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
               <div class="social">
@@ -266,7 +264,7 @@
               <span>Marketing</span>
               <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
             <div class="member-img">
@@ -283,13 +281,13 @@
               <span>Executive Members</span>
               <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Team Section -->
+    </section>
 
     <br>
     <hr>
@@ -297,11 +295,11 @@
 
     <section  id="team3" class="team section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up" id="team3">
+     
+      <div class="container section-title" data-aos="fade-up">
         <h2>Office Bearer</h2>
         <p>We have team of professional, dedictaed and hard-working leaders who had made a strong impact on community in their respective areas</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
@@ -322,7 +320,7 @@
               <span>President</span>
               <p>Professor, Scholar, Mentor, Social reformer, Politician & Visionary leader</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
@@ -340,7 +338,7 @@
               <span>Vice President</span>
               <p>Enterepnaur, Technology expert, Politician & Mentor</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
@@ -357,7 +355,7 @@
               <span>Vice President</span>
               <p>Motivator, Communicator & Excellent Managerial Person</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
@@ -375,8 +373,8 @@
               <span>Web-Developer</span>
               <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
             </div>
-          </div><!-- End Team Member -->
-<!--
+          </div>
+
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
               <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
@@ -392,9 +390,9 @@
               <span>Marketing</span>
               <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
             </div>
-          </div>--><!-- End Team Member -->
+          </div>
 
-         <!-- <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
             <div class="member-img">
               <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
               <div class="social">
@@ -408,19 +406,16 @@
               <h4>Josepha Palas</h4>
               <span>Operation</span>
               <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
-            </div>
-          </div>--><!-- End Team Member -->
+            </div>-->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Team Section -->
+    </section>
 
-    <br>
-    <hr>
-    <br>
-
+   
 
 
 
@@ -429,8 +424,6 @@
   <?php
   include"footer.php";
   ?>
-
-
 
   
 

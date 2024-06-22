@@ -53,8 +53,8 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300" style="height: 100%;">
               <i class="bi bi-telephone"></i>
               <h3>Call Us</h3>
-             <p>+91 0 11 1747 9993</p>
-            <!-- <p><a class="icon-item__link" style="color:black;" href="tel:+31859644725"></a> <a class="icon-item__link" href="tel:+31859644725">+91 11-41521162</a></p>-->
+          <!--  <p>+91 0 11 1747 9993 <a  href="tel:+31859644725"></a</p>-->
+           <p><a style="color:black;" href="tel:+91 0 11 1747 9993"></a> <a  href="tel:+91 0 11 1747 9993" style="color: black;">+91 11-41521162</a></p>
 
             </div>
           </div>
@@ -64,7 +64,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400" style="height: 100%;">
               <i class="bi bi-envelope"></i>
             <h3>Email Us</h3>
-           <p><a class="icon-item__link" style="color:black;" href="mailto:support@helpo.org">info@lokutthanfoundation.in</a></p>
+           <p><a class="icon-item__link" style="color:black;" href="mailto:info@lokutthanfoundation.in">info@lokutthanfoundation.in</a></p>
              <!-- <img src="assets/img/scanner.jpeg" alt="Girl in a jacket" width="50px;" height="60px;">-->
 
              <!-- <p>info@lokutthanfoundation.in</p>-->

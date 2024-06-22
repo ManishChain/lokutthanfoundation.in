@@ -1,7 +1,7 @@
 <footer id="footer" class="footer">
 
     <div class="container footer-top">
-      <div class="row gy-4">
+      <div class="row gy-4"     style="margin-left: 90px;">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">लोक उत्थान पहल फाउंडेशन</span>
@@ -13,46 +13,47 @@
             <p><strong>Email:</strong> <span>lokutthanfoundation.in</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/lokutthanfoundation/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/lokutthanfoundation/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/lokutthanfoundation/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/lokutthanfoundation/" target="_blank"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/#">Home</a></li>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/about.html">About us</a></li>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/services.html">Services</a></li>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/projects.html">project</a></li>
-            <li><a href="http://localhost/lok-utthan/lokutthanfoundation.in/blog.html">Blog</a></li>
+            <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/index.php">Home</a></li>
+            <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/about.php">About us</a></li>
+           <!-- <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/services.php">Services</a></li>
+            <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/team.php">Team</a></li>-->
+            <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/contact.php">contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>WorkArea</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="employment.php">Employment</a></li>
+              <li><a href="SkillTraining.php">Skill Training</a></li>
+              <li><a href="enviroment.php">Environment</a></li>
+              <li><a href="jobOriented.php">Job-oriented</a></li>
+              <li><a href="selfHelpgroup.php">Self Help Group<br>(For Female Only)</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Team</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+          <li><a href="team.php#advisor">Advisory</a></li>
+        <li><a href="team.php#team2">Management</a></li>
+        <li><a href="team.php#team3">Office Bearer</a></li>
+        <li><a href="volunteer.php">Volunteer</a></li>
+           <!-- <li><a href="#">Sit quas consectetur</a></li>-->
           </ul>
         </div>
-
+<!--
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Nobis illum</h4>
           <ul>
@@ -62,7 +63,7 @@
             <li><a href="#">Trodelas</a></li>
             <li><a href="#">Flexo</a></li>
           </ul>
-        </div>
+        </div>-->
 
       </div>
     </div>
