@@ -24,7 +24,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/banners/about-us.png);">
       <div class="container position-relative">
         <h1>About</h1>
         <nav class="breadcrumbs">
@@ -198,7 +198,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Human rights and child rights</h4>
-                  <p>**</p>
+                <!--  <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -206,7 +206,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Education plans and literacy</h4>
-                  <p>**</p>
+                <!--  <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -214,7 +214,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Poverty eradication</h4>
-                  <p>**</p>
+                <!--  <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -222,7 +222,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Conservation of Environment</h4>
-                  <p>**</p>
+               <!--   <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -230,7 +230,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Aged people care routine</h4>
-                  <p>**</p>
+               <!--   <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -238,7 +238,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Empowerment of women</h4>
-                  <p>**</p>
+                 <!-- <p>**</p> -->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -246,7 +246,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Disease Control and others</h4>
-                  <p>**</p>
+                <!--  <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -254,7 +254,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Health and Nutrition plans</h4>
-                  <p>**</p>
+              <!--    <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
               
@@ -262,7 +262,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Prevent Social Injustice</h4>
-                  <p>**</p>
+               <!--   <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -270,7 +270,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Conservation of Wildlife</h4>
-                  <p>**</p>
+                <!--  <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -278,7 +278,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Hygiene and Sanitation conditions</h4>
-                  <p>**</p>
+               <!--   <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
 
@@ -286,7 +286,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Humanitarian Relief</h4>
-                  <p>**</p>
+                <!--  <p>**</p>-->
                 </div>
               </div><!-- End Icon Box -->
             </div>
@@ -304,13 +304,13 @@
     </section><!-- /Alt Services 2 Section -->
 
     <!-- Team Section -->
-    <section id="team" class="team section">
+  <!-- <section id="team" class="team section">
 
-      <!-- Section Title -->
+     
       <div class="container section-title" data-aos="fade-up">
         <h2>Team</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
@@ -331,7 +331,7 @@
               <span>Chief Executive Officer</span>
               <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
@@ -348,7 +348,7 @@
               <span>Product Manager</span>
               <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
@@ -365,7 +365,7 @@
               <span>CTO</span>
               <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
             <div class="member-img">
@@ -382,7 +382,7 @@
               <span>Accountant</span>
               <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
@@ -399,7 +399,7 @@
               <span>Marketing</span>
               <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
             <div class="member-img">
@@ -416,22 +416,24 @@
               <span>Operation</span>
               <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Team Section -->
+    </section>--><!-- /Team Section -->
 
     <!-- Testimonials Section -->
+    <?php include 'testimonial.php'; ?>
+    <!--
     <section id="testimonials" class="testimonials section">
 
-      <!-- Section Title -->
+      
       <div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -479,7 +481,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -497,7 +499,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -515,7 +517,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -533,7 +535,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -551,7 +553,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
@@ -559,7 +561,7 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section>--><!-- /Testimonials Section -->
 
   </main>
   <?php

@@ -1,7 +1,7 @@
 <footer id="footer" class="footer">
 
     <div class="container footer-top">
-      <div class="row gy-4"     style="margin-left: 90px;">
+      <div class="row gy-4" >
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">लोक उत्थान पहल फाउंडेशन</span>
@@ -34,7 +34,8 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>WorkArea</h4>
           <ul>
-          <li><a href="#">Education</a></li>
+          <li><a href="comptativeprogram.php">Competitive Program</a></li>
+          <li><a href="Regularteaching.php">Regular Teaching</a></li>
           <li><a href="employment.php">Employment</a></li>
               <li><a href="SkillTraining.php">Skill Training</a></li>
               <li><a href="enviroment.php">Environment</a></li>
@@ -53,6 +54,13 @@
            <!-- <li><a href="#">Sit quas consectetur</a></li>-->
           </ul>
         </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+ 
+  <img src="assets/img/scanner.jpeg" alt="Team Image" class="img-fluid" style="height: 80px;">
+ 
+</div>
+
+       
 <!--
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Nobis illum</h4>
@@ -96,6 +104,7 @@
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="//code.tidio.co/xclrfscfzn8q8tzbujnxgbp4kybngbnu.js" async></script>
 
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>

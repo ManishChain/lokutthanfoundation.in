@@ -28,7 +28,7 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">SelfHelpgroup</li>
+            <li class="current">Self-Help-group</li>
           </ol>
         </nav>
       </div>

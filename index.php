@@ -351,6 +351,31 @@
         box-shadow: 0 0 1px rgba(255, 255, 0, 0.5); /* Optional yellow shadow */
        
     }
+     .btn-get-started {
+    display: inline-block; /* Display elements inline */
+    margin-right: 10px; /* Optional: Adjust margin between elements */
+  }
+  .button-container {
+      display: flex; /* Use flexbox for layout */
+      justify-content: space-around; /* Adjust spacing between items */
+      align-items: center; /* Center items vertically */
+    }
+
+    .btn-get-started {
+      margin: 5px; /* Adjust margin between elements */
+      text-align: center; /* Center text horizontally */
+      padding: 10px 20px; /* Adjust padding for buttons */
+      text-decoration: none; /* Remove underline from anchor tag */
+      color: white; /* Text color */
+      border: none; /* Remove border from buttons */
+      cursor: pointer; /* Show pointer cursor on hover */
+    
+      border-radius: 5px; /* Rounded corners */
+    }
+
+    .btn-get-started:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
    
   
     </style>
@@ -371,22 +396,18 @@
         <div class="container">
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-6 text-center">
-              <h2>लोक उत्थान पहल फाउंडेशन </h2>
+             <!-- <h2>लोक उत्थान पहल फाउंडेशन </h2>-->
+             <img  src="assets/img/lok-utthan-logo.png" alt="White Logo" >
               <h4>"लोक उत्थान पहल" में आपका स्वागत है </h4>
               <p style="word-break: break-all;">Also known as LUP is a registered Non-Governmental Organization, which started in the year 2014. 
                 LUP is a selffunded NGO and work towards the welfare of women and children and the ones who are differently abled.
                 At LUP, we believe in creating a world where everyone has the opportunity to thrive. Our initiatives focus on education, healthcare, and community development, ensuring that even the most marginalized individuals can build a better future. Together, we can make a significant difference in the lives of those who need it most.</p>
               <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>
-              <a href="#donate" class="btn-get-started">DONATE दान करें</a>
-             <!-- <a href="#entryform" class="btn-get-started"id="openModalBtn">DONATE दान करें</a>-->
-
-        <!-- <a href="./forms/first_prize.html" class="btn-get-started" >Register for NGO Prize</a>-->
-             
-
-           
-           <!--model box-->
-      <button id="openModalBtn" class="btn-get-started">Register for NGO Prize</button>
-
+              <div class="button-container">
+    <a href="#donate" class="btn-get-started">DONATE दान करें</a>
+    <button id="openModalBtn" class="btn-get-started">Register for NGO Prize</button>
+  </div>
+          
       <div id="myModal" class="modal" style="display:none;">
     <div class="modal-content" style="position: relative; width: 50%; max-width: 800px; padding: 20px;">
         <span class="close" style="position: absolute; top: 10px; right: 10px; font-size: 24px; cursor: pointer;">&times;</span>
@@ -453,15 +474,15 @@
       <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-1.png" alt="">
+          <img src="assets/img/banner2.png" alt="">
         </div>
 
         <div class="carousel-item ">
-          <img src="assets/img/hero-carousel/hero-carousel-6.png" alt="">
+          <img src="assets/img/banner1.png" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-7.jpeg" alt="">
+          <img src="assets/img/banner3 (2).png" alt="">
         </div>
 
         <div class="carousel-item">
@@ -602,7 +623,7 @@
               </div>
             </form>-->
             <form action="volunteerinsert.php" method="post" class="php-email-form">
-    <h3>Volunteer Application Form</h3>
+                  <h3>Volunteer Application Form</h3>
     <div class="row gy-3">
         <div class="col-md-6" style="border-radius: 5px;">
             <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
@@ -684,7 +705,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/FreeImageKit.com_800x600_image (1).jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/img/woman-worker.png" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -700,7 +721,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/FreeImageKit.com_800x600_image.jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/img/non-skilled.png" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -716,7 +737,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/constructions-1.jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/img/IT-intern.png" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -732,7 +753,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/FreeImageKit.com_800x600_image (8).jpg" alt=""></div>
+                  <div class="card-bg"><img src="assets/img/IT-training-organization.png" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -755,7 +776,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Achievement</h2>
+        <h2>Achievements</h2>
      <!--   <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
@@ -1019,7 +1040,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
+        <h2>Social Conclaves</h2>
        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
@@ -1039,36 +1060,40 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-            <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+           <img src="assets/img/yd1.png" class="img-fluid" alt="">
+        <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
+
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-             <a href="assets/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+               <!--   <h4>App 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+             <a href="assets/img/yd1.png"  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/yd2.png" class="img-fluid" alt="">
+           <!--    <img src="assets/img/yoga1.jpeg" style="width: 356px; height: 267px;" alt="">-->
+
                 <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/projects/construction-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!--  <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                <a href="assets/img/yd2.png" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/yd3.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/repairs-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                 <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                 <!-- <h4>Branding 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                  <a href="assets/img/yd3.png" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                 <a href="project-details.html" title="More Details" class="details-link"></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -1188,16 +1213,16 @@
       </div>
 
     </section><!-- /Projects Section -->
+    <?php include 'testimonial.php'; ?>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+   <!-- <section id="testimonials" class="testimonials section">-->
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
+     <!-- <div class="container section-title" data-aos="fade-up">-->
+    <!--    <h2>Testimonials</h2>-->
       <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
-      </div><!-- End Section Title -->
-
+   <!--   </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="swiper">
@@ -1246,8 +1271,8 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
-
+            </div>--><!-- End testimonial item -->
+<!--
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -1266,7 +1291,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>--><!-- End testimonial item -->
 <!--
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -1287,7 +1312,7 @@
                 </div>
               </div>
             </div>--><!-- End testimonial item -->
-
+<!--
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -1306,8 +1331,8 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
-<!--
+            </div>
+          --><!--
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -1326,13 +1351,13 @@
               </div>
             </div>--><!-- End testimonial item -->
 
-          </div>
+      <!--    </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section>--><!-- /Testimonials Section -->
 
     <!-- Recent Blog Posts Section -->
   <!--  <section id="recent-blog-posts" class="recent-blog-posts section">-->
@@ -1548,7 +1573,6 @@
       modal.style.display = 'none';
     }
   }
-
   function handleSubmit(event) {
     event.preventDefault(); // Prevent the default form submission
 
@@ -1578,6 +1602,7 @@
     });
   }
 </script>
+ 
 
   <!-- Scroll Top -->
  

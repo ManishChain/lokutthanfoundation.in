@@ -23,7 +23,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);" id="advisor">
+    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/banners/team.png);" id="advisor">
       <div class="container position-relative">
         <h1>Team</h1>
         <nav class="breadcrumbs">
@@ -50,8 +50,8 @@
         <div class="row gy-5">
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="">
+            <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -67,8 +67,8 @@
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-              <img src="assets/img/team/bhoopendra.jpeg" class="img-fluid" alt=""> 
+            <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/team/bhoopendra.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;"> 
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -87,10 +87,10 @@
               <p>Enterepnaur, Technology expert, Politician & Mentor</p>
             </div>-->
           </div><!-- End Team Member -->
-
+<!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/preti reguvanshi.jpeg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -103,7 +103,25 @@
               <span>Vice President</span>
               <p>Motivator, Communicator & Excellent Managerial Person</p>
             </div>
-          </div><!-- End Team Member -->
+          </div>-->
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+    <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+        <img src="assets/img/preti reguvanshi.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+        <div class="social" style="position: absolute; bottom: 10px; width: 100%; text-align: center;">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+    <div class="member-info text-center">
+        <h4>Preeti Reghuvanshi</h4>
+        <span>Vice President</span>
+        <p>Motivator, Communicator & Excellent Managerial Person</p>
+    </div>
+</div>
+
+<!-- End Team Member -->
 
 <!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
@@ -182,8 +200,8 @@
         <div class="row gy-5">
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/kamlesh.jpeg" class="img-fluid" alt="">
+            <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/team/kamlesh.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -199,8 +217,8 @@
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-              <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="">
+            <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -210,15 +228,15 @@
             </div>
 
             <div class="member-info text-center">
-              <h4>Shalendra Pathak</h4>
+              <h4>Shailendra Pathak </h4>
               <span>Secretary</span>
               <p>Enterepnaur, Technology expert, Politician & Mentor</p>
             </div>
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-              <img src="assets/img/ravi nasa.jpeg" class="img-fluid" alt="">
+            <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/ravi nasa.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -235,8 +253,8 @@
 
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-            <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+            <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -245,15 +263,15 @@
               </div>
             </div>
             <div class="member-info text-center">
-              <h4>Surendra Mishra</h4>
+              <h4>Surendra Mishra </h4>
               <span>Legal Expert</span>
               <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
             </div>
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
-            <div class="member-img">
-              <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
+            <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -269,8 +287,8 @@
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
-            <div class="member-img">
-              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
+            <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -308,8 +326,8 @@
         <div class="row gy-5">
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/imresizer-1718800905654.jpg" class="img-fluid" alt="">
+            <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/imresizer-1718800905654.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="https://www.facebook.com/people/Rama-Shankar/100076005353758/?name=xhp_nt__fb__action__open_user"><i class="bi bi-facebook"></i></a>
@@ -325,8 +343,8 @@
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-              <img src="assets/img/imresizer-1718800501200.jpg" class="img-fluid" alt="">
+            <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/imresizer-1718800501200.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -343,8 +361,8 @@
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-              <img src="assets/img/team/bhoopendra.jpeg" class="img-fluid" alt="">
+            <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/team/bhoopendra.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -361,8 +379,8 @@
 
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-            <div class="member-img">
-              <img src="assets/img/imresizer-1718800454412.jpg" class="img-fluid" alt="">
+            <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/imresizer-1718800454412.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>

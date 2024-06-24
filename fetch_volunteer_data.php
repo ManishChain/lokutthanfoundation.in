@@ -45,7 +45,7 @@ if ($result->num_rows > 0) {
         ?>
         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100" style="margin-left:150px;">
             <div class="member-img">
-                <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
                     <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-facebook"></i></a>

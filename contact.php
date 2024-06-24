@@ -22,7 +22,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/banners/contact-us.png);">
       <div class="container position-relative">
         <h1>Contact</h1>
         <nav class="breadcrumbs">

@@ -24,11 +24,11 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
       <div class="container position-relative">
-        <h1>SkillTraining</h1>
+        <h1>Skill Training</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">SkillTraining</li>
+            <li class="current">Skill Training</li>
           </ol>
         </nav>
       </div>

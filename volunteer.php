@@ -23,7 +23,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/banners/volunteer.png);">
       <div class="container position-relative">
         <h1>Volunteer</h1>
         <nav class="breadcrumbs">
@@ -50,23 +50,8 @@
         <div class="row gy-5">
         <?php include 'fetch_volunteer_data.php'; ?>
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100" style="margin-left:150px;">
-            <div class="member-img">
-              <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4><?php echo htmlspecialchars($name); ?></h4>
-              <span><?php echo htmlspecialchars($education); ?></span>
-              <p><?php echo htmlspecialchars($bio); ?></p>
-            </div>
-          </div><!-- End Team Member -->
-
+         <!-- End Team Member -->
+<!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300" style="margin-left:20px;">
             <div class="member-img">
               <img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""> 
@@ -81,7 +66,7 @@
               <h4>Kiranjot kaur</h4>
               <span>Volunteer</span>
               <p>Motivator, Communicator & Excellent Managerial Person</p>
-            </div>
+            </div>-->
            <!-- <div class="member-info text-center">
               <h4>Dr Rishi M Bhatnagar</h4>
               <span>Vice President</span>

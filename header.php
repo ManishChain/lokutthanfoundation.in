@@ -4,9 +4,13 @@
 
       <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-         <img src="assets/img/LokUtthanPehalFoundation_logo.png" alt="" style="margin-left: -150px; width: 270px;" > 
-        <h1 class="sitename">लोक उत्थान पहल फाउंडेशन</h1> <span>.</span>
+       <!-- <img id="logo-black" src="assets/img/lokutthan-logo-white.png" alt="Black Logo" style="margin-left: -150px; width: 270px;">
+            <img id="logo-white" src="assets/img/lokutthan-logo-black.png" alt="White Logo" style="display:none; margin-left: -150px; width: 270px;">
+-->
+            <h1 class="sitename">लोक उत्थान पहल फाउंडेशन</h1> <span>.</span>
       </a>
+     <!-- <img id="additional-image" class="additional-image" src="assets/img/additional-image.png" alt="Additional Image" style="width: 100px;">
+-->
       
 
       <nav id="navmenu" class="navmenu">
@@ -21,19 +25,19 @@
          <!-- <li><a href="projects.php">Projects</a></li>-->
       <!--    <li><a href="blog.php">Blog</a></li>-->
        <!--workarea-->
-       <li class="dropdown"><a href="#"><span style="font-weight: bold;">WorkArea</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+       <li class="dropdown"><a href="workarea.php"><span style="font-weight: bold;">WorkArea</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
          <li class="dropdown"><a href="#"><span>Education</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul style="left: +60%;">
-                  <li><a href="comptativeprogram.php">Comptative Program(CEUT)</a></li>
-                  <li><a href="Regularteaching.php">Regular Teaching (10th to 12th)</a></li>
+                  <li><a href="workarea.php#workarea">Competitive Program(CEUT)</a></li>
+                  <li><a href="workarea.php#workarea2">Regular Teaching (10th to 12th)</a></li>
                 </ul>
               </li>
-              <li><a href="employment.php">Employment</a></li>
-              <li><a href="SkillTraining.php">Skill Training</a></li>
-              <li><a href="enviroment.php">Environment</a></li>
-              <li><a href="jobOriented.php">Job-oriented</a></li>
-              <li><a href="selfHelpgroup.php">Self Help Group<br>(For Female Only)</a></li>
+              <li><a href="workarea.php#workarea3">Employment</a></li>
+              <li><a href="workarea.php#workarea4">Skill Training</a></li>
+              <li><a href="workarea.php#workarea8">Environment</a></li>
+              <li><a href="workarea.php#workarea6">Job-oriented</a></li>
+              <li><a href="workarea.php#workarea10">Self Help Group<br>(For Female Only)</a></li>
             </ul>
           </li>
          
@@ -76,6 +80,25 @@
 
     </div>
   </header>
+  <script>
+    window.addEventListener('scroll', function() {
+        var header = document.getElementById('header');
+        var logoBlack = document.getElementById('logo-black');
+        var logoWhite = document.getElementById('logo-white');
+        var additionalImage = document.getElementById('additional-image');
+        
+        if (window.scrollY > 100) {
+            logoBlack.style.display = 'none';
+            logoWhite.style.display = 'block';
+            additionalImage.style.display = 'block';
+        } else {
+            logoBlack.style.display = 'block';
+            logoWhite.style.display = 'none';
+            additionalImage.style.display = 'none';
+        }
+    });
+</script>
+
   
 
   
