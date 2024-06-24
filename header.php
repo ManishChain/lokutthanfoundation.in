@@ -21,12 +21,12 @@
          <!-- <li><a href="projects.php">Projects</a></li>-->
       <!--    <li><a href="blog.php">Blog</a></li>-->
        <!--workarea-->
-       <li class="dropdown"><a href="#"><span style="font-weight: bold;">WorkArea</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+       <li class="dropdown"><a href="Regularteaching.php"><span style="font-weight: bold;">Work Areas</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
          <li class="dropdown"><a href="#"><span>Education</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul style="left: +60%;">
-                  <li><a href="comptativeprogram.php">Comptative Program(CEUT)</a></li>
-                  <li><a href="Regularteaching.php">Regular Teaching (10th to 12th)</a></li>
+                  <li><a href="Regularteaching.php">Regular (10th to 12th)</a></li>
+                  <li><a href="comptativeprogram.php">Competitive (CEUT)</a></li>
                 </ul>
               </li>
               <li><a href="employment.php">Employment</a></li>

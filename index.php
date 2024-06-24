@@ -648,7 +648,7 @@
         <div class="col-md-12 text-center">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+            <div class="sent-message">Your request has been sent successfully. Thank you!</div>
            <!-- <input type="submit" name="submit" value="Submit">-->
            <input type="submit" name="submit" value="Submit" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
 
@@ -755,7 +755,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Achievement</h2>
+        <h2>Achievements</h2>
      <!--   <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
@@ -1019,7 +1019,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
+        <h2>Social Conclaves</h2>
        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
@@ -1041,8 +1041,8 @@
               <div class="portfolio-content h-100">
             <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Yoga Day</h4>
+                  <p>Stay fit, stay healthy</p>
              <a href="assets/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
