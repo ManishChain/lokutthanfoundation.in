@@ -669,7 +669,7 @@
         <div class="col-md-12 text-center">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+            <div class="sent-message">Your request has been sent successfully. Thank you!</div>
            <!-- <input type="submit" name="submit" value="Submit">-->
            <input type="submit" name="submit" value="Submit" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
 
