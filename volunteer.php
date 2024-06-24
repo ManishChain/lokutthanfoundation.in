@@ -39,34 +39,20 @@
     <!-- Team Section -->
     <section id="team" class="team section">              
 
-      <!-- Section Title -->
+     
       <div class="container section-title" data-aos="fade-up">
         <h2>Volunteer  </h2>
         <p>We have team of professional, dedictaed and hard-working leaders who had made a strong impact on community in their respective areas</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
         <div class="row gy-5">
         <?php include 'fetch_volunteer_data.php'; ?>
 
-         <!-- End Team Member -->
-<!--
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300" style="margin-left:20px;">
-            <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""> 
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Kiranjot kaur</h4>
-              <span>Volunteer</span>
-              <p>Motivator, Communicator & Excellent Managerial Person</p>
-            </div>-->
+        
+
+      
            <!-- <div class="member-info text-center">
               <h4>Dr Rishi M Bhatnagar</h4>
               <span>Vice President</span>
