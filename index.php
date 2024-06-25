@@ -376,8 +376,81 @@
     .btn-get-started:hover {
       background-color: #0056b3; /* Darker blue on hover */
     }
+    .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        
+        .btn-get-started {
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            color: #fff;
+           
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 10px;
+        }
+        
+        .btn-get-started:hover {
+            background-color: #0056b3;
+        }
+        
+        @media (max-width: 768px) {
+            .button-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn-get-started {
+                width: 80%;
+                text-align: center;
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .btn-get-started {
+                font-size: 12px;
+                white-space: normal; /* Allows text to wrap */
+                word-break: break-word; /* Breaks long words if necessary */
+                width: 90%; /* Adjust width if necessary */
+                padding: 8px 10px; /* Adjust padding to better fit smaller screens */
+            }
+        }
+        .container {
+            width: 100%;
+            padding: 20px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .section-title h2 {
+                font-size: 28px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .section-title h2 {
+                font-size: 24px;
+            }
+        }
    
-  
     </style>
 </head>
 
@@ -402,11 +475,12 @@
               <p style="word-break: break-all;">Also known as LUP is a registered Non-Governmental Organization, which started in the year 2014. 
                 LUP is a selffunded NGO and work towards the welfare of women and children and the ones who are differently abled.
                 At LUP, we believe in creating a world where everyone has the opportunity to thrive. Our initiatives focus on education, healthcare, and community development, ensuring that even the most marginalized individuals can build a better future. Together, we can make a significant difference in the lives of those who need it most.</p>
-              <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>
+           <!--   <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>-->
               <div class="button-container">
-    <a href="#donate" class="btn-get-started">DONATE दान करें</a>
-    <button id="openModalBtn" class="btn-get-started">Register for NGO Prize</button>
-  </div>
+              <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>
+        <a href="#donate" class="btn-get-started">DONATE दान करें</a>
+        <button id="openModalBtn" class="btn-get-started">Register for NGO Prize</button>
+    </div>
           
       <div id="myModal" class="modal" style="display:none;">
     <div class="modal-content" style="position: relative; width: 50%; max-width: 800px; padding: 20px;">
@@ -1041,8 +1115,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Social Conclaves</h2>
-       <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
-      </div><!-- End Section Title -->
+    </div><!-- End Section Title -->
 
       <div class="container">
 
@@ -1066,7 +1139,7 @@
                 <div class="portfolio-info">
                <!--   <h4>App 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-             <a href="assets/img/yd1.png"  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+             <a href="assets/img/yoga1.jpeg"  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"></a>
                 </div>
               </div>
@@ -1080,7 +1153,7 @@
                 <div class="portfolio-info">
                 <!--  <h4>Product 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                <a href="assets/img/yd2.png" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/yoga2.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"></a>
                 </div>
               </div>
@@ -1092,7 +1165,7 @@
                 <div class="portfolio-info">
                  <!-- <h4>Branding 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                  <a href="assets/img/yd3.png" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/yoga3.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                  <a href="project-details.html" title="More Details" class="details-link"></a>
                 </div>
               </div>

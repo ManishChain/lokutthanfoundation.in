@@ -43,9 +43,9 @@ if ($result->num_rows > 0) {
         
         // Render the data for each volunteer
         ?>
-        <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100" style="margin-left:150px;">
-            <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+        <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
                 <div class="social">
                     <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-facebook"></i></a>

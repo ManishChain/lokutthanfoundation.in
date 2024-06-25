@@ -32,7 +32,7 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>WorkArea</h4>
+          <h4>WorkAreas</h4>
           <ul>
           <li><a href="comptativeprogram.php">Competitive Program</a></li>
           <li><a href="Regularteaching.php">Regular Teaching</a></li>
@@ -55,8 +55,8 @@
           </ul>
         </div>
         <div class="col-lg-2 col-md-3 footer-links">
- 
-  <img src="assets/img/scanner.jpeg" alt="Team Image" class="img-fluid" style="height: 80px;">
+ <h4>QR Code For App</h4>
+  <img src="assets/img/scanner.jpeg" alt="Team Image" class="img-fluid" style="height: 80px; margin-left: 25px;">
  
 </div>
 

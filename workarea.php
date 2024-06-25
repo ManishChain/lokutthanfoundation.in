@@ -15,20 +15,15 @@
 
 
 
+
+
+
 .styled-heading {
-  margin-left: 110px;
-  position: relative;
-  display: inline-block;
-  font-size: 28px; /* Adjust font size as needed */
-  font-weight: bold; /* Make the heading bold */
-  color: #333; /* Dark text color */
-  padding: 10px 20px; /* Add padding around the heading */
-
-  color: black; /* White text color */
-  border-radius: 8px; /* Rounded corners */
-
+    /* text-decoration: underline #feb900; */
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+    text-decoration-skip-ink: none;
 }
-
 .corner-number {
   font-size: 20px; /* Adjust font size as needed */
   font-weight: bold; /* Make the number bold */
@@ -44,15 +39,11 @@
  
 }
 
-.styled-heading {
-    text-decoration: underline  #feb900; /* Yellow underline */
-     
-    text-decoration-thickness: 2px; /* Thickness of the underline */
-    text-underline-offset: 7px; /* Offset of the underline from the baseline */
-    text-decoration-skip-ink: none; 
-  }
 
-
+  .styled-heading {
+            margin-left: auto;
+            margin-right: auto;
+        }
 
 
 
@@ -76,11 +67,11 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
       <div class="container position-relative">
-        <h1>Workarea</h1>
+        <h1>Work Areas</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Workarea</li>
+            <li class="current">Work Areas</li>
           </ol>
         </nav>
       </div>
@@ -170,9 +161,18 @@
       <!--  <p>We have team of professional, dedictaed and hard-working leaders who had made a strong impact on community in their respective areas</p>
 -->  </div>
  <!-- <h2 style="margin-left:110px;">Competitive Program (CEUT)</h2>-->
-<h2 class="styled-heading">
+<!--<h2 class="styled-heading">
  1. Competitive Program (CEUT) :-
-</h2>
+</h2>-->
+<div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="styled-heading">
+                Competitive Program(CEUT)
+                </h2>
+            </div>
+        </div>
+    </div>
 
 
 <section id="features-cards" class="features-cards section">
@@ -222,12 +222,17 @@
   </div>
 </section>
 
-
+<hr>
    
-    <h2 class="styled-heading" id="workarea2" >
- 2. Regular Teaching(10th to 12th) :-
- 
-</h2>
+<div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="styled-heading">
+               Regular Teaching(10th to 12th)
+                </h2>
+            </div>
+        </div>
+    </div>
     <section id="features-cards" class="features-cards section">
 
 <div class="container">
@@ -277,6 +282,7 @@
   </div>
 
 </div>
+<hr>
 
 </section>
     <!-- /Features Cards Section -->
