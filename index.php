@@ -423,34 +423,22 @@
                 padding: 8px 10px; /* Adjust padding to better fit smaller screens */
             }
         }
-        .container {
-            width: 100%;
-            padding: 20px;
-            margin: 0 auto;
-        }
+        .get-started .php-email-form input[type=text], .get-started .php-email-form input[type=email], .get-started .php-email-form textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: var(--default-color);
+    background-color: 
+color-mix(in srgb, var(--background-color), transparent 20%);
+    border-color: 
+color-mix(in srgb, var(--default-color), transparent 80%);
+    border-radius: 10px;
+    height: 43px;
+}
 
-        .section-title {
-            text-align: center;
-            margin-bottom: 20px;
-        }
 
-        .section-title h2 {
-            font-size: 36px;
-            margin: 0;
-        }
 
-        @media (max-width: 768px) {
-            .section-title h2 {
-                font-size: 28px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .section-title h2 {
-                font-size: 24px;
-            }
-        }
-   
     </style>
 </head>
 
@@ -620,82 +608,7 @@
           </div>
 
           <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-         <!--<form action="forms/quote.php" method="post" class="php-email-form">
-          <form action="volunteerinsert.php" method="post" class="php-email-form">
-              <h3>Volunteer Application Form</h3>
-              <div class="row gy-3">
-
-                <div class="col-md-6" style="border-radius: 5px;">
-                  <input type="text" name="name" class="form-control" placeholder="first-name" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Last-name" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
-                </div>
-
-                <div class="col-md-12">
-    <select class="form-control" id="age" name="age" required>
-    </select>
-</div>
-
-              <div class="col-md-12">
-                  <input type="text" class="form-control" name="Bio" placeholder="Bio" required="">
-                </div>
-                <div class="col-lg-12">
-    <div class="custom-dropdown">
-        <button class="form-control" id="gender-button"> Gender</button>
-        <div class="dropdown-content" id="gender-dropdown">
-            <label>
-                <input type="radio" name="gender" value="Male">
-                <span class="radio-button"></span> Male
-            </label>
-            <label>
-                <input type="radio" name="gender" value="Female">
-                <span class="radio-button"></span> Female
-            </label>
-            <label>
-                <input type="radio" name="gender" value="Other">
-                <span class="radio-button"></span> Other
-            </label>
-        </div>
-    </div>
-</div>
-
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="education Qualification" placeholder="education Qualification" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="Address" placeholder="Address" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="city" placeholder="city" required="">
-                </div>
-            
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
-                  <button type="submit">submit</button>
-                </div>
-
-              </div>
-            </form>-->
+      
             <form action="volunteerinsert.php" method="post" class="php-email-form">
                   <h3>Volunteer Application Form</h3>
     <div class="row gy-3">
@@ -760,7 +673,96 @@
 
       </div>
 
-    </section><!-- /Get Started Section -->
+    </section>
+    
+   
+    <!--Donate form-->
+    <br>
+    <br>
+    <br>
+    <div class="container section-title" data-aos="fade-up">
+  <h2>DONATE दान करें</h2>
+  <br>
+  <br>
+  <p style="break-word:break-all;">Donating to charitable causes is a powerful way to make a positive impact on the world and support those in need. Contributions help provide essential resources, such as food, clean water, healthcare, and education, to underserved communities. Your donation can drive significant changes, from alleviating poverty and hunger to supporting disaster relief efforts and promoting environmental sustainability. By donating, you not only contribute to the well-being of others but also foster a sense of community and shared responsibility. Every contribution, no matter the size, can create a ripple effect of kindness and compassion, ultimately leading to a better, more equitable world for all.</p>
+</div>
+<br>
+<section id="get-started" class="get-started section">
+  <div class="container">
+    <div class="row justify-content-between gy-4">
+      <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="content">
+        <section id="account-details" class="account-details section">
+        <div class="container">
+            <h2>Account Details</h2>
+            <div class="account-info">
+              <p><strong>Customer ID:</strong><br> 63 9446 46 74</p>
+              <p><strong>Company Name:</strong><br> LOK UTTHAN PEHAL FOUNDATION</p>
+                <p><strong>Account Number:</strong><br> 101 7038 3673</p>
+                <p><strong>IFSC Code:</strong><br> ABCD0123456</p>
+                <p><strong>SWIFT Code:</strong><br>IDFB IN BB MUM</p>
+                <p><strong>Bank Name:</strong><br>IDFC FIRST</p>
+                <p><strong>Branch:</strong><br> Gurgon Golf Cource Road Branch</p>
+               <!-- <p><strong>Sweep in balance(+):</strong><br></p>
+                <p><strong>GST Number:</strong><br></p>-->
+            </div>
+        </div>
+    </section>
+
+          <!-- <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>-->
+        </div>
+      </div>
+
+      <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200" style="    background: 
+color-mix(in srgb, var(--default-color), transparent 97%); height: 50%;">
+      <form action="DonateInsert.php" method="post" style="margin-bottom:20px;">
+    <h3 style="    margin-left: 140px;">Donate Form</h3>
+    <div class="row gy-3">
+        <div class="col-md-12">
+            <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+        </div>
+        <div class="col-md-12">
+            <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+        </div>
+        <div class="col-md-12">
+            <input type="email" class="form-control" name="email" placeholder="Email" required>
+        </div>
+        <div class="col-md-12">
+            <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+        </div>
+        <div class="col-md-12">
+            <input type="text" class="form-control" name="address" placeholder="Address" required>
+        </div>
+        <div class="col-md-12">
+            <input type="text" class="form-control" name="city" placeholder="City" required>
+        </div>
+        <div class="col-md-12">
+            <input type="text" class="form-control" name="pancard" placeholder="pancard" required>
+        </div>
+        <div class="col-md-12">
+            <input type="text" class="form-control" name="ReferenceId" placeholder="ReferenceId" required>
+        </div>
+        <div class="col-md-12 text-center">
+        <input type="submit" name="submit" value="Submit" class="btn btn-primary"  style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
+        </div>
+    </div>
+</form>
+      </div><!-- End Quote Form -->
+    </div>
+  </div>
+</section>
+
+   
+    
+    
+    <!--end donate--->
+    
+    
+    
+    
+    
+    
+    <!-- /Get Started Section -->
 
     <!-- Constructions Section -->
     <section id="constructions" class="constructions section">
@@ -864,7 +866,7 @@
                  <i class='fas fa-graduation-cap'></i>
              <!--   <i class="fa-solid fa-mountain-city"></i>-->
               </div>
-              <h3>Educated 50,000 Students: </h3>
+              <h3>Educated 500+ Students: </h3>
               <p style="word-break:break-all;"> Our educational programs have reached out to over 50,000 students, raising awareness about environmental issues and inspiring the next generation of conservationist.</p>
             <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
             </div>
@@ -876,7 +878,7 @@
                <i class=" gdlr-core-icon-item-icon fa fa-cogs"></i>
             <!--  <i class="fa-solid fa-arrow-up-from-ground-water"></i>-->
               </div>
-              <h3>Provided 500 Jobs for Non-Skilled Workers</h3>
+              <h3>Provided 350+ Jobs for Non-Skilled Workers</h3>
               <p style="word-break:break-all;">Through our vocational training and employment programs, we've created job opportunities for 500 non-skilled individuals, enabling them to gain valuable experience and secure stable livelihoods.</p>
             <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
             </div>
@@ -888,7 +890,7 @@
               <div class="icon">
                 <i class="fa-solid fa-compass-drafting"></i>
               </div>
-              <h3>Trained and Employed 300 Women Workers</h3>
+              <h3>Trained and Employed 300+ Women Workers</h3>
               <p style="word-break:break-all;"> Through our vocational training and employment initiatives, we've trained and employed 300 women, providing them with economic independence and opportunities for professional growth.</p>
              <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
             </div>
@@ -1137,8 +1139,8 @@
         <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
 
                 <div class="portfolio-info">
-               <!--   <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                <h4>Yoga Day</h4>
+                <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
              <a href="assets/img/yoga1.jpeg"  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"></a>
                 </div>
@@ -1147,13 +1149,13 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-                <img src="assets/img/yd2.png" class="img-fluid" alt="">
+                <img src="assets/img/yd3.png" class="img-fluid" alt="">
            <!--    <img src="assets/img/yoga1.jpeg" style="width: 356px; height: 267px;" alt="">-->
 
                 <div class="portfolio-info">
-                <!--  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                <a href="assets/img/yoga2.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                 <h4>Yoga Day</h4>
+              <!--    <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                <a href="assets/img/yoga3.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"></a>
                 </div>
               </div>
@@ -1161,25 +1163,149 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="assets/img/yd3.png" class="img-fluid" alt="">
+                <img src="assets/img/yd2.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                 <!-- <h4>Branding 1</h4>
+                 <h4>Yoga Day</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/yoga2.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                 <a href="project-details.html" title="More Details" class="details-link"></a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.30.53 AM.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                 <h4>Skills Trainings for girls</h4>
+                <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                  <a href="assets/img/WhatsApp Image 2024-06-22 at 6.30.53 AM.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                 <a href="project-details.html" title="More Details" class="details-link"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.30.57 AM.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>शाहिद दिवस</h4><!--
                   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                  <a href="assets/img/yoga3.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/WhatsApp Image 2024-06-22 at 6.30.57 AM.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                 <a href="project-details.html" title="More Details" class="details-link"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.35.57 AM.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Teaching for Students</h4>
+               <!--   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                  <a href="assets/img/WhatsApp Image 2024-06-22 at 6.35.57 AM.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                 <a href="project-details.html" title="More Details" class="details-link"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.35.59 AM.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                 <h4>Training for 9th student</h4><!--
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                  <a href="assets/img/WhatsApp Image 2024-06-22 at 6.35.59 AM.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                 <a href="project-details.html" title="More Details" class="details-link"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.37.02 AM.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                 <h4>लोक उत्थान फाउंडेशन कार्यक्रम</h4>
+            <!--      <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                  <a href="assets/img/WhatsApp Image 2024-06-22 at 6.37.02 AM.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                 <a href="project-details.html" title="More Details" class="details-link"></a>
+                </div>
+              </div>
+            </div> 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/WhatsApp Image 2024-06-24 at 2.18.22 AM.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>लोक उत्थान फाउंडेशन कार्यक्रम</h4><!--
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                  <a href="assets/img/WhatsApp Image 2024-06-24 at 2.18.22 AM.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                  <a href="project-details.html" title="More Details" class="details-link"></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
-
-           <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+<!--
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
            <div class="portfolio-content h-100">
                <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Books 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/projects/design-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/projects/design-1.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
             <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+           <div class="portfolio-content h-100">
+               <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/design-1.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+           <div class="portfolio-content h-100">
+               <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/design-1.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+           <div class="portfolio-content h-100">
+               <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/design-1.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+           <div class="portfolio-content h-100">
+               <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/design-1.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+--> <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+  </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+           <div class="portfolio-content h-100">
+               <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/design-1.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+-->   <!--</div>
               </div>
             </div>--><!-- End Portfolio Item -->
 

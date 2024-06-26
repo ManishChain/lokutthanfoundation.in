@@ -53,9 +53,9 @@
             <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
               <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
@@ -70,9 +70,9 @@
             <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
               <img src="assets/img/team/bhoopendra.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;"> 
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/bhoopendranath/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
@@ -108,10 +108,10 @@
     <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
         <img src="assets/img/preti reguvanshi.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
         <div class="social" style="position: absolute; bottom: 10px; width: 100%; text-align: center;">
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
         </div>
     </div>
     <div class="member-info text-center">
@@ -203,14 +203,14 @@
             <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
               <img src="assets/img/team/kamlesh.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
-              <h4>Dr. kamlesh kumar Raghuwanshi</h4>
+              <h4>Dr. Kamlesh kumar Raghuwanshi</h4>
               <span>President</span>
               <p>Professor, Scholar, Mentor, Social reformer, Politician & Visionary leader</p>
             </div>
@@ -218,17 +218,17 @@
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
-              <img src="assets/img/team/rishi.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="assets/img/capture2.PNG" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
 
             <div class="member-info text-center">
-              <h4>Shailendra Pathak </h4>
+              <h4>Shailendra Pathak</h4>
               <span>Secretary</span>
               <p>Enterepnaur, Technology expert, Politician & Mentor</p>
             </div>
@@ -238,10 +238,10 @@
             <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
               <img src="assets/img/ravi nasa.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
@@ -254,54 +254,57 @@
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
             <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="assets/img/surinder mishra.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
               <h4>Surendra Mishra </h4>
               <span>Legal Expert</span>
-              <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
-            </div>
+          <!--    <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+-->
+        </div>
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
-              <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="assets/img/imresizer-1718974317298.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
               <h4>Naveen Goyal</h4>
               <span>Marketing</span>
-              <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
-            </div>
+           <!--   <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+--> </div>
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
             <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
-              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="assets/img/chadan.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
               <h4>Chadan</h4>
               <span>Executive Members</span>
-              <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
-            </div>
-          </div><!-- End Team Member -->
+          <!--    <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+-->   </div>
+          </div>
+          <!-- End Team Member -->
+          
 
         </div>
 
@@ -329,16 +332,16 @@
             <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
               <img src="assets/img/imresizer-1718800905654.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
                 <a href="https://www.facebook.com/people/Rama-Shankar/100076005353758/?name=xhp_nt__fb__action__open_user"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rishimb/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
               <h4>Rama Shankar</h4>
-              <span>President</span>
-              <p>Professor, Scholar, Mentor, Social reformer, Politician & Visionary leader</p>
+              <span>Employee</span>
+          <!--    <p>Professor, Scholar, Mentor, Social reformer, Politician & Visionary leader</p>-->
             </div>
           </div><!-- End Team Member -->
 
@@ -346,34 +349,35 @@
             <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
               <img src="assets/img/imresizer-1718800501200.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/lokutthanfoundation/"><i class="bi bi-linkedin"></i></a>
+               
               </div>
             </div>
 
             <div class="member-info text-center">
               <h4>Jyoti</h4>
-              <span>Vice President</span>
-              <p>Enterepnaur, Technology expert, Politician & Mentor</p>
+              <span>Employee</span>
+           <!--   <p>Enterepnaur, Technology expert, Politician & Mentor</p>-->
             </div>
           </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
-              <img src="assets/img/team/bhoopendra.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="assets/img/manjeet.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/lokutthanfoundation/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
               <h4>Manjeet</h4>
-              <span>Vice President</span>
-              <p>Motivator, Communicator & Excellent Managerial Person</p>
+              <span>Employee</span>
+           <!--   <p>Motivator, Communicator & Excellent Managerial Person</p>-->
             </div>
           </div><!-- End Team Member -->
 
@@ -382,18 +386,19 @@
             <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
               <img src="assets/img/imresizer-1718800454412.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
               <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/lokutthanfoundation/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/lokutthanfoundation/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
             <div class="member-info text-center">
               <h4>Priyanshi Chauhan </h4>
-              <span>Web-Developer</span>
-              <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
-            </div>
-          </div><!-- End Team Member -->
+              <span>Employee</span>
+          <!--    <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+-->  </div>
+          </div>
+         <!-- End Team Member -->
 <!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
