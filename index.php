@@ -684,11 +684,8 @@ color-mix(in srgb, var(--default-color), transparent 80%);
   <h2 >DONATE दान करें</h2>
   <br><br>
   <p style="break-word:break-all;">
-  Donating to charitable causes is a powerful way to make a positive impact on the world and support those in need. Contributions help provide essential resources, such as food, clean water, healthcare, and education, to underserved communities. Your donation can drive significant changes, from alleviating poverty and hunger to supporting disaster relief efforts and promoting environmental sustainability.
-
-By donating, you not only contribute to the well-being of others but also foster a sense of community and shared responsibility. Every contribution, no matter the size, can create a ripple effect of kindness and compassion, ultimately leading to a better, more equitable world for all.Moreover, donations can support initiatives that promote long-term development, such as building schools, training teachers, and providing scholarships for students. These efforts empower individuals and communities, giving them the tools and opportunities to improve their own lives and break the cycle of poverty.
-
-In addition to direct financial contributions, in-kind donations of goods and services can also make a significant difference. Items such as clothing, medical supplies, and educational materials are often in high demand and can provide immediate relief and support.  </p>
+  Donating to charitable causes is a powerful way to make a positive impact on the world and support those in need.
+Your generosity will provide them with a wide range of opportunities to help. Please give today and help women and youth access the care and services they urgently need. </p>
 </div>
 <br>
 <section id="get-started" class="get-started section">
@@ -742,16 +739,16 @@ In addition to direct financial contributions, in-kind donations of goods and se
           <h5 style="margin-left: 100px; margin-top:20px;" >Donation Form</h5>
           <div class="row gy-3">
             <div class="col-md-12">
-              <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+              <input type="text" name="first_name" class="form-control" placeholder="First Name*" required>
             </div>
             <div class="col-md-12">
               <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
             </div>
             <div class="col-md-12">
-              <input type="email" class="form-control" name="email" placeholder="Email" required>
+              <input type="email" class="form-control" name="email" placeholder="Email*" required>
             </div>
             <div class="col-md-12">
-              <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+              <input type="text" class="form-control" name="phone" placeholder="Phone*" required>
             </div>
             <div class="col-md-12">
               <input type="text" class="form-control" name="address" placeholder="Address" required>
@@ -763,7 +760,7 @@ In addition to direct financial contributions, in-kind donations of goods and se
               <input type="text" class="form-control" name="pancard" placeholder="pancard" required>
             </div>
             <div class="col-md-12">
-              <input type="text" class="form-control" name="ReferenceId" placeholder="ReferenceId" required>
+              <input type="text" class="form-control" name="ReferenceId" placeholder="ReferenceId*" required>
             </div>
             <div class="col-md-12 text-center">
               <input type="submit" name="submit" value="Submit" class="btn btn-primary" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">

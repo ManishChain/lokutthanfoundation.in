@@ -41,8 +41,8 @@
 
      
       <div class="container section-title" data-aos="fade-up">
-        <h2>Volunteer  </h2>
-        <p>We have team of professional, dedictaed and hard-working leaders who had made a strong impact on community in their respective areas</p>
+        <h2>Volunteer</h2>
+        <p>We have team of professional, dedictaed and hard-working leaders who had made a strong impact on community in their respective areas.</p>
       </div>
 
       <div class="container">
