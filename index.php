@@ -466,7 +466,7 @@ color-mix(in srgb, var(--default-color), transparent 80%);
            <!--   <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>-->
               <div class="button-container">
               <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>
-              <a href="index.php#donate1" style="margin-left: 40px;" class="btn-get-started">DONATE दान करें</a>
+             <!-- <a href="index.php#donate1" style="margin-left: 40px;" class="btn-get-started">DONATE दान करें</a>-->
         <button id="openModalBtn" class="btn-get-started">Register for NGO Prize</button>
     </div>
           
@@ -719,9 +719,10 @@ Your generosity will provide them with a wide range of opportunities to help. Pl
           <section id="new-section-1" class="new-section section">
             <div class="container">
               <h2></h2>
-              <img src="assets/img/Capture.PNG" alt="Girl in a jacket" width="100px;" height="100px;" style="margin-left:70px;">
+              <img src="assets/img/Capture.PNG" alt="Girl in a jacket" width="170px;" height="170px;" style="margin-right:50px; margin-left: 40px;">
 
               <ol>
+          <h5 style="margin-top:30px;">Steps for donation</h5>
            <li> Open a mobile payment app </li>
             <li> ⁠Scan the QR Code</li>
           <li> ⁠Provide the amount </li>
@@ -1209,7 +1210,7 @@ Your generosity will provide them with a wide range of opportunities to help. Pl
               <div class="portfolio-content h-100">
                 <img src="assets/img/WhatsApp Image 2024-06-22 at 6.30.57 AM.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>शाहिद दिवस</h4><!--
+                  <h4>शहीद दिवस</h4><!--
                   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
                   <a href="assets/img/WhatsApp Image 2024-06-22 at 6.30.57 AM.jpeg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                  <a href="project-details.html" title="More Details" class="details-link"></a>

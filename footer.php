@@ -23,24 +23,31 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/index.php">Home</a></li>
-            <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/about.php">About us</a></li>
+          <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About us</a></li>
            <!-- <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/services.php">Services</a></li>
             <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/team.php">Team</a></li>-->
-            <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/contact.php">contact</a></li>
+            <li><a href="contact.php">contact</a></li>
           </ul>
         </div>
-
+      
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>WorkAreas</h4>
           <ul>
-          <li><a href="comptativeprogram.php">Competitive Program</a></li>
-          <li><a href="Regularteaching.php">Regular Teaching</a></li>
-          <li><a href="employment.php">Employment</a></li>
-              <li><a href="SkillTraining.php">Skill Training</a></li>
-              <li><a href="enviroment.php">Environment</a></li>
-              <li><a href="jobOriented.php">Job-oriented</a></li>
-              <li><a href="selfHelpgroup.php">Self Help Group<br>(For Female Only)</a></li>
+          <li><a href="workarea.php#workarea">Competitive Program</a></li>
+          <li><a href="workarea.php#workarea2">Regular Teaching (10th to 12th)</a></li>
+
+        <!--  <li><a href="workarea.php#workarea3">Employment</a></li>
+          <li><a href="workarea.php#workarea4">Skill Training</a></li>
+          <li><a href="workarea.php#workarea8">Environment</a></li>
+          <li><a href="workarea.php#workarea6">Job-oriented</a></li>
+          <li><a href="workarea.php#workarea10">Self Help Group<br>(For Female Only)</a></li>-->
+          <li style="color:black;"><a href="workarea.php#workarea3">Employment</a></li>
+              <li style="color:black;"><a href="workarea.php#workarea4">Skill Training</a></li>
+              <li style="color:black;"><a href="workarea.php#workarea8">Environment</a></li>
+              <li style="color:black;"><a href="workarea.php#workarea6">Job-oriented</a></li>
+              <li style="color:black;"><a href="workarea.php#workarea10">Self Help Group<br>(For Female Only)</a></li>
+
           </ul>
         </div>
 
@@ -55,8 +62,11 @@
           </ul>
         </div>
         <div class="col-lg-2 col-md-3 footer-links">
- <h4>QR Code For App</h4>
-  <img src="assets/img/scanner.jpeg" alt="Team Image" class="img-fluid" style="height: 80px; margin-left: 25px;">
+ <h4>Download Android App</h4>
+ <p> Please scan the QR code to download the Android app from Google Playstore.</p>
+
+
+  <img src="assets/img/scanner.jpeg" alt="Team Image" class="img-fluid" style="height: 150px; margin-right: 25px;">
  
 </div>
 
@@ -83,7 +93,7 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://msell.in/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://msell.in/">Manacle Technologies</a>
+        Designed by <a href="https://msell.in/" target="_blank">Manacle Technologies</a>
       </div>
     </div>
 

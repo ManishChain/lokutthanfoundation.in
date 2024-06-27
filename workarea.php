@@ -65,7 +65,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title" data-aos="fade" style="background-image:  url(assets/img/non-skilled.png);">
       <div class="container position-relative">
         <h1>Work Areas</h1>
         <nav class="breadcrumbs">
@@ -299,40 +299,40 @@
         <div class="row justify-content-around gy-4">
 
           <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <h3>Enim quis est voluptatibus aliquid consequatur</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+           <!-- <h3>Vocational Training</h3>-->
+            <p>LUP empowers individuals through vocational training, career counseling, and job placement support, fostering economic independence and sustainable livelihoods in our community.</p>
 
             <div class="row">
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-easel flex-shrink-0"></i>
                 <div>
-                  <h4>Lorem Ipsum</h4>
-                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias </p>
+                  <h4>Job Placement Support:</h4>
+                  <p> Collaborations with employers to facilitate employment opportunities. </p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
-                  <h4>Nemo Enim</h4>
-                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiise</p>
+                  <h4>Advocacy</h4>
+                  <p>Promoting fair labor practices and equal employment opportunities for all.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-brightness-high flex-shrink-0"></i>
                 <div>
-                  <h4>Dine Pad</h4>
-                  <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit</p>
+                  <h4>Community Impact</h4>
+                  <p> Empowering individuals to achieve economic independence and contribute positively to society.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-brightness-high flex-shrink-0"></i>
                 <div>
-                  <h4>Tride clov</h4>
-                  <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit</p>
+                  <h4>Career Development Workshops</h4>
+                  <p> Practical sessions on resume building, interview skills, and networking.</p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -341,7 +341,7 @@
           </div>
 
           <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/features-3-2.jpg" alt="" >
+            <img src="assets/img/employement-entrepreneurship.png" alt="" >
           </div>
 
         </div>
@@ -364,8 +364,8 @@
         <div class="icon">
           <i class="fa-solid fa-mountain-city"></i>
         </div>
-        <h3>Nesciunt Mete</h3>
-        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+        <h3>Hands-On Workshops</h3>
+        <p> Practical, hands-on workshops conducted by industry experts to provide real-world experience and application of learned skills.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -374,8 +374,8 @@
         <div class="icon">
           <i class="fa-solid fa-arrow-up-from-ground-water"></i>
         </div>
-        <h3>Eosle Commodi</h3>
-        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+        <h3>Tailored Programs</h3>
+        <p> Customized skill training programs designed to meet the specific needs of participants and align with local job market demands.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -385,8 +385,8 @@
         <div class="icon">
           <i class="fa-solid fa-compass-drafting"></i>
         </div>
-        <h3>Ledo Markt</h3>
-        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+        <h3>Diverse Skill Sets</h3>
+        <p> Training in both technical skills (e.g., IT, construction, hospitality) and soft skills (e.g., communication, teamwork, leadership) to enhance overall employability.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -395,8 +395,8 @@
         <div class="icon">
           <i class="fa-solid fa-trowel-bricks"></i>
         </div>
-        <h3>Asperiores Commodit</h3>
-        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+        <h3>Community Engagement:</h3>
+        <p>Engaging the local community in skill development initiatives to foster a supportive and inclusive environment for learning and growth.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -406,8 +406,8 @@
         <div class="icon">
           <i class="fa-solid fa-helmet-safety"></i>
         </div>
-        <h3>Velit Doloremque</h3>
-        <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+        <h3>Empowerment and Impact</h3>
+        <p> Empowering individuals from underserved communities to achieve economic independence and contribute positively to their families and society.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -417,8 +417,9 @@
         <div class="icon">
           <i class="fa-solid fa-arrow-up-from-ground-water"></i>
         </div>
-        <h3  id="workarea8">Dolori Architecto</h3>
-        <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+        <h3  id="workarea8">Skill Training Programs</h3>
+        <p> Explore our diverse skill training programs designed to empower individuals with practical knowledge and enhance their employability prospects.
+</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -441,40 +442,42 @@
         <div class="row justify-content-around gy-4">
 
           <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <h3>Enim quis est voluptatibus aliquid consequatur</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+            <h3>
+
+Environmental Commitment</h3>
+            <p>Learn about our NGO's dedication to environmental conservation through impactful initiatives, promoting sustainable practices, and raising awareness about the importance of preserving our planet's resources.</p>
 
             <div class="row">
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-easel flex-shrink-0"></i>
                 <div>
-                  <h4>Lorem Ipsum</h4>
-                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias </p>
+                  <h4>Our Environmental Mission</h4>
+                  <p>At LPU, we are passionately dedicated to preserving the environment. Through advocacy, community engagement, and sustainable projects, we strive to create a greener and healthier future for all. </p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
-                  <h4>Nemo Enim</h4>
-                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiise</p>
+                  <h4>Protecting Our Planet</h4>
+                  <p> Explore how LPU is actively working to protect our planet through educational campaigns, sustainable practices, and collaborative projects aimed at preserving biodiversity and mitigating environmental impact.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-brightness-high flex-shrink-0"></i>
                 <div>
-                  <h4>Dine Pad</h4>
-                  <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit</p>
+                  <h4>Environmental Sustainability</h4>
+                  <p> Discover how  is leading initiatives to promote environmental sustainability through innovative projects, community partnerships, and advocacy efforts aimed at conserving natural resources and combating climate change.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-lg-6 icon-box d-flex">
                 <i class="bi bi-brightness-high flex-shrink-0"></i>
                 <div>
-                  <h4 id="workarea6">Tride clov</h4>
-                  <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit</p>
+                  <h4 id="workarea6">Promoting Eco-conscious Practices</h4>
+                  <p> Dedicated to fostering eco-conscious practices through educational campaigns and community initiatives, empowering individuals to adopt sustainable lifestyles and protect our planet for future generations.</p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -483,7 +486,7 @@
           </div>
 
           <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/features-3-2.jpg" alt="" >
+            <img src="assets/img/environment.png" alt="" >
           </div>
 
         </div>
@@ -505,42 +508,43 @@
   <div class="row gy-4">
 
     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-      <h3>Quasi eaque omnis</h3>
-      <p>Eius non minus autem soluta ut ui labore omnis quisquam corrupti autem odit voluptas quos commodi magnam occaecati.</p>
+      <h3>Join Our Team at LPU</h3>
+      <p>Explore rewarding career opportunities aligned with our mission.
+</p>
       <ul class="list-unstyled">
-        <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip</span></li>
-        <li><i class="bi bi-check2"></i> <span>Duis aute irure dolor in reprehenderit</span></li>
-        <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+        <li><i class="bi bi-check2"></i> <span>Current Openings</span></li>
+        <li><i class="bi bi-check2"></i> <span>Benefits and Perks</span></li>
+        <li><i class="bi bi-check2"></i> <span>Training and Development</span></li>
       </ul>
     </div>
 
     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-      <h3>Et nemo dolores consectetur</h3>
-      <p>Ducimus ea quam et occaecati est. Temporibus in soluta labore voluptates aut. Et sit soluta non repellat sed quia dire plovers tradoria</p>
+      <h3>Internship Programs</h3>
+      <p>Gain valuable experience through our internship programs </p>
 
       <ul class="list-unstyled">
-        <li><i class="bi bi-check2"></i> <span>Enim temporibus maiores eligendi</span></li>
-        <li><i class="bi bi-check2"></i> <span>Ut maxime ut quibusdam quam qui</span></li>
-        <li><i class="bi bi-check2"></i> <span>Officiis aspernatur in officiis</span></li>
+        <li><i class="bi bi-check2"></i> <span>Employee Resources</span></li>
+        <li><i class="bi bi-check2"></i> <span>Events and Workshops</span></li>
+        <li><i class="bi bi-check2"></i> <span>Success Stories</span></li>
       </ul>
     </div>
 
     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-      <h3>Staque laboriosam modi</h3>
-      <p>Velit eos error et dolor omnis voluptates nobis tenetur sed enim nihil vero qui suscipit ipsum at magni. Ipsa architecto consequatur aliquam</p>
+      <h3>How to Apply</h3>
+      <p>Find detailed instructions on applying for positions at LPU.</p>
       <ul class="list-unstyled">
-        <li><i class="bi bi-check2"></i> <span>Quis voluptates laboriosam numquam</span></li>
-        <li><i class="bi bi-check2"></i> <span>Debitis eos est est corrupti</span></li>
+        <li><i class="bi bi-check2"></i> <span>Team Culture</span></li>
+        <li><i class="bi bi-check2"></i> <span>Leadership Opportunities</span></li>
       </ul>
     </div>
 
     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-      <h3>Dignissimos suscipit iste</h3>
-      <p>Molestiae occaecati assumenda quia saepe nobis recusandae at dicta ducimus sequi numquam commodi est in consequatur ea magnam quia itaque</p>
+      <h3>Career Development</h3>
+      <p>Learn about professional growth opportunities and training programs offered at LPU</p>
       <ul class="list-unstyled" >
-        <li><i class="bi bi-check2"></i> <span>Veritatis qui reprehenderit quis</span></li>
-        <li><i class="bi bi-check2"></i> <span>Accusantium vel numquam sunt minus</span></li>
-        <li id="workarea10"><i class="bi bi-check2"></i> <span>Voluptatem pariatur est sationem</span></li>
+        <li><i class="bi bi-check2"></i> <span>Remote Work Options</span></li>
+        <li><i class="bi bi-check2"></i> <span>Partnerships and Collaborations</span></li>
+        <li id="workarea10"><i class="bi bi-check2"></i> <span>Mentorship Programs</span></li>
       </ul>
     </div>
 
@@ -564,8 +568,8 @@
         <div class="icon">
           <i class="fa-solid fa-mountain-city"></i>
         </div>
-        <h3>Nesciunt Mete</h3>
-        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+        <h3>About Self-Help Groups (SHGs)</h3>
+        <p>An introduction to SHGs, explaining their purpose, structure, and benefits.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -574,8 +578,8 @@
         <div class="icon">
           <i class="fa-solid fa-arrow-up-from-ground-water"></i>
         </div>
-        <h3>Eosle Commodi</h3>
-        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+        <h3>Success Stories from SHG Members</h3>
+        <p>Real-life examples and testimonials showcasing how SHGs have benefited their members.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -585,8 +589,8 @@
         <div class="icon">
           <i class="fa-solid fa-compass-drafting"></i>
         </div>
-        <h3>Ledo Markt</h3>
-        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+        <h3>Current SHG Initiatives</h3>
+        <p>Overview of ongoing projects, programs, or campaigns led by SHGs.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -595,8 +599,8 @@
         <div class="icon">
           <i class="fa-solid fa-trowel-bricks"></i>
         </div>
-        <h3>Asperiores Commodit</h3>
-        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+        <h3>SHG Resources and Support</h3>
+        <p>Information on available resources, tools, and support systems provided to SHGs.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -606,8 +610,8 @@
         <div class="icon">
           <i class="fa-solid fa-helmet-safety"></i>
         </div>
-        <h3>Velit Doloremque</h3>
-        <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+        <h3>Events and Workshops for SHG Members</h3>
+        <p>Calendar of upcoming events, workshops, training sessions, or meetings organized for SHG members.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
@@ -617,8 +621,8 @@
         <div class="icon">
           <i class="fa-solid fa-arrow-up-from-ground-water"></i>
         </div>
-        <h3  id="workarea8">Dolori Architecto</h3>
-        <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+        <h3  id="workarea8">Contact Information for SHG Inquiries</h3>
+        <p>Contact details or a form for individuals seeking more information about SHGs or wanting to get involved.</p>
         <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>

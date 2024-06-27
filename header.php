@@ -18,6 +18,7 @@
         cursor: pointer;
         transition: color 0.3s;
     }}
+    
    
   
        
@@ -92,6 +93,7 @@
          
           <!--endworkarea-->
           <li><a href="contact.php" style="font-weight: bold; color:black;">Contact</a></li>
+         <li> <a href="index.php#donate1" style="margin-left: 40px;  background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;" class="btn-get-started">DONATE</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list" style="#3c3c3c;"></i>
       </nav>
