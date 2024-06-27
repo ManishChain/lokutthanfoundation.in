@@ -50,7 +50,10 @@
         <div class="row gy-5">
         <?php include 'fetch_volunteer_data.php'; ?>
 
-        
+        </div>
+        </div>
+
+</section>
 
       
            <!-- <div class="member-info text-center">
@@ -58,7 +61,7 @@
               <span>Vice President</span>
               <p>Enterepnaur, Technology expert, Politician & Mentor</p>
             </div>-->
-          </div><!-- End Team Member -->
+      <!--    </div> End Team Member -->
 
          <!-- <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
@@ -129,7 +132,7 @@
             </div>
           </div>--><!-- End Team Member -->
 
-        </div>
+       <!-- </div>
 
       </div>
 
@@ -377,14 +380,14 @@
               <h4>Josepha Palas</h4>
               <span>Operation</span>
               <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
-            </div>-->
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section>
+    </section>-->
 
    
 
