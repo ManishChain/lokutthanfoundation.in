@@ -466,7 +466,7 @@ color-mix(in srgb, var(--default-color), transparent 80%);
            <!--   <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>-->
               <div class="button-container">
               <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>
-        <a href="#donate" class="btn-get-started">DONATE दान करें</a>
+              <a href="index.php#donate1" style="margin-left: 40px;" class="btn-get-started">DONATE दान करें</a>
         <button id="openModalBtn" class="btn-get-started">Register for NGO Prize</button>
     </div>
           
@@ -651,12 +651,12 @@ color-mix(in srgb, var(--default-color), transparent 80%);
             <input type="text" class="form-control" name="city" placeholder="City" required>
         </div>
         <div class="col-md-12">
-            <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+            <textarea class="form-control" id="donate1" name="message" rows="6" placeholder="Message" required></textarea>
         </div>
         <div class="col-md-12 text-center">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your request has been sent successfully. Thank you!</div>
+            <div class="sent-message"  >Your request has been sent successfully. Thank you!</div>
            <!-- <input type="submit" name="submit" value="Submit">-->
            <input type="submit" name="submit" value="Submit" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
 
@@ -681,78 +681,100 @@ color-mix(in srgb, var(--default-color), transparent 80%);
     <br>
     <br>
     <div class="container section-title" data-aos="fade-up">
-  <h2>DONATE दान करें</h2>
-  <br>
-  <br>
-  <p style="break-word:break-all;">Donating to charitable causes is a powerful way to make a positive impact on the world and support those in need. Contributions help provide essential resources, such as food, clean water, healthcare, and education, to underserved communities. Your donation can drive significant changes, from alleviating poverty and hunger to supporting disaster relief efforts and promoting environmental sustainability. By donating, you not only contribute to the well-being of others but also foster a sense of community and shared responsibility. Every contribution, no matter the size, can create a ripple effect of kindness and compassion, ultimately leading to a better, more equitable world for all.</p>
+  <h2 >DONATE दान करें</h2>
+  <br><br>
+  <p style="break-word:break-all;">
+  Donating to charitable causes is a powerful way to make a positive impact on the world and support those in need. Contributions help provide essential resources, such as food, clean water, healthcare, and education, to underserved communities. Your donation can drive significant changes, from alleviating poverty and hunger to supporting disaster relief efforts and promoting environmental sustainability.
+
+By donating, you not only contribute to the well-being of others but also foster a sense of community and shared responsibility. Every contribution, no matter the size, can create a ripple effect of kindness and compassion, ultimately leading to a better, more equitable world for all.Moreover, donations can support initiatives that promote long-term development, such as building schools, training teachers, and providing scholarships for students. These efforts empower individuals and communities, giving them the tools and opportunities to improve their own lives and break the cycle of poverty.
+
+In addition to direct financial contributions, in-kind donations of goods and services can also make a significant difference. Items such as clothing, medical supplies, and educational materials are often in high demand and can provide immediate relief and support.  </p>
 </div>
 <br>
 <section id="get-started" class="get-started section">
   <div class="container">
-    <div class="row justify-content-between gy-4">
-      <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+    <div class="row justify-content-between gy-4" style="margin-bottom:50px;">
+      <!-- 
+        First Section -->
+      <div class="col-lg-4 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
         <div class="content">
-        <section id="account-details" class="account-details section">
-        <div class="container">
-            <h2>Account Details</h2>
-            <div class="account-info">
-              <p><strong>Customer ID:</strong><br> 63 9446 46 74</p>
-              <p><strong>Company Name:</strong><br> LOK UTTHAN PEHAL FOUNDATION</p>
+          <section id="account-details" class="account-details section"  style="padding: 0px 0;">
+            <div class="container">
+              <h2>Account Details</h2>
+              <div class="account-info">
+                <p><strong>Customer ID:</strong><br> 63 9446 46 74</p>
+                <p><strong>Company Name:</strong><br> LOK UTTHAN PEHAL FOUNDATION</p>
                 <p><strong>Account Number:</strong><br> 101 7038 3673</p>
-                <p><strong>IFSC Code:</strong><br> ABCD0123456</p>
+                <p><strong>IFSC Code:</strong><br>IDFB 0021 001</p>
                 <p><strong>SWIFT Code:</strong><br>IDFB IN BB MUM</p>
                 <p><strong>Bank Name:</strong><br>IDFC FIRST</p>
                 <p><strong>Branch:</strong><br> Gurgon Golf Cource Road Branch</p>
-               <!-- <p><strong>Sweep in balance(+):</strong><br></p>
+                <!-- <p><strong>Sweep in balance(+):</strong><br></p>
                 <p><strong>GST Number:</strong><br></p>-->
+              </div>
             </div>
-        </div>
-    </section>
-
-          <!-- <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>-->
+          </section>
         </div>
       </div>
+      <!-- Second Section -->
+      <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="200" style="margin-top: -20px;">
+        <div class="content">
+          <section id="new-section-1" class="new-section section">
+            <div class="container">
+              <h2></h2>
+              <img src="assets/img/Capture.PNG" alt="Girl in a jacket" width="100px;" height="100px;" style="margin-left:70px;">
 
-      <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200" style="    background: 
-color-mix(in srgb, var(--default-color), transparent 97%); height: 50%;">
-      <form action="DonateInsert.php" method="post" style="margin-bottom:20px;">
-    <h3 style="    margin-left: 140px;">Donate Form</h3>
-    <div class="row gy-3">
-        <div class="col-md-12">
-            <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+              <ol>
+           <li> Open a mobile payment app </li>
+            <li> ⁠Scan the QR Code</li>
+          <li> ⁠Provide the amount </li>
+             <li> ⁠Confirm the payment</li>   
+           <li> ⁠Note down the reference/transaction number</li>
+           <li> ⁠Fill the form and submit</li>
+  </ol>
+            </div>
+          </section>
         </div>
-        <div class="col-md-12">
-            <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
-        </div>
-        <div class="col-md-12">
-            <input type="email" class="form-control" name="email" placeholder="Email" required>
-        </div>
-        <div class="col-md-12">
-            <input type="text" class="form-control" name="phone" placeholder="Phone" required>
-        </div>
-        <div class="col-md-12">
-            <input type="text" class="form-control" name="address" placeholder="Address" required>
-        </div>
-        <div class="col-md-12">
-            <input type="text" class="form-control" name="city" placeholder="City" required>
-        </div>
-        <div class="col-md-12">
-            <input type="text" class="form-control" name="pancard" placeholder="pancard" required>
-        </div>
-        <div class="col-md-12">
-            <input type="text" class="form-control" name="ReferenceId" placeholder="ReferenceId" required>
-        </div>
-        <div class="col-md-12 text-center">
-        <input type="submit" name="submit" value="Submit" class="btn btn-primary"  style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
-        </div>
-    </div>
-</form>
-      </div><!-- End Quote Form -->
+      </div>
+      <!-- Third Section -->
+      <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="300" style="background: color-mix(in srgb, var(--default-color), transparent 97%); height: 50%;">
+        <form action="DonateInsert.php" method="post" style="margin-bottom:20px;">
+          <h5 style="margin-left: 100px; margin-top:20px;" >Donation Form</h5>
+          <div class="row gy-3">
+            <div class="col-md-12">
+              <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+            </div>
+            <div class="col-md-12">
+              <input type="email" class="form-control" name="email" placeholder="Email" required>
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="address" placeholder="Address" required>
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="city" placeholder="City" required>
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="pancard" placeholder="pancard" required>
+            </div>
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="ReferenceId" placeholder="ReferenceId" required>
+            </div>
+            <div class="col-md-12 text-center">
+              <input type="submit" name="submit" value="Submit" class="btn btn-primary" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </section>
 
-   
     
     
     <!--end donate--->

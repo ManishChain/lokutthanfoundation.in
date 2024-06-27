@@ -181,41 +181,41 @@
       <div class="col-lg-3 col-md-6 card-wrapper" data-aos="fade-up" data-aos-delay="100">
         <div class="card-number-wrapper">
         </div>
-        <h3>Quasi eaque omnis</h3>
-        <p>Eius non minus autem soluta ut ui labore omnis quisquam corrupti autem odit voluptas quos commodi magnam occaecati.</p>
-        <ul class="list-unstyled">
-          <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip</span></li>
-          <li><i class="bi bi-check2"></i> <span>Duis aute irure dolor in reprehenderit</span></li>
-          <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+        <h3>Empowering Competitive Exam Preparation</h3>
+        <p>Equip participants with a deep understanding of exam patterns and syllabi crucial for effective study strategies.</p>
+       <ul class="list-unstyled">
+          <li><i class="bi bi-check2"></i> <span>Comprehensive Exam Insights</span></li>
+          <li><i class="bi bi-check2"></i> <span>Enhanced Problem-Solving Skills</span></li>
+          <li><i class="bi bi-check2"></i> <span>Boosted Confidence</span></li>
         </ul>
       </div>
 
       <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <h3>Et nemo dolores consectetur</h3>
-        <p>Ducimus ea quam et occaecati est. Temporibus in soluta labore voluptates aut. Et sit soluta non repellat sed quia dire plovers tradoria</p>
-        <ul class="list-unstyled">
-          <li><i class="bi bi-check2"></i> <span>Enim temporibus maiores eligendi</span></li>
-          <li><i class="bi bi-check2"></i> <span>Ut maxime ut quibusdam quam qui</span></li>
-          <li><i class="bi bi-check2"></i> <span>Officiis aspernatur in officiis</span></li>
+        <h3>Building Confidence and Motivation: </h3>
+        <p>  Nurture participant confidence and motivation through personalized support and continuous feedback.</p>
+      <ul class="list-unstyled">
+          <li><i class="bi bi-check2"></i> <span>Effective Preparation</span></li>
+          <li><i class="bi bi-check2"></i> <span>Performance Optimization</span></li>
+          <li><i class="bi bi-check2"></i> <span>Personalized Learning</span></li>
         </ul>
       </div>
 
       <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <h3>Staque laboriosam modi</h3>
-        <p>Velit eos error et dolor omnis voluptates nobis tenetur sed enim nihil vero qui suscipit ipsum at magni. Ipsa architecto consequatur aliquam</p>
-        <ul class="list-unstyled">
-          <li><i class="bi bi-check2"></i> <span>Quis voluptates laboriosam numquam</span></li>
-          <li><i class="bi bi-check2"></i> <span>Debitis eos est est corrupti</span></li>
+        <h3>Enhancing Problem-Solving Skills</h3>
+        <p> Foster critical thinking and analytical abilities through practical exercises and real-world scenarios..</p>
+       <ul class="list-unstyled">
+          <li><i class="bi bi-check2"></i> <span>Track Record of Success</span></li>
+          <li><i class="bi bi-check2"></i> <span>Professional Guidance</span></li>
         </ul>
       </div>
 
       <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-        <h3>Dignissimos suscipit iste</h3>
-        <p>Molestiae occaecati assumenda quia saepe nobis recusandae at dicta ducimus sequi numquam commodi est in consequatur ea magnam quia itaque</p>
-        <ul class="list-unstyled">
-          <li><i class="bi bi-check2"></i> <span>Veritatis qui reprehenderit quis</span></li>
-          <li><i class="bi bi-check2"></i> <span>Accusantium vel numquam sunt minus</span></li>
-          <li><i class="bi bi-check2"></i> <span>Voluptatem pariatur est sationem</span></li>
+        <h3>Adaptive Learning Approach</h3>
+        <p>Utilize adaptive learning techniques to accommodate diverse learning styles and pace.</p>
+ -   <ul class="list-unstyled">
+          <li><i class="bi bi-check2"></i> <span>Community and Networking</span></li>
+          <li><i class="bi bi-check2"></i> <span>Adaptive Learning Techniques</span></li>
+          <li><i class="bi bi-check2"></i> <span>Expert Faculty and Resources</span></li>
         </ul>
       </div>
     </div>
@@ -240,42 +240,42 @@
   <div class="row gy-4">
 
     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-      <h3>Quasi eaque omnis</h3>
-      <p>Eius non minus autem soluta ut ui labore omnis quisquam corrupti autem odit voluptas quos commodi magnam occaecati.</p>
+      <h3>Qualified and Experienced Faculty</h3>
+      <p> Engage dedicated teachers with expertise in their subjects to ensure quality education delivery.</p>
       <ul class="list-unstyled">
-        <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip</span></li>
-        <li><i class="bi bi-check2"></i> <span>Duis aute irure dolor in reprehenderit</span></li>
-        <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+        <li><i class="bi bi-check2"></i> <span>Experienced and qualified subject-specific teachers.</span></li>
+        <li><i class="bi bi-check2"></i> <span>Structured curriculum aligned with board exam standards.</span></li>
+        <li><i class="bi bi-check2"></i> <span>Small class sizes for personalized attention.</span></li>
       </ul>
     </div>
 
     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-      <h3>Et nemo dolores consectetur</h3>
-      <p>Ducimus ea quam et occaecati est. Temporibus in soluta labore voluptates aut. Et sit soluta non repellat sed quia dire plovers tradoria</p>
+      <h3>Interactive Learning Environment:</h3>
+      <p>Foster a participative classroom atmosphere to encourage student engagement and active learning.</p>
 
       <ul class="list-unstyled">
-        <li><i class="bi bi-check2"></i> <span>Enim temporibus maiores eligendi</span></li>
-        <li><i class="bi bi-check2"></i> <span>Ut maxime ut quibusdam quam qui</span></li>
-        <li><i class="bi bi-check2"></i> <span>Officiis aspernatur in officiis</span></li>
+        <li><i class="bi bi-check2"></i> <span>Interactive and engaging learning environment.</span></li>
+        <li><i class="bi bi-check2"></i> <span>Continuous assessment and feedback mechanism.</span></li>
+        <li><i class="bi bi-check2"></i> <span>Emphasis on holistic student development.</span></li>
       </ul>
     </div>
 
     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-      <h3>Staque laboriosam modi</h3>
-      <p>Velit eos error et dolor omnis voluptates nobis tenetur sed enim nihil vero qui suscipit ipsum at magni. Ipsa architecto consequatur aliquam</p>
+      <h3>Regular Assessments and Feedback</h3>
+      <p>Conduct frequent evaluations to track student progress and provide timely feedback for improvement.</p>
       <ul class="list-unstyled">
-        <li><i class="bi bi-check2"></i> <span>Quis voluptates laboriosam numquam</span></li>
-        <li><i class="bi bi-check2"></i> <span>Debitis eos est est corrupti</span></li>
+        <li><i class="bi bi-check2"></i> <span>Opportunities for extracurricular activities.</span></li>
+        <li><i class="bi bi-check2"></i> <span>Regular communication with parents on student progress.</span></li>
       </ul>
     </div>
 
     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-      <h3>Dignissimos suscipit iste</h3>
-      <p>Molestiae occaecati assumenda quia saepe nobis recusandae at dicta ducimus sequi numquam commodi est in consequatur ea magnam quia itaque</p>
+      <h3>Extra-Curricular Activities</h3>
+      <p>Offer opportunities for students to participate in extracurricular activities to nurture their talents and interests.</p>
       <ul class="list-unstyled" >
-        <li><i class="bi bi-check2"></i> <span>Veritatis qui reprehenderit quis</span></li>
-        <li><i class="bi bi-check2"></i> <span>Accusantium vel numquam sunt minus</span></li>
-        <li id="workarea3"><i class="bi bi-check2"></i> <span>Voluptatem pariatur est sationem</span></li>
+        <li><i class="bi bi-check2"></i> <span>Comprehensive preparation for board examinations.</span></li>
+        <li><i class="bi bi-check2"></i> <span>Affordable education with potential scholarship opportunities.</span></li>
+        <li id="workarea3"><i class="bi bi-check2"></i> <span>Opportunities for extracurricular activities.</span></li>
       </ul>
     </div>
 
