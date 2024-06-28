@@ -2,9 +2,9 @@
 
 // Establish database connection parameters
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "lokutthan";
+$username = "lokutnlf_uname";
+$password = "~t_%mb0EQz^J";
+$dbname = "lokutnlf_db";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['volunteer_id'])) {
 }
 
 // SQL query to fetch all active records (where status = 1) from the volunteer table
-$sql = "SELECT first_name, last_name, education_qualification, bio FROM volunteer WHERE status = 1 ORDER BY id DESC";
+$sql = "SELECT first_name, last_name, education_qualification, bio, address, city FROM volunteer WHERE status = 1 ORDER BY id DESC";
 $result = $conn->query($sql);
 
 // Check if the query returned any result
@@ -40,6 +40,9 @@ if ($result->num_rows > 0) {
         $name = $row['first_name'] . " " . $row['last_name'];
         $education = $row['education_qualification'];
         $bio = $row['bio'];
+        $address = $row['address'];
+        $city = $row['city'];
+        
         
         // Render the data for each volunteer
         ?>
@@ -55,8 +58,9 @@ if ($result->num_rows > 0) {
             </div>
             <div class="member-info text-center">
                 <h4><?php echo htmlspecialchars($name); ?></h4>
+                <p><?php echo htmlspecialchars($address); ?>, <?php echo htmlspecialchars($city); ?></p>
                 <span><?php echo htmlspecialchars($education); ?></span>
-                <p><?php echo htmlspecialchars($bio); ?></p>
+                <p><?php echo htmlspecialchars(strtoupper($bio)); ?></p>
             </div>
         </div>
         <?php
