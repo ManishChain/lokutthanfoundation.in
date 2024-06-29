@@ -18,10 +18,17 @@
         cursor: pointer;
         transition: color 0.3s;
     }}
-    
-   
-  
-       
+
+    element.style {
+    margin-left: 40px;
+    background: var(--accent-color);
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: white;
+    width: 120px;
+}
+
 </style>
 <header id="header" class="header d-flex align-items-center fixed-top" style="height:60px; color:white;">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"  style="color:white;">
@@ -93,6 +100,7 @@
          
           <!--endworkarea-->
           <li><a href="contact.php" style="font-weight: bold; color:black;">Contact</a></li>
+          <!--donate--->
          <li> <a href="index.php#donate1" style="margin-left: 40px;  background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;" class="btn-get-started">DONATE</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list" style="#3c3c3c;"></i>

@@ -460,13 +460,13 @@ color-mix(in srgb, var(--default-color), transparent 80%);
              <!-- <h2>लोक उत्थान पहल फाउंडेशन </h2>-->
              <img  src="assets/img/lok-utthan-logo.png" alt="White Logo" >
               <h4>"लोक उत्थान पहल" में आपका स्वागत है </h4>
-              <p style="word-break: break-all;">Also known as LUP is a registered Non-Governmental Organization, which started in the year 2014. 
+              <p style="text-align: justify;">Also known as LUP is a registered Non-Governmental Organization, which started in the year 2014. 
                 LUP is a selffunded NGO and work towards the welfare of women and children and the ones who are differently abled.
                 At LUP, we believe in creating a world where everyone has the opportunity to thrive. Our initiatives focus on education, healthcare, and community development, ensuring that even the most marginalized individuals can build a better future. Together, we can make a significant difference in the lives of those who need it most.</p>
            <!--   <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>-->
               <div class="button-container">
               <a href="#get-started" class="btn-get-started">कृपया VOLUNTEER स्वयंसेवक के रूप में प्रवेश करें</a>
-             <!-- <a href="index.php#donate1" style="margin-left: 40px;" class="btn-get-started">DONATE दान करें</a>-->
+             <a href="index.php#donate1" style="margin-left: 40px;" class="btn-get-started">DONATE दान करें</a>
         <button id="openModalBtn" class="btn-get-started">Register for NGO Prize</button>
     </div>
           
@@ -577,7 +577,7 @@ color-mix(in srgb, var(--default-color), transparent 80%);
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <div class="content">
               <h1>Become A Volunteer</h1>
-              <p>
+              <p style="text-align: justify;">
                 <br>
                 A volunteer is someone who helps a common cause and who does not expect to get paid for it. 
                 <br><br>
@@ -683,7 +683,7 @@ color-mix(in srgb, var(--default-color), transparent 80%);
     <div class="container section-title" data-aos="fade-up">
   <h2 >DONATE दान करें</h2>
   <br><br>
-  <p style="break-word:break-all;">
+  <p>
   Donating to charitable causes is a powerful way to make a positive impact on the world and support those in need.
 Your generosity will provide them with a wide range of opportunities to help. Please give today and help women and youth access the care and services they urgently need. </p>
 </div>
@@ -736,7 +736,8 @@ Your generosity will provide them with a wide range of opportunities to help. Pl
       </div>
       <!-- Third Section -->
       <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="300" style="background: color-mix(in srgb, var(--default-color), transparent 97%); height: 50%;">
-        <form action="DonateInsert.php" method="post" style="margin-bottom:20px;">
+     
+      <form action="DonateInsert.php" method="post" style="margin-bottom:20px;"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
           <h5 style="margin-left: 100px; margin-top:20px;" >Donation Form</h5>
           <div class="row gy-3">
             <div class="col-md-12">
@@ -768,6 +769,13 @@ Your generosity will provide them with a wide range of opportunities to help. Pl
             </div>
           </div>
         </form>
+        <?php
+    if (isset($_GET['status']) && isset($_GET['message'])) {
+        $status = $_GET['status'];
+        $message = $_GET['message'];
+        echo "<script>alert('$message');</script>";
+    }
+    ?>
       </div>
     </div>
   </div>

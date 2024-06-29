@@ -1,12 +1,12 @@
 <?php
-session_start();
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-// Enable error reporting
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+require 'PHPMailer-6.9.1/src/PHPMailer.php';
+require 'PHPMailer-6.9.1/src/Exception.php';
+require 'PHPMailer-6.9.1/src/SMTP.php';
 
-// Establish database connection parameters
+// Step 1: Database connection
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -17,59 +17,89 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    $_SESSION['message'] = "Connection failed: " . $conn->connect_error;
-    $_SESSION['message_type'] = 'error';
-    header("Location: index.php");
-    exit();
+    die("Connection failed: " . $conn->connect_error);
 }
 
-// Check if form is submitted
+// Step 2: Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Check if all required POST data is set
-    if (isset($_POST['first_name'], $_POST['last_name'], $_POST['email'], $_POST['phone'], $_POST['address'], $_POST['city'], $_POST['pancard'], $_POST['ReferenceId'])) {
-        // Prepare and bind parameters
-        $stmt = $conn->prepare("INSERT INTO donations (first_name, last_name, email, phone, address, city, pancard, ReferenceId) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-
-        // Check if preparation was successful
-        if (!$stmt) {
-            $_SESSION['message'] = "Prepare failed: " . $conn->error;
-            $_SESSION['message_type'] = 'error';
-            header("Location: index.php");
-            exit();
-        }
-
-        // Bind parameters
-        $stmt->bind_param("ssssssss", $first_name, $last_name, $email, $phone, $address, $city, $pancard, $ReferenceId);
-
-        // Set parameters and execute
-        $first_name = $_POST['first_name'];
-        $last_name = $_POST['last_name'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $address = $_POST['address'];
-        $city = $_POST['city'];
-        $pancard = $_POST['pancard'];
-        $ReferenceId = $_POST['ReferenceId'];
-
-        // Execute SQL statement and handle success/failure
-        if ($stmt->execute()) {
-            $_SESSION['message'] = "Data successfully submitted.";
-            $_SESSION['message_type'] = 'success';
-        } else {
-            $_SESSION['message'] = "Error: " . $stmt->error;
-            $_SESSION['message_type'] = 'error';
-        }
-
-        // Close statement
-        $stmt->close();
-    } else {
-        $_SESSION['message'] = "Error: Missing required form data.";
-        $_SESSION['message_type'] = 'error';
+    // Step 3: Collect data from the form
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $address = $_POST['address'];
+    $city = $_POST['city'];
+    $pancard = $_POST['pancard'];
+    $reference_id = $_POST['ReferenceId']; // Assuming "ReferenceId" is the name of your input field
+    
+    // Step 4: Validate data (basic validation)
+    if (empty($first_name) || empty($email) || empty($phone) || empty($reference_id)) {
+        header("Location: index.php?status=error&message=All fields marked with * are required.");
+        exit;
     }
+    
+    // Step 5: Prepare and execute SQL statement to insert data
+    $sql = "INSERT INTO donations (first_name, last_name, email, phone, address, city, pancard, ReferenceId) 
+            VALUES ('$first_name', '$last_name', '$email', '$phone', '$address', '$city', '$pancard', '$reference_id')";
+
+    if ($conn->query($sql) === TRUE) {
+        // Success message
+        $last_id = $conn->insert_id;
+        $select_sql = "SELECT first_name, last_name, email, phone, address, city, pancard, ReferenceId FROM donations WHERE id = $last_id";
+        $result = $conn->query($select_sql);
+
+        if ($result->num_rows > 0) {
+            // Initialize PHPMailer
+            $mail = new PHPMailer(true); // Enable verbose debug output for testing, set to 0 for production
+
+            try {
+                //Server settings
+                $mail->isSMTP(); // Set mailer to use SMTP
+                $mail->Host = 'smtp.mailhostbox.com'; // Specify main and backup SMTP servers
+                $mail->SMTPAuth = true; // Enable SMTP authentication
+                $mail->Username = 'priyanshi@manacleindia.com'; // SMTP username
+                $mail->Password = 'LrEV#Gw3'; // SMTP password or app-specific password
+                $mail->SMTPSecure = 'tls'; // Enable TLS encryption, `ssl` also accepted
+                $mail->Port = 587; // TCP port to connect to
+
+                //Recipients
+                $mail->setFrom('priyanshi@manacleindia.com', 'manacle');
+                $mail->addAddress('priyanshi@manacleindia.com', 'manacle'); // Add a recipient
+
+                //Content
+                $mail->isHTML(false); // Set email format to HTML
+                $mail->Subject = 'New Donation: ' . $first_name . ' ' . $last_name;
+                
+                // Email body
+                $body = "New Donation:\n\n";
+                $row = $result->fetch_assoc();
+                $body .= "Name: {$row['first_name']} {$row['last_name']}\n";
+                $body .= "Email: {$row['email']}\n";
+                $body .= "Phone: {$row['phone']}\n";
+                $body .= "Address: {$row['address']}, {$row['city']}\n";
+                $body .= "Pancard: {$row['pancard']}\n";
+                $body .= "Reference ID: {$row['ReferenceId']}\n\n";
+
+                $mail->Body = $body;
+
+                // Attempt to send email
+                if ($mail->send()) {
+                    header("Location: index.php?status=success&message=New record created and email sent successfully.");
+                } else {
+                    header("Location: index.php?status=error&message=New record created but failed to send email.");
+                }
+            } catch (Exception $e) {
+                header("Location: index.php?status=error&message=New record created but failed to send email.");
+            }
+        } else {
+            header("Location: index.php?status=error&message=No donations found.");
+        }
+    } else {
+        header("Location: index.php?status=error&message=Error: " . $sql . "<br>" . $conn->error);
+    }
+    exit;
 }
 
-// Close connection
+// Step 7: Close database connection
 $conn->close();
-header("Location: index.php");
-exit();
 ?>

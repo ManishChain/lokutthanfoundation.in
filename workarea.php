@@ -486,7 +486,7 @@ Environmental Commitment</h3>
           </div>
 
           <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/environment.png" alt="" >
+            <img src="assets/img/environment (1).png" alt="" >
           </div>
 
         </div>
@@ -520,7 +520,7 @@ Environmental Commitment</h3>
 
     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
       <h3>Internship Programs</h3>
-      <p>Gain valuable experience through our internship programs </p>
+      <p>Gain valuable experience through our internship programs</p>
 
       <ul class="list-unstyled">
         <li><i class="bi bi-check2"></i> <span>Employee Resources</span></li>

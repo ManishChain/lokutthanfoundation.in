@@ -2,9 +2,9 @@
 
 // Establish database connection parameters
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "lokutthan";
+$username = "lokutnlf_uname";
+$password = "~t_%mb0EQz^J";
+$dbname = "lokutnlf_db";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

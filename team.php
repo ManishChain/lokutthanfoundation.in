@@ -298,7 +298,7 @@
               </div>
             </div>
             <div class="member-info text-center">
-              <h4>Chadan</h4>
+              <h4>Chandan</h4>
               <span>Executive Members</span>
           <!--    <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
 -->   </div>
