@@ -439,20 +439,13 @@ color-mix(in srgb, var(--default-color), transparent 80%);
 
 .input-container {
             position: relative;
+            display: inline-block;
         }
 
         .input-container input[type="text"] {
             padding-right: 20px; /* Space for the asterisk */
         }
 
-        .input-container .asterisk {
-            position: absolute;
-            right: 5px; /* Adjust based on your design */
-            top: 50%;
-            transform: translateY(-50%);
-            color: red; /* Color of the asterisk */
-            pointer-events: none; /* Ensure the asterisk does not interfere with input events */
-        }
 
 
     </style>
@@ -756,16 +749,14 @@ Your generosity will provide them with a wide range of opportunities to help. Pl
       <form action="DonateInsert.php" method="post" style="margin-bottom:20px;"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
           <h5 style="margin-left: 100px; margin-top:20px;" >Donation Form</h5>
           <div class="row gy-3">
-            <div class="col-md-12 input-container">
-              <input type="text" name="first_name" class="form-control" placeholder="First Name" required  oninput="toggleAsterisk(this)">
-              <span class="asterisk" style="color:red; margin-right:260px;">*</span>
+            <div class="col-md-12">
+              <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
             </div>
             <div class="col-md-12">
               <input type="text" name="last_name" class="form-control" placeholder="Last Name">
             </div>
-            <div class="col-md-12 input-container">
-              <input type="email" class="form-control" name="email" placeholder="Email" required  oninput="toggleAsterisk(this)">
-              <span class="asterisk" style="color:red; margin-right:300px;">*</span>
+            <div class="col-md-12">
+              <input type="email" class="form-control" name="email" placeholder="Email" required>
             </div>
             <div class="col-md-12">
               <input type="text" class="form-control" name="phone" placeholder="Phone">
@@ -776,17 +767,13 @@ Your generosity will provide them with a wide range of opportunities to help. Pl
             <div class="col-md-12">
               <input type="text" class="form-control" name="city" placeholder="City">
             </div>
-            <div class="col-md-12 input-container">
-              <input type="text" class="form-control" name="pancard" placeholder="pancard" required  oninput="toggleAsterisk(this)">
-              <span class="asterisk" style="color:red; margin-right:280px;">*</span>
-
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="pancard" placeholder="pancard" required>
             </div>
             <div class="col-md-12 input-container">
-        <input type="text" class="form-control" name="ReferenceId" placeholder="ReferenceId" required oninput="toggleAsterisk(this)">
-        <span class="asterisk" style="color:red; margin-right:260px;">*</span>
-    </div>
+            <input type="text" class="form-control" name="ReferenceId" placeholder="ReferenceId" required>
+      </div>
             <div class="col-md-12 text-center ">
-            <input type="reset" value="Reset" class="btn btn-secondary" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
               <input type="submit" name="submit" value="Submit" class="btn btn-primary" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
             </div>
           </div>
@@ -1855,14 +1842,25 @@ Your generosity will provide them with a wide range of opportunities to help. Pl
 
   <!-- Scroll Top -->
   <script>
-        function toggleAsterisk(input) {
-            const asterisk = input.nextElementSibling; // Assuming asterisk is immediately after input
-            if (input.value.trim() !== '') {
-                asterisk.style.display = 'none'; // Hide asterisk if input has value
-            } else {
-                asterisk.style.display = 'inline'; // Show asterisk if input is empty
+        document.addEventListener("DOMContentLoaded", function() {
+            const input = document.getElementById('referenceIdInput');
+            const placeholderText = 'ReferenceId*'; // Placeholder text with asterisk
+
+            // Set the placeholder text with asterisk
+            input.setAttribute('placeholder', placeholderText);
+
+            // Style the asterisk within the placeholder text
+            const asteriskIndex = placeholderText.indexOf('*');
+            if (asteriskIndex !== -1) {
+                const placeholderSpan = document.createElement('span');
+                placeholderSpan.style.color = 'red'; // Color of the asterisk
+                placeholderSpan.textContent = '*';
+
+                const placeholder = input.getAttribute('placeholder');
+                const modifiedPlaceholder = placeholder.substring(0, asteriskIndex) + placeholderSpan.outerHTML;
+                input.setAttribute('placeholder', modifiedPlaceholder);
             }
-        }
+        });
     </script>
 
  

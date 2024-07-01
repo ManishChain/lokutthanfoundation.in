@@ -1,15 +1,9 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+// Step 1: Include necessary files
+require 'config.php'; // Include your configuration file
+require 'mailer.php'; // Include your mailer script
 
-require 'PHPMailer-6.9.1/src/PHPMailer.php';
-require 'PHPMailer-6.9.1/src/Exception.php';
-require 'PHPMailer-6.9.1/src/SMTP.php';
-
-// Step 1: Database connection
-require_once 'config.php';
-
-// Create connection
+// Step 2: Database connection
 $conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Check connection
@@ -17,9 +11,9 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Step 2: Check if the form is submitted
+// Step 3: Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Step 3: Collect data from the form
+    // Step 4: Collect data from the form
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
     $email = $_POST['email'];
@@ -28,14 +22,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $city = $_POST['city'];
     $pancard = $_POST['pancard'];
     $reference_id = $_POST['ReferenceId']; // Assuming "ReferenceId" is the name of your input field
-    
-    // Step 4: Validate data (basic validation)
+
+    // Step 5: Validate data (basic validation)
     if (empty($first_name) || empty($email) || empty($phone) || empty($reference_id)) {
         header("Location: index.php?status=error&message=All fields marked with * are required.");
         exit;
     }
-    
-    // Step 5: Prepare and execute SQL statement to insert data
+
+    // Step 6: Prepare and execute SQL statement to insert data
     $sql = "INSERT INTO donations (first_name, last_name, email, phone, address, city, pancard, ReferenceId) 
             VALUES ('$first_name', '$last_name', '$email', '$phone', '$address', '$city', '$pancard', '$reference_id')";
 
@@ -46,46 +40,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $result = $conn->query($select_sql);
 
         if ($result->num_rows > 0) {
-            // Initialize PHPMailer
-            $mail = new PHPMailer(true); // Enable verbose debug output for testing, set to 0 for production
+            $row = $result->fetch_assoc();
 
-            try {
-                //Server settings
-                $mail->isSMTP(); // Set mailer to use SMTP
-                $mail->Host = 'smtp.mailhostbox.com'; // Specify main and backup SMTP servers
-                $mail->SMTPAuth = true; // Enable SMTP authentication
-                $mail->Username = 'priyanshi@manacleindia.com'; // SMTP username
-                $mail->Password = 'LrEV#Gw3'; // SMTP password or app-specific password
-                $mail->SMTPSecure = 'tls'; // Enable TLS encryption, `ssl` also accepted
-                $mail->Port = 587; // TCP port to connect to
+            // Step 7: Prepare email content
+            $subject = 'New Donation: ' . $first_name . ' ' . $last_name;
+            $body = "New Donation:\n\n";
+            $body .= "Name: {$row['first_name']} {$row['last_name']}\n";
+            $body .= "Email: {$row['email']}\n";
+            $body .= "Phone: {$row['phone']}\n";
+            $body .= "Address: {$row['address']}, {$row['city']}\n";
+            $body .= "Pancard: {$row['pancard']}\n";
+            $body .= "Reference ID: {$row['ReferenceId']}\n\n";
 
-                //Recipients
-                $mail->setFrom('priyanshi@manacleindia.com', 'manacle');
-                $mail->addAddress('priyanshi@manacleindia.com', 'manacle'); // Add a recipient
-
-                //Content
-                $mail->isHTML(false); // Set email format to HTML
-                $mail->Subject = 'New Donation: ' . $first_name . ' ' . $last_name;
-                
-                // Email body
-                $body = "New Donation:\n\n";
-                $row = $result->fetch_assoc();
-                $body .= "Name: {$row['first_name']} {$row['last_name']}\n";
-                $body .= "Email: {$row['email']}\n";
-                $body .= "Phone: {$row['phone']}\n";
-                $body .= "Address: {$row['address']}, {$row['city']}\n";
-                $body .= "Pancard: {$row['pancard']}\n";
-                $body .= "Reference ID: {$row['ReferenceId']}\n\n";
-
-                $mail->Body = $body;
-
-                // Attempt to send email
-                if ($mail->send()) {
-                    header("Location: index.php?status=success&message=New record created and email sent successfully.");
-                } else {
-                    header("Location: index.php?status=error&message=New record created but failed to send email.");
-                }
-            } catch (Exception $e) {
+            // Step 8: Send email
+            if (sendEmail('priyanshi@manacleindia.com', 'manacle', $subject, $body)) {
+                header("Location: index.php?status=success&message=New record created and email sent successfully.");
+            } else {
                 header("Location: index.php?status=error&message=New record created but failed to send email.");
             }
         } else {
@@ -97,6 +67,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit;
 }
 
-// Step 7: Close database connection
+// Step 9: Close database connection
 $conn->close();
 ?>

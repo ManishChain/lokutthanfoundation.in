@@ -144,7 +144,7 @@
     <section id="team2" class="team section">-->
 
       <!-- Section Title -->
-    <!--  <div class="container section-title" data-aos="fade-up">
+    <!--  <zdiv class="container section-title" data-aos="fade-up">
         <h2>Management</h2>
         <p>We have team of professional, dedictaed and hard-working leaders who had made a strong impact on community in their respective areas</p>
       </div>--><!-- End Section Title -->
