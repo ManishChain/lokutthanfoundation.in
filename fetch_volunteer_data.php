@@ -1,13 +1,10 @@
 <?php
 
-// Establish database connection parameters
-$servername = "localhost";
-$username = "lokutnlf_uname";
-$password = "~t_%mb0EQz^J";
-$dbname = "lokutnlf_db";
+// Include the configuration file
+require_once 'config.php';
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Check connection
 if ($conn->connect_error) {
@@ -42,12 +39,11 @@ if ($result->num_rows > 0) {
         $bio = $row['bio'];
         $address = $row['address'];
         $city = $row['city'];
-        
-        
+
         // Render the data for each volunteer
         ?>
         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img"  style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+            <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
                 <img src="assets/img/images2.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
                 <div class="social">
                     <a href="#"><i class="bi bi-twitter-x"></i></a>

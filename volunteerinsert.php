@@ -1,13 +1,10 @@
 <?php
 
-// Establish database connection parameters
-$servername = "localhost";
-$username = "lokutnlf_uname";
-$password = "~t_%mb0EQz^J";
-$dbname = "lokutnlf_db";
+// Include the configuration file
+require_once 'config.php';
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Check connection
 if ($conn->connect_error) {

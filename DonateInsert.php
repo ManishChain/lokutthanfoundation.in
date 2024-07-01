@@ -7,13 +7,10 @@ require 'PHPMailer-6.9.1/src/Exception.php';
 require 'PHPMailer-6.9.1/src/SMTP.php';
 
 // Step 1: Database connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "lokutthan";
+require_once 'config.php';
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Check connection
 if ($conn->connect_error) {

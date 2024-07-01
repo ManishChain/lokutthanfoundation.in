@@ -439,6 +439,8 @@ color-mix(in srgb, var(--default-color), transparent 80%);
 
 
 
+
+
     </style>
 </head>
 
@@ -744,26 +746,26 @@ Your generosity will provide them with a wide range of opportunities to help. Pl
               <input type="text" name="first_name" class="form-control" placeholder="First Name*" required>
             </div>
             <div class="col-md-12">
-              <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+              <input type="text" name="last_name" class="form-control" placeholder="Last Name">
             </div>
             <div class="col-md-12">
               <input type="email" class="form-control" name="email" placeholder="Email*" required>
             </div>
             <div class="col-md-12">
-              <input type="text" class="form-control" name="phone" placeholder="Phone*" required>
+              <input type="text" class="form-control" name="phone" placeholder="Phone*">
             </div>
             <div class="col-md-12">
-              <input type="text" class="form-control" name="address" placeholder="Address" required>
+              <input type="text" class="form-control" name="address" placeholder="Address">
             </div>
             <div class="col-md-12">
-              <input type="text" class="form-control" name="city" placeholder="City" required>
+              <input type="text" class="form-control" name="city" placeholder="City">
             </div>
             <div class="col-md-12">
               <input type="text" class="form-control" name="pancard" placeholder="pancard" required>
             </div>
             <div class="col-md-12">
-              <input type="text" class="form-control" name="ReferenceId" placeholder="ReferenceId*" required>
-            </div>
+        <input type="text" class="form-control" name="ReferenceId"  placeholder="ReferenceId" required>
+    </div>
             <div class="col-md-12 text-center">
               <input type="submit" name="submit" value="Submit" class="btn btn-primary" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
             </div>
@@ -1832,6 +1834,7 @@ Your generosity will provide them with a wide range of opportunities to help. Pl
  
 
   <!-- Scroll Top -->
+
  
 </body>
 

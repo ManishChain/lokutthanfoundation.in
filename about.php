@@ -48,20 +48,20 @@
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
             <h2 class="inner-title">Beginning & Goal <br> शुरुआत और लक्ष्य</h2>
             <div class="our-story">
-              <h4>Est 2020</h4>
+            <!--  <h4>Est 2020</h4>-->
               <h3>Our Story</h3>
-              <p>Inventore aliquam beatae at et id alias. Ipsa dolores amet consequuntur minima quia maxime autem. Quidem id sed ratione. Tenetur provident autem in reiciendis rerum at dolor. Aliquam consectetur laudantium temporibus dicta minus dolor.</p>
+              <p style="text-align: justify;">The Lokutthan Foundation was established with a vision to bridge the gap between those in need and the resources required for their growth and development. Over the years, we have initiated numerous projects aimed at improving the quality of life for marginalized communities. Our holistic approach focuses on long-term solutions that foster self-reliance and resilience.</p>
               <ul>
-                <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commo</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Education Initiatives</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Healthcare Services</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Livelihood and Skill Development</span></li>
               </ul>
-              <p>Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non nesciunt suscipit repellendus porro in quo eveniet. Molestias in maxime doloremque.</p>
+              <p style="text-align: justify;">Since our inception, Lokutthan Foundation has touched the lives of thousands of individuals. Our success stories are a testament to the hard work and dedication of our team and the resilience of the communities we serve. From educating young minds to providing essential healthcare and fostering economic growth, our efforts have made a significant difference.</p>
 
-              <div class="watch-video d-flex align-items-center position-relative">
+           <!--   <div class="watch-video d-flex align-items-center position-relative">
                 <i class="bi bi-play-circle"></i>
                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
-              </div>
+              </div>-->
             </div>
           </div>
 
@@ -77,7 +77,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Stats</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <!--  <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
