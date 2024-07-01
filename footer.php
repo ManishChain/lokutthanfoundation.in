@@ -10,7 +10,8 @@
             <p>Adress:1662/2, Gali No.17, Govind</p>
             <p>Puri, Kalkaji, New Delhi-110019</p>
             <p class="mt-3"><strong>Phone:</strong> <span>+91 0 11 1747 9993</span></p>
-            <p><strong>Email:</strong> <span>lokutthanfoundation.in</span></p>
+      <!--    <p><strong>Email:</strong> <span>lokutthanfoundation.in</span></p>-->
+      <p><strong>Email:</strong><a class="icon-item__link" style="color:white;" href="mailto:info@lokutthanfoundation.in" target="_blank">info@lokutthanfoundation.in</a></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F" target="_blank"><i class="bi bi-twitter-x"></i></a>

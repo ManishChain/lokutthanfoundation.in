@@ -49,14 +49,22 @@
             </div>
           </div><!-- End Info Item -->
 
-          <div class="col-lg-3 col-md-6">
+       <!--   <div class="col-lg-3 col-md-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300" style="height: 100%;">
               <i class="bi bi-telephone"></i>
               <h3>Call Us</h3>
-          <!--  <p>+91 0 11 1747 9993 <a  href="tel:+31859644725"></a</p>-->
+          <p>+91 0 11 1747 9993 <a  href="tel:+31859644725"></a</p>
            <p><a style="color:black;" href="tel:+91 0 11 1747 9993"></a> <a  href="tel:+91 0 11 1747 9993" style="color: black;">+91 11-41521162</a></p>
 
             </div>
+          </div>-->
+          <div class="col-lg-3 col-md-6"> <a target="_blank" style="color:black;" href="https://wa.me/+919810716507">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300" style="height: 100%;">
+              <i class="bi bi-whatsapp"></i>
+              <h3>Whatsapp</h3>
+          <!--  <p>+91 0 11 1747 9993 <a  href="tel:+31859644725"></a</p>-->
+           <p><a  target="_blank" href="https://wa.me/+919810716507" style="color: black;">+91 98107 16507</a></p>
+            </div></a>
           </div>
          
           <!-- End Info Item -->
