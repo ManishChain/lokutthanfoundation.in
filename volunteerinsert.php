@@ -13,9 +13,17 @@ if ($conn->connect_error) {
 
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Prepare and bind parameters
-    $stmt = $conn->prepare("INSERT INTO volunteer (full_name, email, phone, age, describe_yourself, gender, education_qualification, image, address, message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param("ssssissssss", $full_name, $email, $phone, $age, $describe_yourself, $gender, $education_qualification, $image, $address, $message);
+    // Prepare the SQL statement
+    $sql = "INSERT INTO volunteer (full_name, email, phone, age, describe_yourself, gender, education_qualification, image, address, message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $stmt = $conn->prepare($sql);
+    
+    // Check if prepare() was successful
+    if ($stmt === false) {
+        die("Prepare failed: " . $conn->error);
+    }
+
+    // Bind parameters
+    $stmt->bind_param("ssssisssss", $full_name, $email, $phone, $age, $describe_yourself, $gender, $education_qualification, $image, $address, $message);
 
     // Set parameters and execute
     $full_name = $_POST['full_name'];

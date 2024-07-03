@@ -3,19 +3,20 @@
 
 // Uncomment below local environment Database credentials
 
-$servername = "localhost";
-$username = "lokutnlf_uname";
-$password = "~t_%mb0EQz^J";
-$dbname = "lokutnlf_db";
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "lokutthan";
 
 
 
 // Uncomment below on LIVE WEBSITE Database credentials
 
-//define('DB_SERVER', 'localhost');
-//define('DB_USERNAME', 'lokutnlf_unameot');
-//define('DB_PASSWORD', '~t_%mb0EQz^J');
-//define('DB_NAME', 'lokutnlf_db');
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'lokutthan');
+
 return [
     'host' => 'smtp.mailhostbox.com',
     'username' => 'priyanshi@manacleindia.com',
