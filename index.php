@@ -865,15 +865,15 @@
                 <small id="Errormessage" class="error">File size must be less than 200KB.</small>
             </div>
             <div class="col-md-12 input-container" id="referenceIdContainer">
-            <label style="margin-left:190px;">OR</label>
+            <label style="margin-left:190px;" id="referenceId">OR</label>
                 <input type="text" class="form-control" id="referenceId" name="ReferenceId" maxlength="18" placeholder="Reference Id / Transaction Id" oninput="toggleScreenshotUpload()">
             </div>
             <div class="col-md-12">
-                <input type="text" class="form-control" name="pancard" id="pancard" maxlength="10" placeholder="PAN CARD" oninput="togglePanCardCheckbox()">
+                <input class="form-control" name="pancard" id="pancard" maxlength="10" placeholder="PAN CARD" oninput="togglePanCardCheckbox()">
             </div>
             <div class="col-md-12 hidden" id="acknowledgeContainer">
-                <input type="checkbox" id="acknowledgePAN" name="acknowledgePAN"> 
-                <small id="pancardNotice" class="error">Please provide your PAN CARD details if you need to avail tax benefit.</small>
+                <input type="checkbox" id="acknowledgePAN" name="pancard"> 
+                <small id="pancardNotice" class="error">Please if you don't want to avail tax benefit.</small>
             </div>
             <div class="col-md-12 text-center">
                 <input type="submit" name="submit" value="Submit" class="btn btn-primary" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
