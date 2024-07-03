@@ -869,7 +869,11 @@
                 <input type="text" class="form-control" id="referenceId" name="ReferenceId" maxlength="18" placeholder="Reference Id / Transaction Id" oninput="toggleScreenshotUpload()">
             </div>
             <div class="col-md-12">
-                <input type="text" class="form-control" name="pancard" maxlength="10" placeholder="PAN CARD" required>
+                <input type="text" class="form-control" name="pancard" id="pancard" maxlength="10" placeholder="PAN CARD" oninput="togglePanCardCheckbox()">
+            </div>
+            <div class="col-md-12 hidden" id="acknowledgeContainer">
+                <input type="checkbox" id="acknowledgePAN" name="acknowledgePAN"> 
+                <small id="pancardNotice" class="error">Please provide your PAN CARD details if you need to avail tax benefit.</small>
             </div>
             <div class="col-md-12 text-center">
                 <input type="submit" name="submit" value="Submit" class="btn btn-primary" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
@@ -2138,6 +2142,33 @@
             }
         }
     </script>
+    <script>
+    function togglePanCardCheckbox() {
+            var pancard = document.getElementById('pancard').value;
+            var acknowledgeContainer = document.getElementById('acknowledgeContainer');
+
+            if (pancard === "") {
+                acknowledgeContainer.classList.remove('hidden');
+            } else {
+                acknowledgeContainer.classList.add('hidden');
+            }
+        }
+
+        function validateForm() {
+            var pancard = document.getElementById('pancard').value;
+            var acknowledgePAN = document.getElementById('acknowledgePAN').checked;
+            var pancardNotice = document.getElementById('pancardNotice');
+
+            if (pancard === "" && !acknowledgePAN) {
+                pancardNotice.style.display = 'block';
+                document.getElementById('acknowledgeContainer').classList.remove('hidden');
+                return false; // Prevent form submission
+            } else {
+                pancardNotice.style.display = 'none';
+                return true; // Allow form submission
+            }
+        }
+        </script>
 </body>
 
 </html>
