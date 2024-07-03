@@ -6,7 +6,7 @@ require 'PHPMailer-6.9.1/src/PHPMailer.php';
 require 'PHPMailer-6.9.1/src/Exception.php';
 require 'PHPMailer-6.9.1/src/SMTP.php';
 
-function sendEmail($recipientEmail, $recipientName, $subject, $body) {
+function sendEmail($recipientEmail, $recipientName, $subject, $body, $attachment = null) {
     // Load SMTP configuration
     $config = require 'config.php';
 
@@ -14,21 +14,26 @@ function sendEmail($recipientEmail, $recipientName, $subject, $body) {
     $mail = new PHPMailer(true);
 
     try {
-        //Server settings
-        $mail->isSMTP(); 
-        $mail->Host = $config['host']; 
-        $mail->SMTPAuth = true; 
-        $mail->Username = $config['username']; 
-        $mail->Password = $config['password']; 
-        $mail->SMTPSecure = $config['smtp_secure']; 
-        $mail->Port = $config['port']; 
+        // Server settings
+        $mail->isSMTP();
+        $mail->Host = $config['host'];
+        $mail->SMTPAuth = true;
+        $mail->Username = $config['username'];
+        $mail->Password = $config['password'];
+        $mail->SMTPSecure = $config['smtp_secure'];
+        $mail->Port = $config['port'];
 
-        //Recipients
+        // Recipients
         $mail->setFrom($config['from_email'], $config['from_name']);
-        $mail->addAddress($recipientEmail, $recipientName); 
+        $mail->addAddress($recipientEmail, $recipientName);
 
-        //Content
-        $mail->isHTML(false); 
+        // Attachments
+        if ($attachment) {
+            $mail->addAttachment($attachment);
+        }
+
+        // Content
+        $mail->isHTML(false);
         $mail->Subject = $subject;
         $mail->Body = $body;
 
@@ -38,4 +43,5 @@ function sendEmail($recipientEmail, $recipientName, $subject, $body) {
         return false;
     }
 }
+
 ?>
