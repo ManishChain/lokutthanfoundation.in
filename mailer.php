@@ -35,7 +35,6 @@ function sendEmail($recipientEmail, $recipientName, $subject, $body) {
         // Attempt to send email
         return $mail->send();
     } catch (Exception $e) {
-        // Optionally log the error or handle it in a specific way
         return false;
     }
 }

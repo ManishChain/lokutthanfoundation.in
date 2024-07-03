@@ -3,10 +3,10 @@
 
 // Uncomment below local environment Database credentials
 
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'lokutthan');
+$servername = "localhost";
+$username = "lokutnlf_uname";
+$password = "~t_%mb0EQz^J";
+$dbname = "lokutnlf_db";
 
 
 

@@ -14,20 +14,19 @@ if ($conn->connect_error) {
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Prepare and bind parameters
-    $stmt = $conn->prepare("INSERT INTO volunteer (first_name, last_name, email, phone, age, bio, gender, education_qualification, address, city, message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param("ssssissssss", $first_name, $last_name, $email, $phone, $age, $bio, $gender, $education_qualification, $address, $city, $message);
+    $stmt = $conn->prepare("INSERT INTO volunteer (full_name, email, phone, age, describe_yourself, gender, education_qualification, image, address, message) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("ssssissssss", $full_name, $email, $phone, $age, $describe_yourself, $gender, $education_qualification, $image, $address, $message);
 
     // Set parameters and execute
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
+    $full_name = $_POST['full_name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $age = $_POST['age'];
-    $bio = $_POST['bio'];
+    $describe_yourself = $_POST['describe_yourself'];
     $gender = $_POST['gender'];
     $education_qualification = $_POST['education_qualification'];
+    $image = $_POST['image'];
     $address = $_POST['address'];
-    $city = $_POST['city'];
     $message = $_POST['message'];
 
     // Execute SQL statement and handle success/failure

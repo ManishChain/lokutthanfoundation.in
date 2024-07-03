@@ -1,7 +1,7 @@
 <?php
-
+require 'config.php'; // Include your configuration file
+require 'mailer.php'; // Include your mailer script
 // Include the configuration file
-require_once 'config.php';
 
 // Create connection
 $conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['volunteer_id'])) {
 }
 
 // SQL query to fetch all active records (where status = 1) from the volunteer table
-$sql = "SELECT first_name, last_name, education_qualification, bio, address, city FROM volunteer WHERE status = 1 ORDER BY id DESC";
+$sql = "SELECT full_name, education_qualification, describe_yourself, address, image FROM volunteer WHERE status = 1 ORDER BY id DESC";
 $result = $conn->query($sql);
 
 // Check if the query returned any result
@@ -34,11 +34,11 @@ if ($result->num_rows > 0) {
     // Loop through each active volunteer
     while ($row = $result->fetch_assoc()) {
         // Variables for dynamic content
-        $name = $row['first_name'] . " " . $row['last_name'];
+        $name = $row['full_name'];
         $education = $row['education_qualification'];
-        $bio = $row['bio'];
+        $bio = $row['describe_yourself'];
         $address = $row['address'];
-        $city = $row['city'];
+        $image = $row['image'];
 
         // Render the data for each volunteer
         ?>
@@ -53,10 +53,10 @@ if ($result->num_rows > 0) {
                 </div>
             </div>
             <div class="member-info text-center">
-                <h4><?php echo htmlspecialchars($name); ?></h4>
-                <p><?php echo htmlspecialchars($address); ?>, <?php echo htmlspecialchars($city); ?></p>
+                <h4><?php echo htmlspecialchars($full_name); ?></h4>
+                <p><?php echo htmlspecialchars($address); ?>, <?php echo htmlspecialchars($image); ?></p>
                 <span><?php echo htmlspecialchars($education); ?></span>
-                <p><?php echo htmlspecialchars(strtoupper($bio)); ?></p>
+                <p><?php echo htmlspecialchars(strtoupper($describe_yourself)); ?></p>
             </div>
         </div>
         <?php
