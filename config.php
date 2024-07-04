@@ -17,6 +17,7 @@ define('DB_NAME', 'lokutthan');
 // define('DB_PASSWORD', '~t_%mb0EQz^J');
 // define('DB_NAME', 'lokutnlf_db');
 
+ 
 
 return [
     'host' => 'smtp.mailhostbox.com',
