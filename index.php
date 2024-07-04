@@ -850,7 +850,7 @@
                 <input type="email" class="form-control" name="email" id="email" placeholder="Email" oninput="toggleEmailCheckbox()">
                 <!-- <small id="emailNotice" class="error">If you don't provide an email, we won't be able to send you a receipt.</small> -->
             </div>
-            <div class="col-md-12" id="checkboxContainer">
+            <div class="col-md-12" id="checkboxContainer" style="color:red;">
                 <input type="checkbox" id="noEmail" name="noEmail" onclick="toggleEmailField()">  Please tick if you don't want receipt via email
             </div>
             <div class="col-md-12">
@@ -873,7 +873,7 @@
             </div>
             <div class="col-md-12 hidden" id="acknowledgeContainer">
                 <input type="checkbox" id="acknowledgePAN" name="acknowledgePAN"> 
-                <small id="pancardNotice" class="error">Please provide your PAN CARD details if you need to avail tax benefit.</small>
+                <small id="pancardNotice" class="error">Please Tick if you don't want to avail tax benefit.</small>
             </div>
             <div class="col-md-12 text-center">
                 <input type="submit" name="submit" value="Submit" class="btn btn-primary" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
