@@ -504,8 +504,27 @@
         padding-right: 20px;
         /* Space for the asterisk */
     }
-    .error { color: red; display: none; }
-    .hidden { display: none; }
+
+    .error {
+        color: red;
+        display: none;
+    }
+
+    .hidden {
+        display: none;
+    }
+    #acknowledgeContainer {
+            display: flex;
+            align-items: center;
+        }
+
+        #acknowledgeContainer input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        #pancardNotice {
+            margin: 0;
+        }
     </style>
 </head>
 
@@ -840,47 +859,61 @@
                     <!-- Third Section -->
                     <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="300"
                         style="background: color-mix(in srgb, var(--default-color), transparent 97%); height: 50%;">
-                        <form action="DonateInsert.php" method="post" style="margin-bottom:20px;" enctype="multipart/form-data" onsubmit="return validateForm()">
-        <h5 style="margin-left: 100px; margin-top:20px;">Donation Form</h5>
-        <div class="row gy-3">
-            <div class="col-md-12">
-                <input type="text" name="full_name" class="form-control" placeholder="Full Name *" required>
-            </div>
-            <div class="col-md-12" id="emailContainer">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email" oninput="toggleEmailCheckbox()">
-                <!-- <small id="emailNotice" class="error">If you don't provide an email, we won't be able to send you a receipt.</small> -->
-            </div>
-            <div class="col-md-12" id="checkboxContainer" style="color:red;">
-                <input type="checkbox" id="noEmail" name="noEmail" onclick="toggleEmailField()">  Please tick if you don't want receipt via email
-            </div>
-            <div class="col-md-12">
-                <input type="text" class="form-control vnumerror" maxlength="10" name="phone" placeholder="Phone *">
-            </div>
-            <div class="col-md-12">
-                <input type="text" class="form-control" name="address" placeholder="Address *">
-            </div>
-            <div class="col-md-12" id="screenshotContainer">
-                <label for="imageUpload">Upload Screenshot</label>
-                <input type="file" id="screenshotUpload" class="form-control" name="image" accept="image/png, image/jpeg, application/pdf" onchange="toggleReferenceId()">
-                <small id="Errormessage" class="error">File size must be less than 200KB.</small>
-            </div>
-            <div class="col-md-12 input-container" id="referenceIdContainer">
-            <label style="margin-left:190px;">OR</label>
-                <input type="text" class="form-control" id="referenceId" name="ReferenceId" maxlength="18" placeholder="Reference Id / Transaction Id" oninput="toggleScreenshotUpload()">
-            </div>
-            <div class="col-md-12">
-                <input type="text" class="form-control" name="pancard" id="pancard" maxlength="10" placeholder="PAN CARD" oninput="togglePanCardCheckbox()">
-            </div>
-            <div class="col-md-12 hidden" id="acknowledgeContainer">
-                <input type="checkbox" id="acknowledgePAN" name="acknowledgePAN"> 
-                <small id="pancardNotice" class="error">Please Tick if you don't want to avail tax benefit.</small>
-            </div>
-            <div class="col-md-12 text-center">
-                <input type="submit" name="submit" value="Submit" class="btn btn-primary" style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
-            </div>
-            <p style="text-align:left;">* Fields are mandatory</p>
-        </div>
-    </form>
+                        <form action="DonateInsert.php" method="post" style="margin-bottom:20px;"
+                            enctype="multipart/form-data" onsubmit="return validateForm()">
+                            <h5 style="margin-left: 100px; margin-top:20px;">Donation Form</h5>
+                            <div class="row gy-3">
+                                <div class="col-md-12">
+                                    <input type="text" name="full_name" class="form-control" placeholder="Full Name *"
+                                        required>
+                                </div>
+                                <div class="col-md-12" id="emailContainer">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                                        oninput="toggleEmailCheckbox()">
+                                    <!-- <small id="emailNotice" class="error">If you don't provide an email, we won't be able to send you a receipt.</small> -->
+                                </div>
+                                <div class="col-md-12" id="checkboxContainer" style="color:red;">
+                                    <input type="checkbox" id="noEmail" name="noEmail" onclick="toggleEmailField()">
+                                    Please tick if you don't want receipt via email
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control vnumerror" maxlength="10" name="phone"
+                                        placeholder="Phone *">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="address" placeholder="Address *">
+                                </div>
+                                <div class="col-md-12" id="screenshotContainer">
+                                    <label for="imageUpload">Upload Screenshot</label>
+                                    <input type="file" id="screenshotUpload" class="form-control" name="image"
+                                        accept="image/png, image/jpeg, application/pdf" onchange="toggleReferenceId()">
+                                    <small id="Errormessage" class="error">File size must be less than 200KB.</small>
+                                </div>
+                                <div class="col-md-12 input-container" id="referenceIdContainer">
+                                    <label style="margin-left:190px;">OR</label>
+                                    <input type="text" class="form-control" id="referenceId" name="ReferenceId"
+                                        maxlength="18" placeholder="Reference Id / Transaction Id"
+                                        oninput="toggleScreenshotUpload()">
+                                </div>
+                                <div class="col-md-12" id="pancardContainer">
+                                    <input class="form-control" name="pancard" id="pancard" maxlength="10"
+                                        placeholder="PAN CARD" oninput="togglePanCardCheckbox()">
+                                </div>
+                                <div class="col-md-12" id="acknowledgeContainer" style="color:red;">
+                                    <label for="acknowledgePAN">
+                                        <input type="checkbox" id="acknowledgePAN" name="acknowledgePAN"
+                                            onclick="togglePanCardField()">Please tick if you don't want to avail
+                                            tax benefit.
+                                        
+                                    </label>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <input type="submit" name="submit" value="Submit" class="btn btn-primary"
+                                        style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
+                                </div>
+                                <p style="text-align:left;">* Fields are mandatory</p>
+                            </div>
+                        </form>
 
                         <?php
     if (isset($_GET['status']) && isset($_GET['message'])) {
@@ -2098,77 +2131,103 @@
     }
     </script>
     <script>
-        function toggleEmailField() {
-            var noEmailCheckbox = document.getElementById('noEmail');
-            var emailContainer = document.getElementById('emailContainer');
+    function toggleEmailField() {
+        var noEmailCheckbox = document.getElementById('noEmail');
+        var emailContainer = document.getElementById('emailContainer');
 
-            if (noEmailCheckbox.checked) {
-                emailContainer.style.display = 'none';
-            } else {
-                emailContainer.style.display = 'block';
-            }
+        if (noEmailCheckbox.checked) {
+            emailContainer.style.display = 'none';
+        } else {
+            emailContainer.style.display = 'block';
         }
+    }
 
-        function toggleEmailCheckbox() {
-            var emailField = document.getElementById('email');
-            var checkboxContainer = document.getElementById('checkboxContainer');
+    function toggleEmailCheckbox() {
+        var emailField = document.getElementById('email');
+        var checkboxContainer = document.getElementById('checkboxContainer');
 
-            if (emailField.value) {
-                checkboxContainer.style.display = 'none';
-            } else {
-                checkboxContainer.style.display = 'block';
-            }
+        if (emailField.value) {
+            checkboxContainer.style.display = 'none';
+        } else {
+            checkboxContainer.style.display = 'block';
         }
+    }
 
-        function toggleScreenshotUpload() {
-            var referenceId = document.getElementById('referenceId');
-            var screenshotContainer = document.getElementById('screenshotContainer');
+    function toggleScreenshotUpload() {
+        var referenceId = document.getElementById('referenceId');
+        var screenshotContainer = document.getElementById('screenshotContainer');
 
-            if (referenceId.value) {
-                screenshotContainer.style.display = 'none';
-            } else {
-                screenshotContainer.style.display = 'block';
-            }
+        if (referenceId.value) {
+            screenshotContainer.style.display = 'none';
+        } else {
+            screenshotContainer.style.display = 'block';
         }
+    }
 
-        function toggleReferenceId() {
-            var referenceIdContainer = document.getElementById('referenceIdContainer');
-            var screenshotUpload = document.getElementById('screenshotUpload');
+    function toggleReferenceId() {
+        var referenceIdContainer = document.getElementById('referenceIdContainer');
+        var screenshotUpload = document.getElementById('screenshotUpload');
 
-            if (screenshotUpload.value) {
-                referenceIdContainer.style.display = 'none';
-            } else {
-                referenceIdContainer.style.display = 'block';
-            }
+        if (screenshotUpload.value) {
+            referenceIdContainer.style.display = 'none';
+        } else {
+            referenceIdContainer.style.display = 'block';
         }
+    }
     </script>
     <script>
+    // function togglePanCardCheckbox() {
+    //         var pancard = document.getElementById('pancard').value;
+    //         var acknowledgeContainer = document.getElementById('acknowledgeContainer');
+
+    //         if (pancard === "") {
+    //             acknowledgeContainer.classList.remove('hidden');
+    //         } else {
+    //             acknowledgeContainer.classList.add('hidden');
+    //         }
+    //     }
+
+    function validateForm() {
+        var pancard = document.getElementById('pancard').value;
+        var acknowledgePAN = document.getElementById('acknowledgePAN').checked;
+        var pancardNotice = document.getElementById('pancardNotice');
+
+        if (pancard === "" && !acknowledgePAN) {
+            pancardNotice.style.display = 'block';
+            document.getElementById('acknowledgeContainer').classList.remove('hidden');
+            return false; // Prevent form submission
+        } else {
+            pancardNotice.style.display = 'none';
+            return true; // Allow form submission
+        }
+    }
+
     function togglePanCardCheckbox() {
-            var pancard = document.getElementById('pancard').value;
-            var acknowledgeContainer = document.getElementById('acknowledgeContainer');
+        var pancardField = document.getElementById('pancard');
+        var acknowledgeContainer = document.getElementById('acknowledgeContainer');
 
-            if (pancard === "") {
-                acknowledgeContainer.classList.remove('hidden');
-            } else {
-                acknowledgeContainer.classList.add('hidden');
-            }
+        if (pancardField.value) {
+            acknowledgeContainer.style.display = 'none';
+        } else {
+            acknowledgeContainer.style.display = 'block';
         }
+    }
 
-        function validateForm() {
-            var pancard = document.getElementById('pancard').value;
-            var acknowledgePAN = document.getElementById('acknowledgePAN').checked;
-            var pancardNotice = document.getElementById('pancardNotice');
+    function togglePanCardField() {
+        var acknowledgePAN = document.getElementById('acknowledgePAN');
+        var pancardContainer = document.getElementById('pancardContainer');
 
-            if (pancard === "" && !acknowledgePAN) {
-                pancardNotice.style.display = 'block';
-                document.getElementById('acknowledgeContainer').classList.remove('hidden');
-                return false; // Prevent form submission
-            } else {
-                pancardNotice.style.display = 'none';
-                return true; // Allow form submission
-            }
+        if (acknowledgePAN.checked) {
+            pancardContainer.style.display = 'none';
+        } else {
+            pancardContainer.style.display = 'block';
         }
-        </script>
+    }
+
+    function disableSubmitButton() {
+        document.getElementById('submitBtn').disabled = true;
+    }
+    </script>
 </body>
 
 </html>
