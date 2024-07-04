@@ -34,9 +34,9 @@ if ($result->num_rows > 0) {
     // Loop through each active volunteer
     while ($row = $result->fetch_assoc()) {
         // Variables for dynamic content
-        $name = $row['full_name'];
+        $full_name = $row['full_name'];
         $education = $row['education_qualification'];
-        $bio = $row['describe_yourself'];
+        $describe_yourself = $row['describe_yourself'];  
         $address = $row['address'];
         $image = $row['image'];
 
