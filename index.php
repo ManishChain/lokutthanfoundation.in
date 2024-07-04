@@ -8,8 +8,8 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
     <?php
-  include"css_links.php";
-  ?>
+    include "css_links.php";
+    ?>
 
     <style>
     .custom-dropdown {
@@ -530,8 +530,8 @@
 
 <body class="index-page">
     <?php
-  include"header.php";
-  ?>
+    include "header.php";
+    ?>
 
 
     <main class="main">
@@ -864,26 +864,57 @@
                             <h5 style="margin-left: 100px; margin-top:20px;">Donation Form</h5>
                             <div class="row gy-3">
                                 <div class="col-md-12">
-                                    <input type="text" name="full_name" class="form-control" placeholder="Full Name *"
+                                   <input type="text" name="full_name" class="form-control" placeholder="Full Name *"
                                         required>
                                 </div>
-                                <div class="col-md-12" id="emailContainer">
+                              <!--  <div class="col-md-12" id="emailContainer">
+    <input type="email" class="form-control" name="email" id="email" placeholder="Email" oninput="toggleEmailCheckbox()" required>
+</div>
+<div class="col-md-12" id="checkboxContainer" style="color:red;">
+    <input type="checkbox" id="noEmail" name="noEmail" onclick="toggleEmailField()">
+    <label for="noEmail">Please tick if you don't want receipt via email</label>
+</div>--><!--
+<div class="col-md-12" id="emailContainer">
+    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+</div>
+<div class="col-md-12" id="checkboxContainer" style="color:red;">
+    <input type="checkbox" id="noEmail" name="noEmail" onclick="toggleEmailField()">
+    <label for="noEmail">Please tick if you don't want receipt via email</label>
+</div>-->
+<div class="col-md-12" id="emailContainer">
+    <input type="email" class="form-control" name="email" id="emailInput" placeholder="Email" required>
+</div>
+<div class="col-md-12" id="checkboxContainer" style="color:red;">
+    <input type="checkbox" id="disableEmailCheckbox" name="disableEmailCheckbox" onclick="toggleEmailField()">
+    <label for="disableEmailCheckbox">Please tick if you don't want receipt via email</label>
+</div>
+                        <!--    <div class="col-md-12" id="emailContainer">
                                     <input type="email" class="form-control" name="email" id="email" placeholder="Email"
                                         oninput="toggleEmailCheckbox()">
-                                    <!-- <small id="emailNotice" class="error">If you don't provide an email, we won't be able to send you a receipt.</small> -->
                                 </div>
                                 <div class="col-md-12" id="checkboxContainer" style="color:red;">
                                     <input type="checkbox" id="noEmail" name="noEmail" onclick="toggleEmailField()">
                                     Please tick if you don't want receipt via email
-                                </div>
+                                </div>-->
+                              <!--  <div class="col-md-12" id="emailContainer">
+    <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+        oninput="toggleEmailCheckbox()">
+</div>
+<div class="col-md-12" id="checkboxContainer" style="color:red;">
+    <label for="noEmail">
+        <input type="checkbox" id="noEmail" name="noEmail" onclick="toggleEmailField()">
+        Please tick if you don't want receipt via email
+    </label>
+</div>-->
+    
                                 <div class="col-md-12">
                                     <input type="text" class="form-control vnumerror" maxlength="10" name="phone"
-                                        placeholder="Phone *">
+                                        placeholder="Phone *" required>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="address" placeholder="Address *">
+                                    <input type="text" class="form-control" name="address" placeholder="Address *" required>
                                 </div>
-                                <div class="col-md-12" id="screenshotContainer">
+                             <!--   <div class="col-md-12" id="screenshotContainer">
                                     <label for="imageUpload">Upload Screenshot</label>
                                     <input type="file" id="screenshotUpload" class="form-control" name="image"
                                         accept="image/png, image/jpeg, application/pdf" onchange="toggleReferenceId()">
@@ -894,19 +925,45 @@
                                     <input type="text" class="form-control" id="referenceId" name="ReferenceId"
                                         maxlength="18" placeholder="Reference Id / Transaction Id"
                                         oninput="toggleScreenshotUpload()">
-                                </div>
-                                <div class="col-md-12" id="pancardContainer">
+                                </div>-->
+                                <div class="col-md-12" id="screenshotContainer">
+    <label for="screenshotUpload">Upload Screenshot</label>
+    <input type="file" id="screenshotUpload" class="form-control" name="image" accept="image/png, image/jpeg, application/pdf" onchange="toggleReferenceId()">
+    <small id="Errormessage" class="error">File size must be less than 200KB.</small>
+</div>
+<div class="col-md-12 input-container" id="referenceIdContainer">
+    <label style="margin-left:190px;">OR</label>
+    <input type="text" class="form-control" id="referenceId" name="ReferenceId" maxlength="18" placeholder="Reference Id / Transaction Id" oninput="toggleScreenshotUpload()">
+</div>
+                              <!--  <div class="col-md-12" id="pancardContainer">
                                     <input class="form-control" name="pancard" id="pancard" maxlength="10"
                                         placeholder="PAN CARD" oninput="togglePanCardCheckbox()">
                                 </div>
-                                <div class="col-md-12" id="acknowledgeContainer" style="color:red;">
+                                <div class="col-md-12" style="color:red;">
                                     <label for="acknowledgePAN">
-                                        <input type="checkbox" id="acknowledgePAN" name="acknowledgePAN"
+                                        <input type="checkbox"  name="acknowledgePAN"
                                             onclick="togglePanCardField()">Please tick if you don't want to avail
                                             tax benefit.
                                         
                                     </label>
-                                </div>
+                                </div>-->
+                               <!-- <div class="col-md-12" id="pancardContainer">
+    <input class="form-control" name="pancard" id="pancard" maxlength="10"
+        placeholder="PAN CARD" oninput="togglePanCardCheckbox()">
+</div>
+<div class="col-md-12" style="color:red;">
+    <label for="acknowledgePAN">
+        <input type="checkbox" name="acknowledgePAN" onclick="togglePanCardField()">
+        Please tick if you don't want to avail tax benefit.
+    </label>
+</div>-->
+<div class="col-md-12">
+    <input type="text" class="form-control" name="pancard" id="pancard" placeholder="PAN Card">
+</div>
+<div class="col-md-12">
+    <input type="checkbox" name="acknowledgePAN" onclick="togglePanCardField()">
+    <label for="acknowledgePAN">I acknowledge that I don't have a PAN Card</label>
+</div>
                                 <div class="col-md-12 text-center">
                                     <input type="submit" name="submit" value="Submit" class="btn btn-primary"
                                         style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
@@ -916,12 +973,12 @@
                         </form>
 
                         <?php
-    if (isset($_GET['status']) && isset($_GET['message'])) {
-        $status = $_GET['status'];
-        $message = $_GET['message'];
-        echo "<script>alert('$message');</script>";
-    }
-    ?>
+                        if (isset($_GET['status']) && isset($_GET['message'])) {
+                            $status = $_GET['status'];
+                            $message = $_GET['message'];
+                            echo "<script>alert('$message');</script>";
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
@@ -1900,8 +1957,8 @@
     </main>
 
     <?php
-  include"footer.php";
-  ?>
+    include "footer.php";
+    ?>
     <!--
 <script>
     var modal = document.getElementById("myModal");
@@ -2228,6 +2285,104 @@
         document.getElementById('submitBtn').disabled = true;
     }
     </script>
+
+
+   // <script>
+ //   function togglePanCardField() {
+ //       var panCardInput = document.getElementById('pancard');
+ //       var checkbox = document.getElementsByName('acknowledgePAN')[0];
+
+      //  panCardInput.disabled = checkbox.checked;
+   //     if (checkbox.checked) {
+            // Clear the PAN Card input when disabled (optional)
+ //           panCardInput.value = '';
+//        }
+//    }
+
+ //   function togglePanCardCheckbox() {
+ //       var panCardInput = document.getElementById('pancard');
+//        var checkbox = document.getElementsByName('acknowledgePAN')[0];
+
+        // Disable checkbox if PAN Card input has any value
+  //      checkbox.disabled = panCardInput.value.trim() !== '';
+ //   }
+//</script>
+<script>
+    function toggleEmailField() {
+        var emailInput = document.getElementById('emailInput');
+        var disableEmailCheckbox = document.getElementById('disableEmailCheckbox');
+
+        emailInput.disabled = disableEmailCheckbox.checked;
+        if (disableEmailCheckbox.checked) {
+            // Clear the email input when disabled (optional)
+            emailInput.value = '';
+        }
+    }
+
+    function togglePanCardField() {
+        var panCardInput = document.getElementById('pancard');
+        var checkbox = document.getElementsByName('acknowledgePAN')[0];
+
+        panCardInput.disabled = checkbox.checked;
+        if (checkbox.checked) {
+            // Clear the PAN Card input when disabled (optional)
+            panCardInput.value = '';
+        }
+    }
+
+    function togglePanCardCheckbox() {
+        var panCardInput = document.getElementById('pancard');
+        var checkbox = document.getElementsByName('acknowledgePAN')[0];
+
+        // Disable checkbox if PAN Card input has any value
+        checkbox.disabled = panCardInput.value.trim() !== '';
+    }
+
+    // Run togglePanCardCheckbox on page load to initialize checkbox state
+    document.addEventListener("DOMContentLoaded", function() {
+        togglePanCardCheckbox();
+    });
+
+    // Optional: ensure togglePanCardCheckbox runs when the PAN Card input changes
+    document.getElementById('pancard').addEventListener('input', togglePanCardCheckbox);
+</script>
+<script>
+    function toggleReferenceId() {
+        var screenshotUpload = document.getElementById('screenshotUpload');
+        var referenceId = document.getElementById('referenceId');
+
+        // Disable referenceId if screenshot is uploaded
+        if (screenshotUpload.files.length > 0) {
+            referenceId.disabled = true;
+            referenceId.value = ''; // Clear the reference ID input value if needed
+        } else {
+            referenceId.disabled = false;
+        }
+    }
+
+    function toggleScreenshotUpload() {
+        var referenceId = document.getElementById('referenceId');
+        var screenshotUpload = document.getElementById('screenshotUpload');
+
+        // Disable screenshotUpload if referenceId has any value
+        screenshotUpload.disabled = referenceId.value.trim() !== '';
+        if (screenshotUpload.disabled) {
+            // Clear the file input if needed
+            screenshotUpload.value = '';
+        } else {
+            screenshotUpload.disabled = false;
+        }
+    }
+
+    // Run toggleReferenceId and toggleScreenshotUpload on page load to initialize states
+    document.addEventListener("DOMContentLoaded", function() {
+        toggleReferenceId();
+        toggleScreenshotUpload();
+    });
+</script>
+
+
+
 </body>
 
 </html>
