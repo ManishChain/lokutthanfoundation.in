@@ -10,7 +10,7 @@ $full_name = $email = $phone = $age = $describe_yourself = $gender = $education_
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // File upload handling
     if (isset($_FILES['image']) && $_FILES['image']['error'] == 0) {
-        $target_dir = 'uploads/';
+        $target_dir = 'assets/image/';
         $target_file = $target_dir . basename($_FILES['image']['name']);
         
         if (!is_dir($target_dir)) {
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = isset($_POST['email']) ? filter_var($_POST['email'], FILTER_SANITIZE_EMAIL) : '';
     $phone = isset($_POST['phone']) ? htmlspecialchars($_POST['phone']) : '';
     $age = isset($_POST['age']) ? htmlspecialchars($_POST['age']) : '';
-    $describe_yourself = isset($_POST['describe_yourself']) ? htmlspecialchars($_POST['describe_yourself']) : ''; 
+    $describe_yourself = isset($_POST['describe_yourself']) ? htmlspecialchars($_POST['describe_yourself']) : '';
     $gender = isset($_POST['gender']) ? htmlspecialchars($_POST['gender']) : '';
     $education_qualification = isset($_POST['education_qualification']) ? htmlspecialchars($_POST['education_qualification']) : '';
     $address = isset($_POST['address']) ? htmlspecialchars($_POST['address']) : '';
@@ -66,19 +66,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             Email: $email\n
             Phone: $phone\n
             Age: $age\n
-            Describe yourself: $describe_yourself\n 
+            Describe yourself: $describe_yourself\n
             Gender: $gender\n
             Education qualification: $education_qualification\n
             Image: $image\n
             Address: $address\n
             Message: $message\n
         ";
-
-
         $recipient = "priyanshi@manacleindia.com"; // Replace with the recipient's email address
         $sender_email = "priyanshi@manacleindia.com"; // Replace with the sender's email address
 
-        if (sendEmail($recipient, 'manacle', $subject, $body, $sender_email, $image)) {
+        if (sendEmail($recipient, 'manacle', $subject, $body, $image)) {
             echo "New record created successfully and email sent successfully";
         } else {
             echo "New record created successfully but failed to send email";
