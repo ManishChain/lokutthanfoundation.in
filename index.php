@@ -787,7 +787,7 @@
                                         style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
 
                                     <!-- <input type="submit" value="Submit" name="submit">-->
-                                    <p style="text-align:left;">* Fields are mandatory</p>
+                                    <p style="text-align:left;"><em>* Fields are mandatory</em></p>
                                 </div>
                             </div>
                         </form>
@@ -996,7 +996,7 @@
                                         <input type="reset" name="reset" value="reset"
                                         style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
                                 </div>
-                                <p style="text-align:left;">* Fields are mandatory</p>
+                                <p style="text-align:left;"><em>* Fields are mandatory</em></p>
                             </div>
                         </form>
 
