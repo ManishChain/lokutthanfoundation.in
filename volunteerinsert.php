@@ -58,31 +58,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Execute SQL statement and handle success/failure
     if ($stmt->execute()) {
-        // Send email with form data
-        $subject = "New Volunteer Application";
-        $body = "
-            New Volunteer Application\n
-            Full name: $full_name\n
-            Email: $email\n
-            Phone: $phone\n
-            Age: $age\n
-            Describe yourself: $describe_yourself\n
-            Gender: $gender\n
-            Education qualification: $education_qualification\n
-            Image: $image\n
-            Address: $address\n
-            Message: $message\n
-        ";
-        $recipient = "priyanshi@manacleindia.com"; // Replace with the recipient's email address
-        $sender_email = "priyanshi@manacleindia.com"; // Replace with the sender's email address
-
-        if (sendEmail($recipient, 'manacle', $subject, $body, $image)) {
-            echo "New record created successfully and email sent successfully";
-        } else {
-            echo "New record created successfully but failed to send email";
-        }
+        
     } else {
         echo "Error: " . $stmt->error;
+        exit();
+    }
+
+    // Send email with form data
+    $subject = "New Volunteer Application";
+    $body = "
+        New Volunteer Application\n
+        Full name: $full_name\n
+        Email: $email\n
+        Phone: $phone\n
+        Age: $age\n
+        Describe yourself: $describe_yourself\n
+        Gender: $gender\n
+        Education qualification: $education_qualification\n
+        Image: $image\n
+        Address: $address\n
+        Message: $message\n
+    ";
+    $recipient = "priyanshi@manacleindia.com"; // Replace with the recipient's email address
+    $sender_email = "priyanshi@manacleindia.com"; // Replace with the sender's email address
+
+    if (sendEmail($recipient, 'manacle', $subject, $body, $image)) {
+        echo "New record q1222  ff created successfully and email sent successfully";
+    } else {
+        echo "New record created successfully but failed to send email";
     }
 
     // Close statement

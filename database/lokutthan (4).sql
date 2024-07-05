@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 04, 2024 at 09:11 AM
+-- Generation Time: Jul 05, 2024 at 06:55 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -84,15 +84,12 @@ CREATE TABLE `register` (
 CREATE TABLE `volunteer` (
   `id` int(11) NOT NULL,
   `full_name` varchar(255) NOT NULL,
-  `last_name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `phone` varchar(20) NOT NULL,
   `age` int(11) NOT NULL,
-  `bio` text NOT NULL,
   `gender` varchar(10) NOT NULL,
   `education_qualification` varchar(255) NOT NULL,
   `address` text NOT NULL,
-  `city` varchar(255) NOT NULL,
   `message` text NOT NULL,
   `describe_yourself` varchar(250) NOT NULL,
   `image` longblob NOT NULL,

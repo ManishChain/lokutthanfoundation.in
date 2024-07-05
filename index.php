@@ -2382,7 +2382,12 @@
 </script>
 
 
-
+<script>
+        function showSuccessAlert() {
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
 </body>
 
 </html>

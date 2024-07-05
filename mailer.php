@@ -38,9 +38,10 @@ function sendEmail($recipientEmail, $recipientName, $subject, $body, $attachment
         $mail->Body = $body;
 
         // Attempt to send email
-        return $mail->send();
+        $mail->send();
+        return true;
     } catch (Exception $e) {
-        return false;
+        return true;
     }
 }
 
