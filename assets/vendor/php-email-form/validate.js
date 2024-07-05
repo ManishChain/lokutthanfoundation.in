@@ -74,7 +74,7 @@
     .catch((error) => {
       //displayError(thisForm, error);
      // alert("Submitted");
-      location.reload();
+    //  location.reload();
     });
   }
 

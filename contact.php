@@ -18,7 +18,7 @@
   ?>
     <main class="main">
         <!-- Page Title -->
-        <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
+        <div class="page-title" data-aos="fade" style="background-image: url(assets/img/contact-us.png);">
             <div class="container position-relative">
                 <h1>Contact</h1>
                 <nav class="breadcrumbs">
@@ -113,7 +113,7 @@
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div><!-- End Google Maps -->
                     <div class="col-lg-6">
-                    <form action="contactinsert.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
+                    <form action="contactinsert.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400"  id="volunteerForm">
     <div class="row gy-4">
         <div class="col-md-6">
             <input type="text" name="name" class="form-control" placeholder="Your Name" required>
@@ -150,6 +150,7 @@
     <?php
   include"footer.php";
   ?>
+
 </body>
 
 </html>

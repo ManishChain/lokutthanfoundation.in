@@ -525,6 +525,10 @@
         #pancardNotice {
             margin: 0;
         }
+        .error {
+            color: gray;
+            display: none;
+        }
     </style>
 </head>
 
@@ -716,7 +720,7 @@
 
                     <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
 
-                        <form action="volunteerinsert.php" method="post" class="php-email-form">
+                        <form action="volunteerinsert.php" method="post" class="php-email-form" id="volunteerForm">
                             <h3>Volunteer Application Form</h3>
                             <div class="row gy-3">
                                 <div class="col-md-12" style="border-radius: 5px;">
@@ -779,8 +783,8 @@
                                     <!-- <input type="submit" name="submit" value="Submit">-->
                                     <input type="submit" name="submit" value="Submit"
                                         style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
-                                        <input type="reset" name="reset" value="Reset" class="btn btn-primary"   
-                                    style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;"> 
+                                        <input type="reset" name="reset" value="reset"
+                                        style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
 
                                     <!-- <input type="submit" value="Submit" name="submit">-->
                                     <p style="text-align:left;">* Fields are mandatory</p>
@@ -861,7 +865,7 @@
                     <!-- Third Section -->
                     <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="300"
                         style="background: color-mix(in srgb, var(--default-color), transparent 97%); height: 50%;">
-                        <form action="DonateInsert.php" method="post" style="margin-bottom:20px;"
+                        <form action="DonateInsert.php" method="post" style="margin-bottom:20px;" id="myForm" 
                             enctype="multipart/form-data" onsubmit="return validateForm()">
                             <h5 style="margin-left: 100px; margin-top:20px;">Donation Form</h5>
                             <div class="row gy-3">
@@ -886,9 +890,9 @@
 <div class="col-md-12" id="emailContainer">
     <input type="email" class="form-control" name="email" id="emailInput" placeholder="Email" required>
 </div>
-<div class="col-md-12" id="checkboxContainer" style="color: gray;">
+<div class="col-md-12" id="checkboxContainer" style="color:gray;">
     <input type="checkbox" id="disableEmailCheckbox" name="disableEmailCheckbox" onclick="toggleEmailField()">
-    <label for="disableEmailCheckbox"><em>Please tick if you don't want receipt via email</em></label>
+    <label for="disableEmailCheckbox">Please tick if you don't want receipt via email</label>
 </div>
                         <!--    <div class="col-md-12" id="emailContainer">
                                     <input type="email" class="form-control" name="email" id="email" placeholder="Email"
@@ -928,15 +932,35 @@
                                         maxlength="18" placeholder="Reference Id / Transaction Id"
                                         oninput="toggleScreenshotUpload()">
                                 </div>-->
-                                <div class="col-md-12" id="screenshotContainer">
+                            <!--k    <div class="col-md-12" id="screenshotContainer">
     <label for="screenshotUpload">Upload Screenshot</label>
-    <input type="file" id="screenshotUpload" class="form-control" name="image" accept="image/png, image/jpeg, application/pdf" onchange="toggleReferenceId()">
+    <input type="file" id="screenshotUpload" class="form-control" name="image" accept="image/png, image/jpeg, application/pdf" onchange="toggleReferenceId()" required>
     <small id="Errormessage" class="error">File size must be less than 200KB.</small>
 </div>
 <div class="col-md-12 input-container" id="referenceIdContainer">
     <label style="margin-left:190px;">OR</label>
-    <input type="text" class="form-control" id="referenceId" name="ReferenceId" maxlength="18" placeholder="Reference Id / Transaction Id" oninput="toggleScreenshotUpload()">
-</div>
+    <input type="text" class="form-control" id="referenceId" name="ReferenceId" maxlength="18" placeholder="Reference Id / Transaction Id" oninput="toggleScreenshotUpload()" required>
+</div>-->
+<!--now
+<div class="col-md-12" id="screenshotContainer">
+        <label for="screenshotUpload">Upload Screenshot</label>
+        <input type="file" id="screenshotUpload" class="form-control" name="image" accept="image/png, image/jpeg, application/pdf" onchange="toggleReferenceId()">
+        <small id="fileError" class="error">File size must be less than 200KB.</small>
+    </div>
+    <div class="col-md-12 input-container" id="referenceIdContainer">
+        <label style="margin-left:190px;">OR</label>
+        <input type="text" class="form-control" id="referenceId" name="ReferenceId" maxlength="18" placeholder="Reference Id / Transaction Id" oninput="toggleScreenshotUpload()">
+    </div>now end-->
+    <div class="col-md-12" id="screenshotContainer">
+        <label for="screenshotUpload">Upload Screenshot</label>
+        <input type="file" id="screenshotUpload" class="form-control" name="image" accept="image/png, image/jpeg, application/pdf" onchange="toggleReferenceId()">
+        <small id="fileError" class="error">File size must be less than 200KB.</small>
+    </div>
+    <div class="col-md-12 input-container" id="referenceIdContainer">
+        <label style="margin-left:190px;">OR</label>
+        <input type="text" class="form-control" id="referenceId" name="ReferenceId" maxlength="18" placeholder="Reference Id / Transaction Id" oninput="toggleScreenshotUpload()">
+        <small id="refIdError" class="error">Please provide a screenshot or a reference ID.</small>
+    </div>
                               <!--  <div class="col-md-12" id="pancardContainer">
                                     <input class="form-control" name="pancard" id="pancard" maxlength="10"
                                         placeholder="PAN CARD" oninput="togglePanCardCheckbox()">
@@ -964,15 +988,14 @@
 </div>
 <div class="col-md-12">
     <input type="checkbox" name="acknowledgePAN" onclick="togglePanCardField()">
-    <label for="acknowledgePAN"><em>Please tick if you don't want to avail tax benefit.</em></label>
+    <label for="acknowledgePAN"> Please tick if you don't want to avail tax benefit.</label>
 </div>
                                 <div class="col-md-12 text-center">
                                     <input type="submit" name="submit" value="Submit" class="btn btn-primary"
                                         style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
-                                    <input type="reset" name="reset" value="Reset" class="btn btn-primary"   
-                                    style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;"> 
+                                        <input type="reset" name="reset" value="reset"
+                                        style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
                                 </div>
-                               
                                 <p style="text-align:left;">* Fields are mandatory</p>
                             </div>
                         </form>
@@ -2290,6 +2313,8 @@
         document.getElementById('submitBtn').disabled = true;
     }
     </script>
+    ///automatically reload//
+  
 
 
    // <script>
@@ -2385,6 +2410,60 @@
         toggleScreenshotUpload();
     });
 </script>
+//kkk//    
+<script>
+function toggleReferenceId() {
+    var fileInput = document.getElementById('screenshotUpload');
+    var referenceIdInput = document.getElementById('referenceId');
+    if (fileInput.files.length > 0) {
+        referenceIdInput.disabled = true;
+    } else {
+        referenceIdInput.disabled = false;
+    }
+}
+
+function toggleScreenshotUpload() {
+    var fileInput = document.getElementById('screenshotUpload');
+    var referenceIdInput = document.getElementById('referenceId');
+    if (referenceIdInput.value.trim() !== "") {
+        fileInput.disabled = true;
+    } else {
+        fileInput.disabled = false;
+    }
+}
+
+function validateForm() {
+    var fileInput = document.getElementById('screenshotUpload');
+    var referenceIdInput = document.getElementById('referenceId');
+    var fileError = document.getElementById('fileError');
+    var refIdError = document.getElementById('refIdError');
+
+    var isValid = true;
+
+    // Check if file size exceeds 200KB
+    if (fileInput.files.length > 0) {
+        var file = fileInput.files[0];
+        if (file.size > 200 * 1024) {
+            fileError.style.display = 'block';
+            isValid = false;
+        } else {
+            fileError.style.display = 'none';
+        }
+    }
+
+    // Ensure either file input or reference ID is filled
+    if (fileInput.files.length === 0 && referenceIdInput.value.trim() === "") {
+        refIdError.style.display = 'block';
+        isValid = false;
+    } else {
+        refIdError.style.display = 'none';
+    }
+
+    return isValid;
+}
+</script>     
+///kkk///
+
 
 
 <script>
@@ -2393,6 +2472,7 @@
             return true;
         }
     </script>
+
 </body>
 
 </html>
