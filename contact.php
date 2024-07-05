@@ -131,7 +131,13 @@
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your message has been sent. Thank you!</div>
-            <button type="submit">Send Message</button>
+          <button type="submit">Send Message</button>
+          <button type="reset"  style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">Reset</button>
+
+                                 <!--   <input type="submit" name="submit" value="Submit"
+                                        style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
+                                        <input type="reset" name="reset" value="Reset" class="btn btn-primary"   
+                                    style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;"> -->
         </div>
     </div>
 </form>

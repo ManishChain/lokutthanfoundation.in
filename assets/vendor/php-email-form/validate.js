@@ -73,7 +73,7 @@
     })
     .catch((error) => {
       //displayError(thisForm, error);
-      alert("Submitted");
+     // alert("Submitted");
       location.reload();
     });
   }

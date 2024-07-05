@@ -779,6 +779,8 @@
                                     <!-- <input type="submit" name="submit" value="Submit">-->
                                     <input type="submit" name="submit" value="Submit"
                                         style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
+                                        <input type="reset" name="reset" value="Reset" class="btn btn-primary"   
+                                    style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;"> 
 
                                     <!-- <input type="submit" value="Submit" name="submit">-->
                                     <p style="text-align:left;">* Fields are mandatory</p>
@@ -886,7 +888,7 @@
 </div>
 <div class="col-md-12" id="checkboxContainer" style="color: gray;">
     <input type="checkbox" id="disableEmailCheckbox" name="disableEmailCheckbox" onclick="toggleEmailField()">
-    <label for="disableEmailCheckbox">Please tick if you don't want receipt via email</label>
+    <label for="disableEmailCheckbox"><em>Please tick if you don't want receipt via email</em></label>
 </div>
                         <!--    <div class="col-md-12" id="emailContainer">
                                     <input type="email" class="form-control" name="email" id="email" placeholder="Email"
@@ -962,12 +964,15 @@
 </div>
 <div class="col-md-12">
     <input type="checkbox" name="acknowledgePAN" onclick="togglePanCardField()">
-    <label for="acknowledgePAN">Please tick if you don't want to avail tax benefit.</label>
+    <label for="acknowledgePAN"><em>Please tick if you don't want to avail tax benefit.</em></label>
 </div>
                                 <div class="col-md-12 text-center">
                                     <input type="submit" name="submit" value="Submit" class="btn btn-primary"
                                         style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;">
+                                    <input type="reset" name="reset" value="Reset" class="btn btn-primary"   
+                                    style="background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;"> 
                                 </div>
+                               
                                 <p style="text-align:left;">* Fields are mandatory</p>
                             </div>
                         </form>
