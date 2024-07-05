@@ -1,7 +1,6 @@
 <?php
 require 'config.php'; // Include your configuration file
 require 'mailer.php'; // Include your mailer script
-// Include the configuration file
 
 // Create connection
 $conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
@@ -26,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['volunteer_id'])) {
 }
 
 // SQL query to fetch all active records (where status = 1) from the volunteer table
-$sql = "SELECT full_name, education_qualification, describe_yourself, address, image FROM volunteer WHERE status = 1 ORDER BY id DESC";
+$sql = "SELECT full_name, education_qualification, address, image FROM volunteer WHERE status = 1 ORDER BY id DESC";
 $result = $conn->query($sql);
 
 // Check if the query returned any result
@@ -36,7 +35,6 @@ if ($result->num_rows > 0) {
         // Variables for dynamic content
         $full_name = $row['full_name'];
         $education = $row['education_qualification'];
-        $describe_yourself = $row['describe_yourself'];  
         $address = $row['address'];
         $image = $row['image'];
 
@@ -44,7 +42,7 @@ if ($result->num_rows > 0) {
         ?>
         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
-                <img src="assets/img/images2.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="<?php echo htmlspecialchars($image); ?>" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
                 <div class="social">
                     <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-facebook"></i></a>
@@ -54,9 +52,8 @@ if ($result->num_rows > 0) {
             </div>
             <div class="member-info text-center">
                 <h4><?php echo htmlspecialchars($full_name); ?></h4>
-                <p><?php echo htmlspecialchars($address); ?>, <?php echo htmlspecialchars($image); ?></p>
+                <p><?php echo htmlspecialchars($address); ?></p>
                 <span><?php echo htmlspecialchars($education); ?></span>
-                <p><?php echo htmlspecialchars(strtoupper($describe_yourself)); ?></p>
             </div>
         </div>
         <?php
