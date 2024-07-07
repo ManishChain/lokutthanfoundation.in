@@ -551,7 +551,7 @@
                             <img src="assets/img/lok-utthan-logo.png" alt="White Logo">
                             <h4>"लोक उत्थान पहल" में आपका स्वागत है </h4>
                             <p style="text-align: justify;">Also known as LUP is a registered Non-Governmental
-                                Organization, which started in the year 2014.
+                                Organization, which started in the year 2023.
                                 LUP is a selffunded NGO and work towards the welfare of women and children and the ones
                                 who are differently abled.
                                 At LUP, we believe in creating a world where everyone has the opportunity to thrive. Our
