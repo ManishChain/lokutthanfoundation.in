@@ -5,10 +5,11 @@
 
 
 // Uncomment below on LOCAL WEBSITE Database credentials
+
 // if (!defined('DB_SERVER')) define('DB_SERVER', 'localhost');
 // if (!defined('DB_USERNAME')) define('DB_USERNAME', 'root');
- //if (!defined('DB_PASSWORD')) define('DB_PASSWORD', '');
- //if (!defined('DB_NAME')) define('DB_NAME', 'lokutthan');
+//  if (!defined('DB_PASSWORD')) define('DB_PASSWORD', '');
+//  if (!defined('DB_NAME')) define('DB_NAME', 'lokutthan');
 
 // Uncomment below on LIVE WEBSITE Database credentials
 
