@@ -20,7 +20,7 @@ include "css_links.php";
         </div><!-- End Page Title -->
         
         <div class="container section-title" data-aos="fade-up">
-            <h2> Events</h2>
+            <h2>Events</h2>
         </div>
 
         <div class="container">
