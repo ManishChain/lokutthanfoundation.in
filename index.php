@@ -553,7 +553,7 @@
                             <img src="assets/img/lok-utthan-logo.png" alt="White Logo">
                             <h4>"लोक उत्थान पहल" में आपका स्वागत है </h4>
                             <p style="text-align: justify;">Also known as LUP is a registered Non-Governmental
-                                Organization, which started in the year 2014 to 2024.
+                                Organization, which started in the year 2023.
                                 LUP is a selffunded NGO and work towards the welfare of women and children and the ones
                                 who are differently abled.
                                 At LUP, we believe in creating a world where everyone has the opportunity to thrive. Our
@@ -1330,6 +1330,64 @@
             <li data-filter=".filter-repairs">Repairs</li>
             <li data-filter=".filter-design">Design</li> -->
                     </ul><!-- End Portfolio Filters -->
+                    <!--YUVA Event--->
+                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/WhatsApp Image 2024-07-08 at 2.02.46 AM (1).jpeg" class="img-fluid" alt="">
+                                <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
+
+                                <div class="portfolio-info">
+                                    <h4>Youth United For Vision & Action Event</h4>
+                                    <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                                    <a href="assets/img/WhatsApp Image 2024-07-08 at 2.02.46 AM (1).jpeg" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="project-details.html" title="More Details" class="details-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                         <!--YUVA Event1--->
+                         <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+    <div class="portfolio-content h-100">
+        <img src="assets/img/WhatsApp Image 2024-07-08 at 2.03.22 AM.jpeg" class="img-fluid" alt=""   style="width: 500px; height: 262px;">
+        <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
+
+        <div class="portfolio-info">
+            <h4>Youth United For Vision & Action Event</h4>
+            <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+            <a href="assets/img/WhatsApp Image 2024-07-08 at 2.03.22 AM.jpeg" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+            <a href="project-details.html" title="More Details" class="details-link"></a>
+        </div>
+    </div>
+</div>
+
+                 <!--end--->
+                                          <!--YUVA Event2--->
+                                          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+    <div class="portfolio-content h-100">
+        <img src="assets/img/WhatsApp Image 2024-07-08 at 2.03.23 AM.jpeg" class="img-fluid" alt="">
+        <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
+
+        <div class="portfolio-info">
+            <h4>Youth United For Vision & Action Event</h4>
+            <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+            <a href="assets/img/WhatsApp Image 2024-07-08 at 2.03.23 AM.jpeg" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+            <a href="project-details.html" title="More Details" class="details-link"></a>
+        </div>
+    </div>
+</div>
+                                          
+                                          <!--end--->
+
+
+                    
 
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -1368,7 +1426,7 @@
                                 <img src="assets/img/yd2.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
                                     <h4>Yoga Day</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                  <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
                                     <a href="assets/img/yoga2.jpeg" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
                                     <a href="project-details.html" title="More Details" class="details-link"></a>
@@ -2199,7 +2257,7 @@
     //         } else {
     //             acknowledgeContainer.classList.add('hidden');
     //         }
-    //     }
+       // }
 
     function validateForm() {
         var pancard = document.getElementById('pancard').value;
@@ -2212,7 +2270,7 @@
             return false; // Prevent form submission
         } else {
             pancardNotice.style.display = 'none';
-            return true; // Allow form submission
+            return true; // Allow form submission//
         }
     }
 
@@ -2242,9 +2300,13 @@
         document.getElementById('submitBtn').disabled = true;
     }
     </script>
-    ///automatically reload//
+  
 
 
+   <script>
+ //   function togglePanCardField() {
+ //       var panCardInput = document.getElementById('pancard');
+ //       var checkbox = document.getElementsByName('acknowledgePAN')[0];
 
     // <script>
     //   function togglePanCardField() {
@@ -2339,17 +2401,16 @@
         toggleReferenceId();
         toggleScreenshotUpload();
     });
-    </script>
-    //kkk//
-    <script>
-    function toggleReferenceId() {
-        var fileInput = document.getElementById('screenshotUpload');
-        var referenceIdInput = document.getElementById('referenceId');
-        if (fileInput.files.length > 0) {
-            referenceIdInput.disabled = true;
-        } else {
-            referenceIdInput.disabled = false;
-        }
+</script>
+   
+<script>
+function toggleReferenceId() {
+    var fileInput = document.getElementById('screenshotUpload');
+    var referenceIdInput = document.getElementById('referenceId');
+    if (fileInput.files.length > 0) {
+        referenceIdInput.disabled = true;
+    } else {
+        referenceIdInput.disabled = false;
     }
 
     function toggleScreenshotUpload() {
@@ -2394,13 +2455,26 @@
     </script>
     ///kkk///
 
-
-
-    <script>
-    function showSuccessAlert() {
-        alert("Form submitted successfully!");
-        return true;
+    // Ensure either file input or reference ID is filled//
+    if (fileInput.files.length === 0 && referenceIdInput.value.trim() === "") {
+        refIdError.style.display = 'block';
+        isValid = false;
+    } else {
+        refIdError.style.display = 'none';
     }
+
+    return isValid;
+}
+</script>     
+
+
+
+
+<script>
+        function showSuccessAlert() {
+            alert("Form submitted successfully!");
+            return true;
+        }
     </script>
 
 </body>
