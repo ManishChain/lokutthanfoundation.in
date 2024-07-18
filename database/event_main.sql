@@ -31,14 +31,14 @@ CREATE TABLE `event_main` (
   `id` int(11) NOT NULL,
   `name` varchar(220) NOT NULL,
   `title` varchar(220) NOT NULL,
-  `description` text NOT NULL,
+  `description` varchar(220) NOT NULL,
   `created_at` datetime NOT NULL,
   `created_by` int(11) NOT NULL,
   `updated_at` datetime NOT NULL,
   `updated_by` int(11) NOT NULL,
   `status` int(11) NOT NULL DEFAULT 1 COMMENT '1:active||2:de-active||9:deleted',
   `seq` int(11) NOT NULL,
-  `base_path` text NOT NULL DEFAULT 'assets/image/'
+  `base_path` varchar(220) NOT NULL DEFAULT 'assets/image/'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
