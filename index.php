@@ -883,7 +883,7 @@
                                     <input type="checkbox" id="disableEmailCheckbox" name="disableEmailCheckbox"
                                         onclick="toggleEmailField()">
                                     <label for="disableEmailCheckbox"><em>Please tick if you don't want receipt via
-                                        email</em></label>
+                                            email</em></label>
                                 </div>
 
                                 <div class="col-md-12">
@@ -909,7 +909,7 @@
                                     <small id="refIdError" class="error">Please provide a screenshot or a reference
                                         ID.</small>
                                 </div>
-         
+
                                 <div class="col-md-12">
                                     <input type="text" class="form-control" name="pancard" id="pancard"
                                         placeholder="PAN Card">
@@ -1331,193 +1331,158 @@
                         <li data-filter=".filter-design">Design</li> -->
                     </ul><!-- End Portfolio Filters -->
                     <!--YUVA Event--->
-                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/WhatsApp Image 2024-07-08 at 2.02.46 AM (1).jpeg" class="img-fluid" alt="">
-                                <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
-
-                                <div class="portfolio-info">
-                                    <h4>Youth United For Vision & Action Event</h4>
-                                    <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/WhatsApp Image 2024-07-08 at 2.02.46 AM (1).jpeg" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div>
-                         <!--YUVA Event1--->
-                         <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-    <div class="portfolio-content h-100">
-        <img src="assets/img/WhatsApp Image 2024-07-08 at 2.03.22 AM.jpeg" class="img-fluid" alt=""   style="width: 500px; height: 262px;">
-        <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
-
-        <div class="portfolio-info">
-            <h4>Youth United For Vision & Action Event</h4>
-            <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-            <a href="assets/img/WhatsApp Image 2024-07-08 at 2.03.22 AM.jpeg" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-            <a href="project-details.html" title="More Details" class="details-link"></a>
-        </div>
-    </div>
-</div>
-
-                 <!--end--->
-                                          <!--YUVA Event2--->
-                                          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-    <div class="portfolio-content h-100">
-        <img src="assets/img/WhatsApp Image 2024-07-08 at 2.03.23 AM.jpeg" class="img-fluid" alt="">
-        <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
-
-        <div class="portfolio-info">
-            <h4>Youth United For Vision & Action Event</h4>
-            <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-            <a href="assets/img/WhatsApp Image 2024-07-08 at 2.03.23 AM.jpeg" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-            <a href="project-details.html" title="More Details" class="details-link"></a>
-        </div>
-    </div>
-</div>
-                                          
-                                          <!--end--->
-
-
-                    
-
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/yd1.png" class="img-fluid" alt="">
-                                <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
-
-                                <div class="portfolio-info">
-                                    <h4>Yoga Day</h4>
-                                    <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/yoga1.jpeg" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/yd3.png" class="img-fluid" alt="">
-                                <!--    <img src="assets/img/yoga1.jpeg" style="width: 356px; height: 267px;" alt="">-->
-
-                                <div class="portfolio-info">
-                                    <h4>Yoga Day</h4>
-                                    <!--    <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/yoga3.jpeg" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/yd2.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Yoga Day</h4>
-                                  <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/yoga2.jpeg" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div>
+                       
+                        <!--YUVA Event1--->
+                        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
 
+                            <!--end--->
+                            <!--YUVA Event2--->
+                            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.30.53 AM.jpeg" class="img-fluid"
-                                    alt="">
-                                <div class="portfolio-info">
-                                    <h4>Skills Trainings for girls</h4>
-                                    <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/WhatsApp Image 2024-06-22 at 6.30.53 AM.jpeg"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.30.57 AM.jpeg" class="img-fluid"
-                                    alt="">
-                                <div class="portfolio-info">
-                                    <h4>शहीद दिवस</h4>
-                                    <!--
+                                
+                                <!--end--->
+
+                                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+                                        <div class="portfolio-content h-100">
+                                            <img src="assets/img/yd1.png" class="img-fluid" alt="">
+                                            <!--  <img src="assets/img/projects/construction-1.jpg" style="width: 500px; height: 300px;" alt="">-->
+
+                                            <div class="portfolio-info">
+                                                <h4>Yoga Day</h4>
+                                                <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                                                <a href="assets/img/yoga1.jpeg" class="glightbox preview-link"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                                <a href="project-details.html" title="More Details"
+                                                    class="details-link"></a>
+                                            </div>
+                                        </div>
+                                    </div><!-- End Portfolio Item -->
+
+                                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+                                        <div class="portfolio-content h-100">
+                                            <img src="assets/img/yd3.png" class="img-fluid" alt="">
+                                            <!--    <img src="assets/img/yoga1.jpeg" style="width: 356px; height: 267px;" alt="">-->
+
+                                            <div class="portfolio-info">
+                                                <h4>Yoga Day</h4>
+                                                <!--    <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                                                <a href="assets/img/yoga3.jpeg" class="glightbox preview-link"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                                <a href="project-details.html" title="More Details"
+                                                    class="details-link"></a>
+                                            </div>
+                                        </div>
+                                    </div><!-- End Portfolio Item -->
+
+                                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+                                        <div class="portfolio-content h-100">
+                                            <img src="assets/img/yd2.png" class="img-fluid" alt="">
+                                            <div class="portfolio-info">
+                                                <h4>Yoga Day</h4>
+                                                <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                                                <a href="assets/img/yoga2.jpeg" class="glightbox preview-link"><i
+                                                        class="bi bi-zoom-in"></i></a>
+                                                <a href="project-details.html" title="More Details"
+                                                    class="details-link"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+                                        <div class="portfolio-content h-100">
+                                            <img src="assets/img/WhatsApp Image 2024-06-22 at 6.30.53 AM.jpeg"
+                                                class="img-fluid" alt="">
+                                            <div class="portfolio-info">
+                                                <h4>Skills Trainings for girls</h4>
+                                                <!--  <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                                                <a href="assets/img/WhatsApp Image 2024-06-22 at 6.30.53 AM.jpeg"
+                                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="project-details.html" title="More Details"
+                                                    class="details-link"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+                                        <div class="portfolio-content h-100">
+                                            <img src="assets/img/WhatsApp Image 2024-06-22 at 6.30.57 AM.jpeg"
+                                                class="img-fluid" alt="">
+                                            <div class="portfolio-info">
+                                                <h4>शहीद दिवस</h4>
+                                                <!--
                   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/WhatsApp Image 2024-06-22 at 6.30.57 AM.jpeg"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.35.57 AM.jpeg" class="img-fluid"
-                                    alt="">
-                                <div class="portfolio-info">
-                                    <h4>Teaching for Students</h4>
-                                    <!--   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/WhatsApp Image 2024-06-22 at 6.35.57 AM.jpeg"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.35.59 AM.jpeg" class="img-fluid"
-                                    alt="">
-                                <div class="portfolio-info">
-                                    <h4>Training for 9th student</h4>
-                                    <!--
+                                                <a href="assets/img/WhatsApp Image 2024-06-22 at 6.30.57 AM.jpeg"
+                                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="project-details.html" title="More Details"
+                                                    class="details-link"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+                                        <div class="portfolio-content h-100">
+                                            <img src="assets/img/WhatsApp Image 2024-06-22 at 6.35.57 AM.jpeg"
+                                                class="img-fluid" alt="">
+                                            <div class="portfolio-info">
+                                                <h4>Teaching for Students</h4>
+                                                <!--   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                                                <a href="assets/img/WhatsApp Image 2024-06-22 at 6.35.57 AM.jpeg"
+                                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="project-details.html" title="More Details"
+                                                    class="details-link"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+                                        <div class="portfolio-content h-100">
+                                            <img src="assets/img/WhatsApp Image 2024-06-22 at 6.35.59 AM.jpeg"
+                                                class="img-fluid" alt="">
+                                            <div class="portfolio-info">
+                                                <h4>Training for 9th student</h4>
+                                                <!--
                   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/WhatsApp Image 2024-06-22 at 6.35.59 AM.jpeg"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/WhatsApp Image 2024-06-22 at 6.37.02 AM.jpeg" class="img-fluid"
-                                    alt="">
-                                <div class="portfolio-info">
-                                    <h4>लोक उत्थान फाउंडेशन कार्यक्रम</h4>
-                                    <!--      <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/WhatsApp Image 2024-06-22 at 6.37.02 AM.jpeg"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/WhatsApp Image 2024-06-24 at 2.18.22 AM.jpeg" class="img-fluid"
-                                    alt="">
-                                <div class="portfolio-info">
-                                    <h4>लोक उत्थान फाउंडेशन कार्यक्रम</h4>
-                                    <!--
+                                                <a href="assets/img/WhatsApp Image 2024-06-22 at 6.35.59 AM.jpeg"
+                                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="project-details.html" title="More Details"
+                                                    class="details-link"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+                                        <div class="portfolio-content h-100">
+                                            <img src="assets/img/WhatsApp Image 2024-06-22 at 6.37.02 AM.jpeg"
+                                                class="img-fluid" alt="">
+                                            <div class="portfolio-info">
+                                                <h4>लोक उत्थान फाउंडेशन कार्यक्रम</h4>
+                                                <!--      <p>Lorem ipsum, dolor sit amet consectetur</p>-->
+                                                <a href="assets/img/WhatsApp Image 2024-06-22 at 6.37.02 AM.jpeg"
+                                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="project-details.html" title="More Details"
+                                                    class="details-link"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+                                        <div class="portfolio-content h-100">
+                                            <img src="assets/img/WhatsApp Image 2024-06-24 at 2.18.22 AM.jpeg"
+                                                class="img-fluid" alt="">
+                                            <div class="portfolio-info">
+                                                <h4>लोक उत्थान फाउंडेशन कार्यक्रम</h4>
+                                                <!--
                   <p>Lorem ipsum, dolor sit amet consectetur</p>-->
-                                    <a href="assets/img/WhatsApp Image 2024-06-24 at 2.18.22 AM.jpeg"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="project-details.html" title="More Details" class="details-link"></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-                        <!--
+                                                <a href="assets/img/WhatsApp Image 2024-06-24 at 2.18.22 AM.jpeg"
+                                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                                <a href="project-details.html" title="More Details"
+                                                    class="details-link"></a>
+                                            </div>
+                                        </div>
+                                    </div><!-- End Portfolio Item -->
+                                    <!--
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
            <div class="portfolio-content h-100">
                <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
@@ -1570,7 +1535,7 @@
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                 <a href="assets/img/projects/design-1.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
 -->
-                        <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                    <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
   </div>
               </div>
             </div>
@@ -1583,12 +1548,12 @@
                 <a href="assets/img/projects/design-1.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
             <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
 -->
-                        <!--</div>
+                                    <!--</div>
               </div>
             </div>-->
-                        <!-- End Portfolio Item -->
+                                    <!-- End Portfolio Item -->
 
-                        <!--  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+                                    <!--  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -1599,9 +1564,9 @@
                 </div>
               </div>
             </div>-->
-                        <!-- End Portfolio Item -->
+                                    <!-- End Portfolio Item -->
 
-                        <!--<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+                                    <!--<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -1612,9 +1577,9 @@
                 </div>
               </div>
             </div>-->
-                        <!-- End Portfolio Item -->
+                                    <!-- End Portfolio Item -->
 
-                        <!--    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+                                    <!--    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -1625,9 +1590,9 @@
                 </div>
               </div>
             </div>-->
-                        <!-- End Portfolio Item -->
+                                    <!-- End Portfolio Item -->
 
-                        <!--  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+                                    <!--  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -1638,9 +1603,9 @@
                 </div>
               </div>
             </div>-->
-                        <!-- End Portfolio Item -->
+                                    <!-- End Portfolio Item -->
 
-                        <!--   <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+                                    <!--   <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -1651,9 +1616,9 @@
                 </div>
               </div>
             </div>-->
-                        <!-- End Portfolio Item -->
+                                    <!-- End Portfolio Item -->
 
-                        <!--  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+                                    <!--  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -1664,8 +1629,8 @@
                 </div>
               </div>
              </div>-->
-                        <!-- End Portfolio Item -->
-                        <!--
+                                    <!-- End Portfolio Item -->
+                                    <!--
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="">
@@ -1677,8 +1642,8 @@
                 </div>
               </div>
             </div>-->
-                        <!-- End Portfolio Item -->
-                        <!--
+                                    <!-- End Portfolio Item -->
+                                    <!--
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-content h-100">
                 <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="">
@@ -1690,13 +1655,13 @@
                 </div>
               </div>
             </div>-->
-                        <!-- End Portfolio Item -->
+                                    <!-- End Portfolio Item -->
 
-                    </div><!-- End Portfolio Container -->
+                                </div><!-- End Portfolio Container -->
 
-                </div>
+                            </div>
 
-            </div>
+                        </div>
 
         </section><!-- /Projects Section -->
         <?php include 'testimonial.php'; ?>
@@ -2257,7 +2222,7 @@
     //         } else {
     //             acknowledgeContainer.classList.add('hidden');
     //         }
-       // }
+    // }
 
     function validateForm() {
         var pancard = document.getElementById('pancard').value;
@@ -2300,13 +2265,13 @@
         document.getElementById('submitBtn').disabled = true;
     }
     </script>
-  
 
 
-   <script>
- //   function togglePanCardField() {
- //       var panCardInput = document.getElementById('pancard');
- //       var checkbox = document.getElementsByName('acknowledgePAN')[0];
+
+    <script>
+    //   function togglePanCardField() {
+    //       var panCardInput = document.getElementById('pancard');
+    //       var checkbox = document.getElementsByName('acknowledgePAN')[0];
 
     // <script>
     //   function togglePanCardField() {
@@ -2401,80 +2366,80 @@
         toggleReferenceId();
         toggleScreenshotUpload();
     });
-</script>
-   
-<script>
-function toggleReferenceId() {
-    var fileInput = document.getElementById('screenshotUpload');
-    var referenceIdInput = document.getElementById('referenceId');
-    if (fileInput.files.length > 0) {
-        referenceIdInput.disabled = true;
-    } else {
-        referenceIdInput.disabled = false;
-    }
+    </script>
 
-    function toggleScreenshotUpload() {
+    <script>
+    function toggleReferenceId() {
         var fileInput = document.getElementById('screenshotUpload');
         var referenceIdInput = document.getElementById('referenceId');
-        if (referenceIdInput.value.trim() !== "") {
-            fileInput.disabled = true;
-        } else {
-            fileInput.disabled = false;
-        }
-    }
-
-    function validateForm() {
-        var fileInput = document.getElementById('screenshotUpload');
-        var referenceIdInput = document.getElementById('referenceId');
-        var fileError = document.getElementById('fileError');
-        var refIdError = document.getElementById('refIdError');
-
-        var isValid = true;
-
-        // Check if file size exceeds 200KB
         if (fileInput.files.length > 0) {
-            var file = fileInput.files[0];
-            if (file.size > 200 * 1024) {
-                fileError.style.display = 'block';
-                isValid = false;
+            referenceIdInput.disabled = true;
+        } else {
+            referenceIdInput.disabled = false;
+        }
+
+        function toggleScreenshotUpload() {
+            var fileInput = document.getElementById('screenshotUpload');
+            var referenceIdInput = document.getElementById('referenceId');
+            if (referenceIdInput.value.trim() !== "") {
+                fileInput.disabled = true;
             } else {
-                fileError.style.display = 'none';
+                fileInput.disabled = false;
             }
         }
 
-        // Ensure either file input or reference ID is filled
-        if (fileInput.files.length === 0 && referenceIdInput.value.trim() === "") {
-            refIdError.style.display = 'block';
-            isValid = false;
-        } else {
-            refIdError.style.display = 'none';
-        }
+        function validateForm() {
+            var fileInput = document.getElementById('screenshotUpload');
+            var referenceIdInput = document.getElementById('referenceId');
+            var fileError = document.getElementById('fileError');
+            var refIdError = document.getElementById('refIdError');
 
-        return isValid;
-    }
+            var isValid = true;
+
+            // Check if file size exceeds 200KB
+            if (fileInput.files.length > 0) {
+                var file = fileInput.files[0];
+                if (file.size > 200 * 1024) {
+                    fileError.style.display = 'block';
+                    isValid = false;
+                } else {
+                    fileError.style.display = 'none';
+                }
+            }
+
+            // Ensure either file input or reference ID is filled
+            if (fileInput.files.length === 0 && referenceIdInput.value.trim() === "") {
+                refIdError.style.display = 'block';
+                isValid = false;
+            } else {
+                refIdError.style.display = 'none';
+            }
+
+            return isValid;
+        }
     </script>
     ///kkk///
 
     // Ensure either file input or reference ID is filled//
     if (fileInput.files.length === 0 && referenceIdInput.value.trim() === "") {
-        refIdError.style.display = 'block';
-        isValid = false;
+    refIdError.style.display = 'block';
+    isValid = false;
     } else {
-        refIdError.style.display = 'none';
+    refIdError.style.display = 'none';
     }
 
     return isValid;
-}
-</script>     
+    }
+    </script>
 
 
 
 
-<script>
-        function showSuccessAlert() {
-            alert("Form submitted successfully!");
-            return true;
-        }
+    <script>
+    function showSuccessAlert() {
+        alert("Form submitted successfully!");
+        return true;
+    }
     </script>
 
 </body>
