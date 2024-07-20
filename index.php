@@ -576,7 +576,7 @@
                                         style="position: absolute; top: 10px; right: 10px; font-size: 24px; cursor: pointer;">&times;</span>
                                     <div class="form-container" style="padding-top: 40px;">
                                         <h3 style="margin-top: 0;  font-weight: 600;">Entry Form</h3>
-                                        <h5 style="margin: 0px;">Please provide details for the FIRST LUP PRIZE Ceremony
+                                        <h5 style="margin: 0px;">Please provide details for the SECOND LUP PRIZE Ceremony
                                         </h5>
                                         <hr style="border: 1px solid black; width: 100%;">
 
@@ -841,13 +841,13 @@
                         </div>
                     </div>
                     <!-- Second Section -->
-                    <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="200" style="margin-top: -20px;">
+                    <div class="col-lg-4" data-aos="zoom-out" data-aos-delay="200" style="margin-top: 70px;">
                         <div class="content">
                             <section id="new-section-1" class="new-section section">
                                 <div class="container">
                                     <h2></h2>
-                                    <img src="assets/img/Capture.PNG" alt="Girl in a jacket" width="170px;"
-                                        height="170px;" style="margin-right:50px; margin-left: 40px;">
+                                    <!-- <img src="assets/img/Capture.PNG" alt="Girl in a jacket" width="170px;"
+                                        height="170px;" style="margin-right:50px; margin-left: 40px;"> -->
 
                                     <ol>
                                         <h5 style="margin-top:30px;">Steps for donation</h5>

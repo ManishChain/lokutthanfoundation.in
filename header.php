@@ -62,6 +62,7 @@
       <!--    <li><a href="blog.php">Blog</a></li>-->
        <!--workarea-->
        <li class="dropdown"><a href="workarea.php"><span style="font-weight: bold; color:black;">WorkAreas</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+       
             <ul>
          <li class="dropdown"><a href="#"><span>Education</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul style="left: +60%;">
@@ -77,7 +78,8 @@
             </ul>
           </li>
          
-         
+          <li><a href="event_index.php" style="font-weight: bold; color:black;">Events</a></li>
+
           <!--endworkarea-->
           <li class="dropdown">
     <a href="team.php"><span style="font-weight: bold; color:black;">Team</span> <i class="bi bi-chevron-down toggle-dropdown" style="color:black;"></i></a>
@@ -110,7 +112,6 @@
          
           <!--endworkarea-->
           <li><a href="contact.php" style="font-weight: bold; color:black;">Contact</a></li>
-          <li><a href="event_index.php" style="font-weight: bold; color:black;">Events</a></li>
 
           <!--donate--->
          <li> <a href="index.php#donate1" style="margin-left: 40px;  background: var(--accent-color);border: 0;padding: 10px 30px;border-radius: 4px;color: white;" class="btn-get-started">DONATE</a></li>
