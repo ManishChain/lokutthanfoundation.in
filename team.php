@@ -119,7 +119,24 @@
         <span>Vice President</span>
         <p>Motivator, Communicator & Excellent Managerial Person</p>
     </div>
+     
 </div>
+<div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
+              <img src="assets/img/team/Harendra-dolia.jpeg" class="img-fluid" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+              <div class="social">
+                <a href="https://x.com/i/flow/login?redirect_after_login=%2FLokUtthan%2F"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/harendra.dolia/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lokutthanfoundation/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/lokutthanfoundation/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Harendra Dolia</h4>
+              <span>Vice President</span>
+              <p></p>
+            </div>
+          </div><!-- End Team Member -->
 
 <!-- End Team Member -->
 
