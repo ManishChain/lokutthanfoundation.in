@@ -29,6 +29,8 @@
            <!-- <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/services.php">Services</a></li>
             <li><a href="http://localhost/lokutthanfoundation16june/lokutthanfoundation.in/team.php">Team</a></li>-->
             <li><a href="contact.php">contact</a></li>
+            <li><a href="privacy_policy.php">privacy_policy</a></li>
+            
           </ul>
         </div>
       
